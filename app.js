@@ -12,6 +12,7 @@
     var nextLink = document.getElementById("nextLink");
     var previousText = document.getElementById("previousText");
     var nextText = document.getElementById("nextText");
+    var siteFooter = document.getElementById("siteFooter");
 
     marked.setOptions({
         gfm: true,
@@ -60,6 +61,7 @@
 
         currentFile = known ? file : HOME_FILE;
         content.classList.toggle("is-home", currentFile === HOME_FILE);
+        updateFooter();
         setPager();
 
         content.innerHTML = '<p class="loading">Caricamento...</p>';
@@ -135,6 +137,21 @@
         updatePagerLink(nextLink, nextText, next);
     }
 
+    function updateFooter() {
+        var entry = entries.find(function (item) {
+            return item.file === currentFile;
+        });
+        if (currentFile === HOME_FILE) {
+            siteFooter.textContent = "AI usata per il sito e l’impaginazione.";
+        } else if (entry && entry.section === "Solo AI") {
+            siteFooter.textContent = "Testo generato da AI sotto supervisione umana.";
+        } else {
+            siteFooter.textContent = "Testo scritto da me, rivisto con AI solo per i refusi.";
+        }
+
+        siteFooter.hidden = false;
+    }
+
     function updatePagerLink(link, label, entry) {
         if (!entry) {
             link.setAttribute("aria-disabled", "true");
@@ -157,18 +174,42 @@
     }
 
     function renderPageHeader(file) {
+        var entry = entries.find(function (item) {
+            return item.file === file;
+        });
+        var updatedAt = entry && entry.section === "Solo AI" ? entry.updatedAt : "";
+
         return (
             '<header class="page-header">' +
-            "<h1>" +
+            '<div><h1>' +
             escapeHtml(pageTitle(file)) +
             "</h1>" +
+            (updatedAt ? '<p class="page-updated">' + escapeHtml(updatedAt) + "</p>" : "") +
+            "</div>" +
             '<a class="page-home-link" href="#/" aria-label="Torna all&#39;indice dei testi">Alberto Santini</a>' +
             "</header>"
         );
     }
 
     function renderHomeIndex() {
-        var items = entries
+        var sections = {};
+
+        entries.forEach(function (entry) {
+            if (entry.file === HOME_FILE) {
+                return;
+            }
+
+            var section = entry.section || "Solo Io";
+            sections[section] = sections[section] || [];
+            sections[section].push(entry);
+        });
+
+        var sectionOrder = ["Solo Io", "Solo AI"].filter(function (section) {
+            return sections[section];
+        });
+
+        var renderedSections = sectionOrder.map(function (section) {
+            var items = sections[section]
             .filter(function (entry) {
                 return entry.file !== HOME_FILE;
             })
@@ -186,14 +227,17 @@
             })
             .join("");
 
-        return (
-            '<section class="home-index" aria-label="Indice dei testi">' +
-            "<h2>Indice</h2>" +
+            return (
+                '<section class="home-index-column' + (section === "Solo AI" ? " home-index-ai" : "") + '" aria-label="' + escapeHtml(section) + '">' +
+            "<h2>" + escapeHtml(section) + "</h2>" +
             '<ul class="home-index-list">' +
             items +
             "</ul>" +
             "</section>"
         );
+        }).join("");
+
+        return '<section class="home-index" aria-label="Testi"><div class="home-index-columns">' + renderedSections + "</div></section>";
     }
 
     function rewriteMarkdownLinks() {
