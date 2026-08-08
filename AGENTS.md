@@ -29,6 +29,34 @@ richiede un processo di build.
 - Questo file è soltanto una guida operativa per chi lavora sul repository;
   non è una dichiarazione pubblica sull'origine o sulla revisione dei testi.
 
+## Raccolta `Solo AI` e Nora
+
+- I racconti con Nora appartengono a mondi distopici paralleli: non condividono
+  necessariamente ambientazione o continuità narrativa, ma conservano la stessa
+  protagonista e le sue caratteristiche fondamentali.
+- Nora ha diciannove anni, è minuta e facile da sottovalutare. È taciturna,
+  lucida, tecnicamente competente e autodidatta.
+- Osserva numeri, dettagli e contraddizioni che gli altri hanno imparato a
+  ignorare. Diffida in particolare dei sistemi che presentano decisioni morali
+  o politiche come misurazioni neutrali.
+- La sua caratteristica centrale è l'incapacità di restare indifferente alla
+  sofferenza altrui. La sua compassione diventa feroce quando decide di agire.
+- Nora può avere paura, esitare e calcolare le conseguenze; il suo coraggio
+  consiste nell'agire nonostante questo, non nell'assenza di vulnerabilità.
+- Non rappresentarla come un'eroina convenzionale, una vendicatrice o una
+  hacker stereotipata. La sua competenza serve a individuare la menzogna
+  nascosta dentro una misura apparentemente oggettiva.
+- Mostrare queste caratteristiche attraverso azioni, osservazioni concrete e
+  dialoghi brevi, evitando spiegazioni psicologiche didascaliche.
+- Ogni nuovo racconto deve contenere un conflitto o una scelta con un costo
+  concreto per Nora, senza ripetere meccanicamente scene o formule dei testi
+  precedenti.
+- Prima di creare o modificare un racconto con Nora, rileggere gli altri testi
+  della raccolta per verificarne la coerenza caratteriale, evitando però di
+  introdurre collegamenti fra i mondi paralleli non richiesti dall'autore.
+- Non modificare nomi dei dispositivi, cronologie, numeri, snodi o finali già
+  approvati senza una richiesta esplicita dell'autore.
+
 ## Modifiche al sito
 
 - Mantenere il sito statico e privo di dipendenze o processi di build, salvo
