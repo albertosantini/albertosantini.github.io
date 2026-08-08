@@ -70,9 +70,10 @@ richiede un processo di build.
 - Per ogni modifica salvata a un testo `Solo AI`, incrementare `mark` di uno
   in `texts.json`: `Mk` è il numero progressivo di tutte le versioni, anche
   prima della pubblicazione. Salvare `publishedAt` e `createdAt` come data e
-  ora ISO 8601 con fuso orario. Aggiornare `publishedAt` solo al momento della
-  pubblicazione e mostrarlo nell'intestazione con ore e minuti. Non modificare
-  `createdAt`.
+  ora ISO 8601 con fuso orario. Ogni volta che si aggiorna `Mk`, aggiornare
+  contestualmente `publishedAt` con la data e l'ora della nuova versione: non
+  lasciare il timestamp del `Mk` precedente. Mostrarlo nell'intestazione con
+  ore e minuti. Non modificare `createdAt`.
 - Preservare l'aspetto sobrio, leggibile e responsive; verificare sia la
   pagina indice sia una pagina di testo dopo modifiche a HTML, CSS o JS.
 - Evitare modifiche non richieste ai file di contenuto durante interventi
