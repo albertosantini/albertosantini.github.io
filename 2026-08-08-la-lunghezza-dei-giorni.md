@@ -30,7 +30,7 @@ Nora aumentò il passo. Diciassette minuti.
 
 Fu allora che sentì il violino.
 
-La melodia arrivava da un sottopassaggio chiuso, dietro una fila di cyclette pubbliche. Era incerta, graffiata in alcuni punti, ma Nora la riconobbe. Sua madre la canticchiava mentre le intrecciava i capelli, prima che il canto fosse classificato come esercizio respiratorio insufficiente.
+La melodia arrivava da un sottopassaggio chiuso, dietro una fila di bici pubbliche. Era incerta, graffiata in alcuni punti, ma Nora la riconobbe. Sua madre la canticchiava mentre le intrecciava i capelli, prima che il canto fosse classificato come esercizio respiratorio insufficiente.
 
 Nora rallentò.
 
@@ -104,7 +104,7 @@ Gli agenti ordinarono ai corridori di proseguire. I monopattini si mossero in av
 
 Nora riconobbe la melodia quando la donna trovò la quarta nota. La cantò.
 
-La sua voce era bassa e irregolare. La bambina si unì a lei. Poi un uomo sul viale lasciò cadere le braccia lungo i fianchi. Una ragazza scese dalla cyclette. Un corridore si sedette a terra, ansimando, e si tolse le scarpe.
+La sua voce era bassa e irregolare. La bambina si unì a lei. Poi un uomo sul viale lasciò cadere le braccia lungo i fianchi. Una ragazza scese dalla bici. Un corridore si sedette a terra, ansimando, e si tolse le scarpe.
 
 I pannelli del Ministero lampeggiarono.
 
@@ -122,7 +122,7 @@ Poi si accesero gli altri polsi.
 
 *5.004.*
 
-Quello dell’uomo seduto a terra. Quello della ragazza scesa dalla cyclette. Quello della bambina che aveva corso in cerchio.
+Quello dell’uomo seduto a terra. Quello della ragazza scesa dalla bici. Quello della bambina che aveva corso in cerchio.
 
 Nora non sorrise. Cinquemilaquattro non aveva mai descritto il suo corpo, né quello di sua madre. Era il numero assegnato a chi si fermava. Ora lo sapevano tutti.
 
