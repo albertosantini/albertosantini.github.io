@@ -8,23 +8,23 @@ richiede un processo di build.
 
 ## Struttura
 
-- `index.html` definisce la struttura della pagina.
-- `style.css` contiene tutti gli stili e le regole responsive.
-- `app.js` è un modulo browser: importa `marked` dal bundle ESM locale,
+- `docs/index.html` definisce la struttura della pagina pubblicata.
+- `docs/style.css` contiene tutti gli stili e le regole responsive.
+- `docs/app.js` è un modulo browser: importa `marked` dal bundle ESM locale,
   carica l'indice, rende il Markdown e gestisce la navigazione. Caricarlo con
   `type="module"`.
-- `texts.json` è l'indice e la fonte dei metadati dei testi.
-- I contenuti pubblicati usano il nome `yyyy-mm-dd-nomedefile.md`, dove la
+- `docs/texts.json` è l'indice e la fonte dei metadati dei testi.
+- I contenuti pubblicati in `docs/` usano il nome `yyyy-mm-dd-nomedefile.md`, dove la
   data ISO a quattro cifre corrisponde alla data di creazione del testo e il
   nome file è descrittivo e in minuscolo.
-- `vendor/marked.esm.js` e `vendor/marked.esm.d.ts` sono dipendenze locali:
+- `docs/vendor/marked.esm.js` e `docs/vendor/marked.esm.d.ts` sono dipendenze locali:
   non modificarle salvo una richiesta esplicita.
 
 ## Contenuti e attribuzione
 
 - Non riscrivere, correggere o modificare testi poetici, biografici o altri
   contenuti editoriali senza una richiesta esplicita dell'autore.
-- Conservare la distinzione in `texts.json` tra `Solo Io` (assenza di
+- Conservare la distinzione in `docs/texts.json` tra `Solo Io` (assenza di
   `section`) e `Solo AI` (`section: "Solo AI"`).
 - Non modificare le diciture visibili nei footer relative all'uso dell'AI
   senza approvazione esplicita. Sono dichiarazioni editoriali del sito.
@@ -63,12 +63,12 @@ richiede un processo di build.
 
 - Mantenere il sito statico e privo di dipendenze o processi di build, salvo
   richiesta esplicita.
-- Prima di pubblicare, verificare la versione di `vendor/marked.esm.js` e
+- Prima di pubblicare, verificare la versione di `docs/vendor/marked.esm.js` e
   confrontarla con l'ultima release stabile di Marked. Se è disponibile un
   aggiornamento compatibile, sostituire il bundle UMD locale con quello
   ufficiale e verificare il rendering di indice e testi.
-- Per un nuovo testo, aggiungere un file `yyyy-mm-dd-nomedefile.md` e la
-  relativa voce in `texts.json`, nell'ordine editoriale desiderato.
+- Per un nuovo testo, aggiungere in `docs/` un file `yyyy-mm-dd-nomedefile.md` e la
+  relativa voce in `docs/texts.json`, nell'ordine editoriale desiderato.
 - Per ogni modifica salvata a un testo `Solo AI`, incrementare `mark` di uno
   in `texts.json`: `Mk` è il numero progressivo di tutte le versioni, anche
   prima della pubblicazione. Salvare `publishedAt` e `createdAt` come data e
@@ -76,7 +76,7 @@ richiede un processo di build.
   contestualmente `publishedAt` con la data e l'ora della nuova versione: non
   lasciare il timestamp del `Mk` precedente. Mostrarlo nell'intestazione con
   ore e minuti. Non modificare `createdAt`.
-- `app.js` usa `Mk` come parametro di versione nell'URL del Markdown (`?v=Mk`):
+- `docs/app.js` usa `Mk` come parametro di versione nell'URL del Markdown (`?v=Mk`):
   non rimuoverlo né sostituirlo con un timestamp casuale. In questo modo ogni
   nuova versione evita una copia obsoleta nella cache di GitHub Pages/CDN,
   mantenendo la cache efficace per le versioni già pubblicate.
@@ -85,8 +85,8 @@ richiede un processo di build.
 - Evitare modifiche non richieste ai file di contenuto durante interventi
   tecnici o grafici.
 - Per la validazione tecnica usare `npm run validate`: esegue ESLint e il
-  controllo TypeScript su `app.js` con `checkJs`, entrambi tramite `npx` e
-  senza dipendenze locali. Il bundle esterno in `vendor/` resta escluso.
+  controllo TypeScript su `docs/app.js` con `checkJs`, entrambi tramite `npx` e
+  senza dipendenze locali. Il bundle esterno in `docs/vendor/` resta escluso.
 - `eslint-recommended.js` contiene una fotografia esplicita delle regole
   `recommended` di `@eslint/js` 10.0.1, importata da `eslint.config.js`, per
   evitare `node_modules` e import di pacchetti esterni. Per aggiornare la

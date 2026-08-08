@@ -1,13 +1,6 @@
-## Flowered Poems and Casual Bytes  
-## Carezze in versi e Bytes a caso  
-  
-> She sat behind the black pieces and said carefully in Russian, "Would you like to play chess?"  
-  
--- `Walter Tevis, The Queen's Gambit, 1983`  
-  
-> There's so many different worlds  
-> So many different suns  
-> And we have just one world  
-> But we live in different ones  
-  
--- `Dire Straits, Brothers in Arms, 1985`  
+# Alberto Santini — personal website
+
+Static personal website published on GitHub Pages from [`docs/`](docs/).
+
+Project instructions and maintenance rules are documented in
+[`AGENTS.md`](AGENTS.md).

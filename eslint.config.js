@@ -2,10 +2,10 @@ import recommendedRules from "./eslint-recommended.js";
 
 export default [
     {
-        ignores: ["vendor/**"]
+        ignores: ["docs/vendor/**"]
     },
     {
-        files: ["app.js"],
+        files: ["docs/app.js"],
         languageOptions: {
             ecmaVersion: "latest",
             sourceType: "module",

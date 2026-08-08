@@ -7,6 +7,6 @@
         "noEmit": true
     },
     "include": [
-        "app.js"
+        "docs/app.js"
     ]
 }
