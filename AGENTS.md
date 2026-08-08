@@ -74,6 +74,10 @@ richiede un processo di build.
   contestualmente `publishedAt` con la data e l'ora della nuova versione: non
   lasciare il timestamp del `Mk` precedente. Mostrarlo nell'intestazione con
   ore e minuti. Non modificare `createdAt`.
+- `app.js` usa `Mk` come parametro di versione nell'URL del Markdown (`?v=Mk`):
+  non rimuoverlo né sostituirlo con un timestamp casuale. In questo modo ogni
+  nuova versione evita una copia obsoleta nella cache di GitHub Pages/CDN,
+  mantenendo la cache efficace per le versioni già pubblicate.
 - Preservare l'aspetto sobrio, leggibile e responsive; verificare sia la
   pagina indice sia una pagina di testo dopo modifiche a HTML, CSS o JS.
 - Evitare modifiche non richieste ai file di contenuto durante interventi

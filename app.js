@@ -73,7 +73,7 @@
 
         content.innerHTML = '<p class="loading">Caricamento...</p>';
 
-        fetchText(currentFile)
+        fetchText(contentUrl(currentFile))
             .then(function (markdown) {
                 var html = marked.parse(markdown);
 
@@ -101,6 +101,18 @@
 
             return response.text();
         });
+    }
+
+    function contentUrl(file) {
+        var entry = entries.find(function (item) {
+            return item.file === file;
+        });
+
+        if (!entry || typeof entry.mark !== "number") {
+            return file;
+        }
+
+        return file + "?v=" + encodeURIComponent(entry.mark);
     }
 
     function fetchJson(path) {
