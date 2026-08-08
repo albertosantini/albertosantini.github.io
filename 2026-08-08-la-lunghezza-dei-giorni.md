@@ -10,6 +10,10 @@ Il Telometro le strinse il polso.
 
 Nora aveva diciannove anni. A cinquemila sarebbe stata dichiarata fragile; sotto i quattromilaottocento, non conservabile. La misurazione notturna avrebbe stabilito a quale categoria apparteneva.
 
+Il Ministero dichiarava un margine d’errore di due coppie di basi. Nora ne aveva misurate ventisette sul lettore che teneva smontato sotto il letto. Aveva comprato il dispositivo da un addetto alle dismissioni e impiegato tre mesi a ricostruirne il software. Il Telometro non misurava una condanna; produceva il numero necessario a giustificarla.
+
+Saperlo non cambiava ciò che sarebbe accaduto alle diciotto.
+
 Riprese a correre.
 
 Da quando alcuni studi avevano associato l’esercizio fisico a telomeri più lunghi, lo Stato aveva abolito tutto ciò che teneva fermo il corpo. Le panchine erano state rimosse. Le lezioni si svolgevano su tapis roulant, gli impiegati pedalavano sotto le scrivanie e nei ristoranti si mangiava camminando lungo tavoli circolari. Nuoto, corsa e allenamento di resistenza erano diventati doveri civili.
@@ -29,6 +33,8 @@ Fu allora che sentì il violino.
 La melodia arrivava da un sottopassaggio chiuso, dietro una fila di cyclette pubbliche. Era incerta, graffiata in alcuni punti, ma Nora la riconobbe. Sua madre la canticchiava mentre le intrecciava i capelli, prima che il canto fosse classificato come esercizio respiratorio insufficiente.
 
 Nora rallentò.
+
+Per qualche passo cercò di ascoltare soltanto il proprio respiro. La melodia continuò a raggiungerla tra il rumore dei passi. Poteva ancora arrivare al Centro, purché non si voltasse. Si voltò.
 
 Il Telometro vibrò.
 
@@ -53,6 +59,8 @@ La bambina continuò a correre. Aveva il fiato corto e le lacrime sulle guance.
 «È sua nipote?» domandò Nora.
 
 La donna annuì. «Quando mi porteranno via, non deve ricordarsi soltanto che correvo.»
+
+Nora osservò la bambina. Aveva già imparato a soffrire senza interrompere il movimento, come tutti sul viale. L’indifferenza richiesta dal Ministero aveva la forma esatta di quella corsa in cerchio.
 
 Mancavano dodici minuti alla misurazione. Nora poteva ancora raggiungere il Centro, completare la quota e sperare che quindici anni di disciplina valessero più di quattro coppie di basi. Sullo schermo comparve il percorso più breve.
 
@@ -82,6 +90,8 @@ Il primo agente prese il violino per il manico. La donna non aveva forza suffici
 
 Nora afferrò lo strumento prima che l’agente potesse chiuderlo nel contenitore. Non sapeva suonare. Appoggiò il legno sotto il mento e passò un dito sulle corde. Ne uscì una nota storta, più simile a un lamento che a una melodia.
 
+Alzò gli occhi verso la telecamera. Il Ministero avrebbe conservato la registrazione insieme al valore del suo sangue. Per una volta, numero e causa non sarebbero stati separati.
+
 Sul viale qualcuno rallentò.
 
 Nora pizzicò una seconda corda. La donna le guidò la mano, cercando le note senza archetto. La bambina smise di correre.
@@ -107,5 +117,7 @@ Nora sentì l’ago entrare nel polso. Intorno a lei, centinaia di persone aspet
 Il valore apparve sul display.
 
 *5.004 coppie di basi.*
+
+Nora non sorrise. Il numero era identico perché non aveva mai descritto il suo corpo. Ora lo sapevano anche le persone ferme sul viale.
 
 Nora si sedette accanto alla violinista. La melodia passava di bocca in bocca mentre, per la prima volta, il viale restava vuoto e le persone occupavano i bordi.
