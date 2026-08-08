@@ -39,6 +39,9 @@ richiede un processo di build.
   ufficiale e verificare il rendering di indice e testi.
 - Per un nuovo testo, aggiungere un file `yyyy-mm-dd-nomedefile.md` e la
   relativa voce in `texts.json`, nell'ordine editoriale desiderato.
+- Per ogni nuova pubblicazione di un testo `Solo AI`, aggiornare in
+  `texts.json` `publishedAt` e incrementare `mark` di uno; `Mk` è il numero
+  progressivo della versione pubblicata. Non modificare `createdAt`.
 - Preservare l'aspetto sobrio, leggibile e responsive; verificare sia la
   pagina indice sia una pagina di testo dopo modifiche a HTML, CSS o JS.
 - Evitare modifiche non richieste ai file di contenuto durante interventi

@@ -196,15 +196,16 @@
         var entry = entries.find(function (item) {
             return item.file === file;
         });
-        var updatedAt = entry && entry.section === "Solo AI" ? entry.updatedAt : "";
-        var formattedUpdatedAt = updatedAt ? formatDateTime(updatedAt) : "";
+        var publication = entry && entry.section === "Solo AI" ? entry : null;
+        var formattedPublishedAt = publication ? formatDate(publication.publishedAt) : "";
+        var formattedCreatedAt = publication ? formatDate(publication.createdAt) : "";
 
         return (
             '<header class="page-header">' +
             '<div><h1>' +
             escapeHtml(pageTitle(file)) +
             "</h1>" +
-            (formattedUpdatedAt ? '<p class="page-updated"><time datetime="' + escapeHtml(updatedAt) + '">' + escapeHtml(formattedUpdatedAt) + "</time></p>" : "") +
+            (formattedPublishedAt ? '<p class="page-updated"><time datetime="' + escapeHtml(publication.publishedAt) + '">Ultima pubblicazione: ' + escapeHtml(formattedPublishedAt) + '</time> / Mk ' + escapeHtml(publication.mark) + ' / <time datetime="' + escapeHtml(publication.createdAt) + '">Creazione: ' + escapeHtml(formattedCreatedAt) + "</time></p>" : "") +
             "</div>" +
             '<a class="page-home-link" href="#/" aria-label="Torna all&#39;indice dei testi">Alberto Santini</a>' +
             "</header>"
@@ -267,8 +268,8 @@
         });
     }
 
-    function formatDateTime(value) {
-        var match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
+    function formatDate(value) {
+        var match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})/);
         var months = [
             "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
             "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"
@@ -278,7 +279,7 @@
             return value;
         }
 
-        return match[1] + " · " + Number(match[3]) + " " + months[Number(match[2]) - 1] + " · " + match[4] + ":" + match[5];
+        return match[1] + ", " + Number(match[3]) + " " + months[Number(match[2]) - 1];
     }
 
     function showError(message) {
