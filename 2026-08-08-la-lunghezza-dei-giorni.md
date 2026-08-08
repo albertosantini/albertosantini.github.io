@@ -8,7 +8,7 @@ Il Telometro le strinse il polso.
 
 *5.004 coppie di basi.*
 
-Nora aveva diciannove anni. A cinquemila sarebbe stata dichiarata fragile; sotto i quattromilaottocento, non conservabile. La misurazione notturna avrebbe stabilito a quale categoria apparteneva.
+Nora aveva diciannove anni. A cinquemila sarebbe stata dichiarata fragile e affidata a un programma di compensazione obbligatoria. La misurazione notturna avrebbe stabilito la durata e l’intensità del trattamento.
 
 Il Ministero dichiarava un margine d’errore di due coppie di basi. Nora ne aveva misurate ventisette sul lettore che teneva smontato sotto il letto. Aveva comprato il dispositivo da un addetto alle dismissioni e impiegato tre mesi a ricostruirne il software. Il Telometro non misurava una condanna; produceva il numero necessario a giustificarla.
 
@@ -114,10 +114,16 @@ Alle diciotto, i Telometri avviarono insieme il prelievo notturno.
 
 Nora sentì l’ago entrare nel polso. Intorno a lei, centinaia di persone aspettarono il risultato senza camminare, pedalare o sollevare pesi. Gli agenti parlavano nelle radio, ma le Unità di Accelerazione non potevano trascinare via un intero viale.
 
-Il valore apparve sul display.
+Il primo valore apparve sul display di Nora.
 
 *5.004 coppie di basi.*
 
-Nora non sorrise. Il numero era identico perché non aveva mai descritto il suo corpo. Ora lo sapevano anche le persone ferme sul viale.
+Poi si accesero gli altri polsi.
+
+*5.004.*
+
+Quello dell’uomo seduto a terra. Quello della ragazza scesa dalla cyclette. Quello della bambina che aveva corso in cerchio.
+
+Nora non sorrise. Cinquemilaquattro non aveva mai descritto il suo corpo, né quello di sua madre. Era il numero assegnato a chi si fermava. Ora lo sapevano tutti.
 
 Nora si sedette accanto alla violinista. La melodia passava di bocca in bocca mentre, per la prima volta, il viale restava vuoto e le persone occupavano i bordi.
