@@ -89,5 +89,6 @@ richiede un processo di build.
 
 - Scrivere i messaggi di commit in inglese, mantenendo nella lingua originale
   i titoli di racconti, opere e altri contenuti editoriali.
+- Iniziare sempre il titolo del commit con una lettera maiuscola ASCII (`A-Z`).
 - Impostare sempre Alberto Santini come autore dei commit; non usare Codex
   come autore.
