@@ -3,6 +3,10 @@
 
     var HOME_FILE = "README.md";
     var SITE_TITLE = "Alberto Santini";
+    var SECTION_LABELS = {
+        "Solo Io": "Scritti da me",
+        "Solo AI": "Esperimenti con AI"
+    };
     var entries = [];
     var currentFile = HOME_FILE;
 
@@ -130,11 +134,26 @@
         var index = entries.findIndex(function (entry) {
             return entry.file === currentFile;
         });
+        var current = index >= 0 ? entries[index] : null;
         var previous = index > 0 ? entries[index - 1] : null;
         var next = index >= 0 && index < entries.length - 1 ? entries[index + 1] : null;
 
+        if (current && current.file !== HOME_FILE && isFirstInSection(current, index)) {
+            previous = entries.find(function (entry) {
+                return entry.file === HOME_FILE;
+            }) || null;
+        }
+
         updatePagerLink(previousLink, previousText, previous);
         updatePagerLink(nextLink, nextText, next);
+    }
+
+    function isFirstInSection(entry, index) {
+        var section = entry.section || "Solo Io";
+
+        return !entries.slice(0, index).some(function (candidate) {
+            return candidate.file !== HOME_FILE && (candidate.section || "Solo Io") === section;
+        });
     }
 
     function updateFooter() {
@@ -144,7 +163,7 @@
         if (currentFile === HOME_FILE) {
             siteFooter.textContent = "AI usata per il sito e l’impaginazione.";
         } else if (entry && entry.section === "Solo AI") {
-            siteFooter.textContent = "Testo generato da AI sotto supervisione umana.";
+            siteFooter.textContent = "Esperimento di scrittura con AI, rivisto da me.";
         } else {
             siteFooter.textContent = "Testo scritto da me, rivisto con AI solo per i refusi.";
         }
@@ -178,13 +197,14 @@
             return item.file === file;
         });
         var updatedAt = entry && entry.section === "Solo AI" ? entry.updatedAt : "";
+        var formattedUpdatedAt = updatedAt ? formatDateTime(updatedAt) : "";
 
         return (
             '<header class="page-header">' +
             '<div><h1>' +
             escapeHtml(pageTitle(file)) +
             "</h1>" +
-            (updatedAt ? '<p class="page-updated">' + escapeHtml(updatedAt) + "</p>" : "") +
+            (formattedUpdatedAt ? '<p class="page-updated"><time datetime="' + escapeHtml(updatedAt) + '">' + escapeHtml(formattedUpdatedAt) + "</time></p>" : "") +
             "</div>" +
             '<a class="page-home-link" href="#/" aria-label="Torna all&#39;indice dei testi">Alberto Santini</a>' +
             "</header>"
@@ -209,6 +229,7 @@
         });
 
         var renderedSections = sectionOrder.map(function (section) {
+            var sectionLabel = SECTION_LABELS[section] || section;
             var items = sections[section]
             .filter(function (entry) {
                 return entry.file !== HOME_FILE;
@@ -228,8 +249,8 @@
             .join("");
 
             return (
-                '<section class="home-index-column' + (section === "Solo AI" ? " home-index-ai" : "") + '" aria-label="' + escapeHtml(section) + '">' +
-            "<h2>" + escapeHtml(section) + "</h2>" +
+                '<section class="home-index-column' + (section === "Solo AI" ? " home-index-ai" : "") + '" aria-label="' + escapeHtml(sectionLabel) + '">' +
+            "<h2>" + escapeHtml(sectionLabel) + "</h2>" +
             '<ul class="home-index-list">' +
             items +
             "</ul>" +
@@ -244,6 +265,20 @@
         Array.prototype.forEach.call(content.querySelectorAll('a[href$=".md"]'), function (link) {
             link.href = routeForFile(link.getAttribute("href"));
         });
+    }
+
+    function formatDateTime(value) {
+        var match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/);
+        var months = [
+            "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
+            "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"
+        ];
+
+        if (!match) {
+            return value;
+        }
+
+        return match[1] + " · " + Number(match[3]) + " " + months[Number(match[2]) - 1] + " · " + match[4] + ":" + match[5];
     }
 
     function showError(message) {

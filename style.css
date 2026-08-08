@@ -29,12 +29,13 @@
     --paper-edge: #ece8df;
     --text: #22211e;
     --muted: #696762;
+    --quiet: #87847e;
     --line: #e4e1da;
     --link: #4f453d;
     --link-hover: #285c54;
     --focus: #6f6758;
     --shadow-soft: rgba(22, 23, 24, 0.08);
-    --shadow-drop: rgba(22, 23, 24, 0.16);
+    --shadow-drop: rgba(22, 23, 24, 0.11);
     --paper-dot: rgba(64, 60, 54, 0.052);
     --paper-fiber: rgba(78, 74, 66, 0.03);
     --paper-thread: rgba(128, 123, 112, 0.025);
@@ -122,19 +123,19 @@ a {
     width: min(100%, 1040px);
     margin: 18px auto 28px;
     padding: 0 48px;
-    color: var(--muted);
-    font-size: 0.72rem;
+    color: var(--quiet);
+    font-size: 0.78rem;
     line-height: 1.55;
     text-align: center;
-    opacity: 0.68;
 }
 
 .content {
-    max-width: 900px;
+    max-width: 760px;
     margin: 0 auto;
 }
 
 .content.is-home {
+    max-width: 900px;
     padding-top: 16px;
 }
 
@@ -206,8 +207,8 @@ a {
 
 .page-updated {
     margin: 0.55em 0 0;
-    color: var(--muted);
-    font-size: 0.72rem;
+    color: var(--quiet);
+    font-size: 0.78rem;
     line-height: 1.4;
 }
 
@@ -329,18 +330,27 @@ a {
     grid-template-columns: minmax(0, auto) minmax(18px, 1fr) 5.5ch;
     gap: 14px;
     align-items: baseline;
-    padding: 0.5em 0;
+    margin-inline: -10px;
+    padding: 0.5em 10px;
+    border-radius: 3px;
     color: var(--text);
     text-decoration: none;
+    transition: background-color 140ms ease, color 140ms ease;
 }
 
 .home-index-list a:hover {
+    background-color: rgba(79, 69, 61, 0.045);
     color: var(--link-hover);
+}
+
+.home-index-list a:hover .home-index-year {
+    color: var(--text);
 }
 
 .home-index-year {
     color: var(--muted);
     text-align: right;
+    transition: color 140ms ease;
 }
 
 .home-index-rule {
@@ -361,7 +371,9 @@ a {
     grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     gap: 18px;
     max-width: 680px;
-    margin: 28px auto 0;
+    margin: 40px auto 0;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
 }
 
 .pager[hidden] {
@@ -374,7 +386,7 @@ a {
     gap: 10px;
     min-height: 40px;
     color: var(--muted);
-    font-size: 0.78rem;
+    font-size: 0.8rem;
     line-height: 1.45;
     text-decoration: none;
 }
@@ -452,6 +464,20 @@ a {
     .reader {
         margin-top: 16px;
         padding-inline: 18px;
+    }
+
+    .page-header {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .page-header > div {
+        grid-row: 2;
+    }
+
+    .page-home-link {
+        grid-row: 1;
+        text-align: left;
     }
 
     .site-footer {
