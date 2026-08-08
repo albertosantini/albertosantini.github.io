@@ -131,29 +131,18 @@
     function setPager() {
         pager.hidden = currentFile === HOME_FILE;
 
-        var index = entries.findIndex(function (entry) {
+        var current = entries.find(function (entry) {
             return entry.file === currentFile;
         });
-        var current = index >= 0 ? entries[index] : null;
-        var previous = index > 0 ? entries[index - 1] : null;
-        var next = index >= 0 && index < entries.length - 1 ? entries[index + 1] : null;
+        var sectionEntries = current && current.file !== HOME_FILE ? entries.filter(function (entry) {
+            return entry.file !== HOME_FILE && (entry.section || "Solo Io") === (current.section || "Solo Io");
+        }) : [];
+        var index = sectionEntries.indexOf(current);
+        var newer = index > 0 ? sectionEntries[index - 1] : null;
+        var older = index >= 0 && index < sectionEntries.length - 1 ? sectionEntries[index + 1] : null;
 
-        if (current && current.file !== HOME_FILE && isFirstInSection(current, index)) {
-            previous = entries.find(function (entry) {
-                return entry.file === HOME_FILE;
-            }) || null;
-        }
-
-        updatePagerLink(previousLink, previousText, previous);
-        updatePagerLink(nextLink, nextText, next);
-    }
-
-    function isFirstInSection(entry, index) {
-        var section = entry.section || "Solo Io";
-
-        return !entries.slice(0, index).some(function (candidate) {
-            return candidate.file !== HOME_FILE && (candidate.section || "Solo Io") === section;
-        });
+        updatePagerLink(previousLink, previousText, newer);
+        updatePagerLink(nextLink, nextText, older);
     }
 
     function updateFooter() {
