@@ -134,6 +134,15 @@ a {
     margin: 0 auto;
 }
 
+@media (min-width: 681px) {
+    .content.is-solo-ai > p {
+        text-align: justify;
+        text-align-last: left;
+        text-justify: inter-character;
+        hyphens: auto;
+    }
+}
+
 .content.is-home {
     max-width: 900px;
     padding-top: 16px;

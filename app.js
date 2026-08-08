@@ -65,6 +65,9 @@
 
         currentFile = known ? file : HOME_FILE;
         content.classList.toggle("is-home", currentFile === HOME_FILE);
+        content.classList.toggle("is-solo-ai", entries.some(function (entry) {
+            return entry.file === currentFile && entry.section === "Solo AI";
+        }));
         updateFooter();
         setPager();
 
