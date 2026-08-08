@@ -53,3 +53,10 @@ richiede un processo di build.
 - Usare UTF-8, terminazioni LF, nessuno spazio finale e un solo newline finale.
 - Prima della consegna, controllare che i link di navigazione, il caricamento
   di `texts.json` e il rendering di un testo funzionino correttamente.
+
+## Commit
+
+- Scrivere i messaggi di commit in inglese, mantenendo nella lingua originale
+  i titoli di racconti, opere e altri contenuti editoriali.
+- Impostare sempre Alberto Santini come autore dei commit; non usare Codex
+  come autore.
