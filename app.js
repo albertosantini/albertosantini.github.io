@@ -269,7 +269,7 @@
     }
 
     function formatDate(value) {
-        var match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})/);
+        var match = String(value).match(/^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}))?/);
         var months = [
             "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
             "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"
@@ -279,7 +279,13 @@
             return value;
         }
 
-        return match[1] + ", " + Number(match[3]) + " " + months[Number(match[2]) - 1];
+        var formatted = match[1] + ", " + Number(match[3]) + " " + months[Number(match[2]) - 1];
+
+        if (match[4] && match[5]) {
+            formatted += ", " + match[4] + ":" + match[5];
+        }
+
+        return formatted;
     }
 
     function showError(message) {

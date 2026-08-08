@@ -41,8 +41,10 @@ richiede un processo di build.
   relativa voce in `texts.json`, nell'ordine editoriale desiderato.
 - Per ogni modifica salvata a un testo `Solo AI`, incrementare `mark` di uno
   in `texts.json`: `Mk` è il numero progressivo di tutte le versioni, anche
-  prima della pubblicazione. Aggiornare `publishedAt` solo al momento della
-  pubblicazione. Non modificare `createdAt`.
+  prima della pubblicazione. Salvare `publishedAt` e `createdAt` come data e
+  ora ISO 8601 con fuso orario. Aggiornare `publishedAt` solo al momento della
+  pubblicazione e mostrarlo nell'intestazione con ore e minuti. Non modificare
+  `createdAt`.
 - Preservare l'aspetto sobrio, leggibile e responsive; verificare sia la
   pagina indice sia una pagina di testo dopo modifiche a HTML, CSS o JS.
 - Evitare modifiche non richieste ai file di contenuto durante interventi
