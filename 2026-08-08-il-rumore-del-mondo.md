@@ -12,7 +12,7 @@ Uccidere una persona apparteneva a un’altra categoria.
 
 Nessuna quantità di energia poteva ricostruire la sua memoria, rimettere il sangue nei capillari e farle pronunciare la parola che avrebbe detto un istante dopo. Era un’Azione Irreversibile di Grado Assoluto. La condanna massima non puniva la morte: puniva l’impossibilità del ritorno.
 
-Per l’ordine pubblico valeva lo stesso principio. Un passo disperdeva calore. Una porta sbattuta spingeva aria. Una voce alta consumava energia e la spargeva in vibrazioni inutilizzabili. Il rumore era entropia resa udibile.
+Per l’ordine pubblico valeva lo stesso principio. Un passo disperdeva calore. Una porta sbattuta spingeva aria. Una voce alta consumava energia e la dissipava sotto forma di vibrazioni inutilizzabili. Il rumore era entropia resa udibile.
 
 Le ruote dei treni erano rivestite di gomma. Le ambulanze comunicavano con lampi bianchi. I neon si accendevano solo quando un corpo entrava nel loro raggio. Nelle scuole, i bambini imparavano a piangere dentro una maschera.
 
