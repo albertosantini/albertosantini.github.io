@@ -1,0 +1,11 @@
+{
+    "name": "albertosantini-github-io",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "lint": "npx --yes eslint .",
+        "lint-ts": "npx --yes --package typescript tsc -p jsconfig.json --noEmit",
+        "validate": "npm run lint && npm run lint-ts"
+    }
+}

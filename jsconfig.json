@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "skipLibCheck": true,
+        "target": "ESNext",
+        "strict": false,
+        "noEmit": true
+    },
+    "include": [
+        "app.js"
+    ]
+}

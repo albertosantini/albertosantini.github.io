@@ -10,13 +10,15 @@ richiede un processo di build.
 
 - `index.html` definisce la struttura della pagina.
 - `style.css` contiene tutti gli stili e le regole responsive.
-- `app.js` carica l'indice, rende il Markdown e gestisce la navigazione.
+- `app.js` è un modulo browser: importa `marked` dal bundle ESM locale,
+  carica l'indice, rende il Markdown e gestisce la navigazione. Caricarlo con
+  `type="module"`.
 - `texts.json` è l'indice e la fonte dei metadati dei testi.
 - I contenuti pubblicati usano il nome `yyyy-mm-dd-nomedefile.md`, dove la
   data ISO a quattro cifre corrisponde alla data di creazione del testo e il
   nome file è descrittivo e in minuscolo.
-- `vendor/marked.umd.js` è una dipendenza locale: non modificarla salvo una
-  richiesta esplicita.
+- `vendor/marked.esm.js` e `vendor/marked.esm.d.ts` sono dipendenze locali:
+  non modificarle salvo una richiesta esplicita.
 
 ## Contenuti e attribuzione
 
@@ -61,7 +63,7 @@ richiede un processo di build.
 
 - Mantenere il sito statico e privo di dipendenze o processi di build, salvo
   richiesta esplicita.
-- Prima di pubblicare, verificare la versione di `vendor/marked.umd.js` e
+- Prima di pubblicare, verificare la versione di `vendor/marked.esm.js` e
   confrontarla con l'ultima release stabile di Marked. Se è disponibile un
   aggiornamento compatibile, sostituire il bundle UMD locale con quello
   ufficiale e verificare il rendering di indice e testi.
@@ -82,6 +84,15 @@ richiede un processo di build.
   pagina indice sia una pagina di testo dopo modifiche a HTML, CSS o JS.
 - Evitare modifiche non richieste ai file di contenuto durante interventi
   tecnici o grafici.
+- Per la validazione tecnica usare `npm run validate`: esegue ESLint e il
+  controllo TypeScript su `app.js` con `checkJs`, entrambi tramite `npx` e
+  senza dipendenze locali. Il bundle esterno in `vendor/` resta escluso.
+- `eslint-recommended.js` contiene una fotografia esplicita delle regole
+  `recommended` di `@eslint/js` 10.0.1, importata da `eslint.config.js`, per
+  evitare `node_modules` e import di pacchetti esterni. Per aggiornare la
+  fotografia, ricopiare l'intero set dalla nuova release e rieseguire
+  `npm run validate`; non aggiungere o rimuovere singole regole senza una
+  decisione esplicita.
 
 ## Igiene dei file
 
