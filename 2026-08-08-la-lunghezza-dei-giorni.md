@@ -72,7 +72,7 @@ Nora le afferrò una mano.
 
 La bambina la guardò come se non avesse capito le parole.
 
-Le sirene delle Unità di Accelerazione non emettevano suoni. Una luce azzurra cominciò a pulsare all’ingresso del sottopassaggio. I corridori sul viale si spostarono verso i bordi per lasciar passare due agenti in uniforme bianca. Avanzavano su pedane elettriche, immobili dalla vita in giù.
+Le sirene delle Unità di Accelerazione non emettevano suoni. Una luce azzurra cominciò a pulsare all’ingresso del sottopassaggio. I corridori sul viale si spostarono verso i bordi per lasciar passare due agenti in uniforme bianca. Avanzavano su monopattini elettrici, immobili dalla vita in giù.
 
 «Strumento non autorizzato» disse il primo agente. «Consegnarlo per la distruzione.»
 
@@ -82,11 +82,11 @@ Il secondo agente controllò il Telometro di Nora. «5.004. Lei dovrebbe essere 
 
 «Lei dovrebbe camminare» rispose Nora.
 
-L’agente abbassò gli occhi sulla propria pedana. «Il servizio attivo è esente.»
+L’agente abbassò gli occhi sul proprio monopattino. «Il servizio attivo è esente.»
 
 Otto minuti.
 
-Il primo agente prese il violino per il manico. La donna non aveva forza sufficiente per trattenerlo. L’archetto cadde e si spezzò sotto la pedana.
+Il primo agente prese il violino per il manico. La donna non aveva forza sufficiente per trattenerlo. L’archetto cadde e si spezzò sotto una ruota.
 
 Nora afferrò lo strumento prima che l’agente potesse chiuderlo nel contenitore. Non sapeva suonare. Appoggiò il legno sotto il mento e passò un dito sulle corde. Ne uscì una nota storta, più simile a un lamento che a una melodia.
 
@@ -100,7 +100,7 @@ Nora pizzicò una seconda corda. La donna le guidò la mano, cercando le note se
 
 Mancavano cinque minuti.
 
-Gli agenti ordinarono ai corridori di proseguire. Le pedane si mossero in avanti, ma ormai una decina di persone si era raccolta all’ingresso del sottopassaggio. Alcune correvano sul posto. Altre fissavano il violino.
+Gli agenti ordinarono ai corridori di proseguire. I monopattini si mossero in avanti, ma ormai una decina di persone si era raccolta all’ingresso del sottopassaggio. Alcune correvano sul posto. Altre fissavano il violino.
 
 Nora riconobbe la melodia quando la donna trovò la quarta nota. La cantò.
 
