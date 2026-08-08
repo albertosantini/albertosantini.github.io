@@ -206,7 +206,7 @@ function renderPageHeader(file) {
     const formattedPublishedAt = publication ? formatDate(publication.publishedAt) : "";
     const formattedCreatedAt = publication ? formatDate(publication.createdAt) : "";
     const publicationDetails = formattedPublishedAt
-        ? `<p class="page-updated"><time datetime="${escapeHtml(publication.publishedAt)}">Ultima pubblicazione: ${escapeHtml(formattedPublishedAt)}</time> / Mk ${escapeHtml(publication.mark)} / <time datetime="${escapeHtml(publication.createdAt)}">Creazione: ${escapeHtml(formattedCreatedAt)}</time></p>`
+        ? `<p class="page-updated"><time datetime="${escapeHtml(publication.publishedAt)}">Ultima pubblicazione: ${escapeHtml(formattedPublishedAt)}</time> · Mk ${escapeHtml(publication.mark)} · <time datetime="${escapeHtml(publication.createdAt)}">Creazione: ${escapeHtml(formattedCreatedAt)}</time></p>`
         : "";
 
     return `<header class="page-header"><div><h1>${escapeHtml(pageTitle(file))}</h1>${publicationDetails}</div><a class="page-home-link" href="#/" aria-label="Torna all&#39;indice dei testi">Alberto Santini</a></header>`;
