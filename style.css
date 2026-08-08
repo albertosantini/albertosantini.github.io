@@ -138,7 +138,7 @@ a {
     .content.is-solo-ai > p {
         text-align: justify;
         text-align-last: left;
-        text-justify: inter-character;
+        text-justify: inter-word;
         hyphens: auto;
     }
 }
