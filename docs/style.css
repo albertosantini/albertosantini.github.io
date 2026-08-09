@@ -13,7 +13,7 @@
     --paper-edge: #ece8df;
     --text: #22211e;
     --muted: #696762;
-    --quiet: #87847e;
+    --quiet: #706e68;
     --line: #e4e1da;
     --link: #4f453d;
     --link-hover: #285c54;
@@ -165,7 +165,7 @@ a {
     margin-left: auto;
     padding-left: 1.1em;
     color: var(--quiet);
-    font-size: 0.88rem;
+    font-size: 0.9rem;
     line-height: 1.58;
 }
 
@@ -180,9 +180,8 @@ a {
     margin-bottom: 1.8em;
     margin-left: auto;
     color: var(--muted);
-    font-size: 0.68rem;
+    font-size: 0.75rem;
     line-height: 1.45;
-    opacity: 0.62;
 }
 
 .page-header {
@@ -238,7 +237,7 @@ a {
     display: block;
     margin: 0.08em 0 0;
     color: var(--quiet);
-    font-size: 0.62rem;
+    font-size: 0.75rem;
     line-height: 1.25;
 }
 
@@ -248,7 +247,7 @@ a {
     gap: 0.2em 1.15em;
     margin: 0.55em 0 0;
     color: var(--quiet);
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     line-height: 1.4;
 }
 
@@ -397,7 +396,7 @@ a {
     gap: 14px;
     align-items: baseline;
     margin-inline: -10px;
-    padding: 0.5em 10px;
+    padding: 0.15em 10px;
     border-radius: 3px;
     color: var(--text);
     text-decoration: none;
@@ -433,7 +432,8 @@ a {
     display: flex;
     flex-direction: column;
     min-width: 0;
-    line-height: 1.35;
+    min-height: calc(1.25em + 0.08em + 0.8625em);
+    line-height: 1.25;
 }
 
 .home-index-title-text {
@@ -441,13 +441,11 @@ a {
 }
 
 .home-index-subtitle {
-    display: flex;
-    flex-direction: column;
+    display: block;
     margin-top: 0.08em;
-    margin-bottom: -1.33em;
     color: var(--quiet);
-    font-size: 0.62rem;
-    line-height: 1.25;
+    font-size: 0.75rem;
+    line-height: 1.15;
     transition: color 140ms ease;
 }
 

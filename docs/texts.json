@@ -102,16 +102,16 @@
         "collection": "1993-ott – 1994-ott"
     },
     {
-        "title": "Contatti",
-        "file": "1993-03-14-contatti.md",
-        "section": "Me",
-        "collection": "1993-mar – 1994-dic"
-    },
-    {
         "title": "Blmo",
         "file": "1993-06-12-blmo.md",
         "section": "Me",
         "collection": "1993-giu – 1995-mag"
+    },
+    {
+        "title": "Contatti",
+        "file": "1993-03-14-contatti.md",
+        "section": "Me",
+        "collection": "1993-mar – 1994-dic"
     },
     {
         "title": "Sirene",

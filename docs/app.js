@@ -304,13 +304,7 @@ function formatDate(value) {
         return value;
     }
 
-    const parts = Object.fromEntries(
-        DATE_FORMATTER.formatToParts(date)
-            .filter((part) => part.type !== "literal")
-            .map((part) => [part.type, part.value])
-    );
-
-    return `${parts.year}, ${parts.day} ${parts.month}, ${parts.hour}:${parts.minute}`;
+    return DATE_FORMATTER.format(date);
 }
 
 function showError(message) {
