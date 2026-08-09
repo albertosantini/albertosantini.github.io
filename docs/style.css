@@ -266,18 +266,6 @@ a {
     color: var(--muted);
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
-}
-
 .content h1,
 .content h2,
 .content h3 {
@@ -432,7 +420,7 @@ a {
     display: flex;
     flex-direction: column;
     min-width: 0;
-    min-height: calc(1.25em + 0.08em + 0.8625em);
+    min-height: 2.2em;
     line-height: 1.25;
 }
 
