@@ -17,6 +17,8 @@ const DATE_FORMATTER = new Intl.DateTimeFormat("it-IT", {
 });
 let entries = [];
 let currentFile = HOME_FILE;
+/** @type {Map<string, Promise<string>>} */
+const markdownCache = new Map();
 
 const content = document.getElementById("content");
 const pager = /** @type {HTMLElement} */ (document.querySelector(".pager"));
@@ -79,11 +81,10 @@ async function renderRoute() {
     )));
     updateFooter();
     setPager();
-
-    content.innerHTML = '<p class="loading">Caricamento...</p>';
+    content.setAttribute("aria-busy", "true");
 
     try {
-        const markdown = await fetchText(contentUrl(requestedFile));
+        const markdown = await loadMarkdown(requestedFile);
 
         if (currentFile !== requestedFile) {
             return;
@@ -102,6 +103,27 @@ async function renderRoute() {
         if (currentFile === requestedFile) {
             showError(`Non riesco a caricare ${requestedFile}.`);
         }
+    } finally {
+        if (currentFile === requestedFile) {
+            content.removeAttribute("aria-busy");
+        }
+    }
+}
+
+async function loadMarkdown(file) {
+    const url = contentUrl(file);
+    let markdownPromise = markdownCache.get(url);
+
+    if (!markdownPromise) {
+        markdownPromise = fetchText(url);
+        markdownCache.set(url, markdownPromise);
+    }
+
+    try {
+        return await markdownPromise;
+    } catch (error) {
+        markdownCache.delete(url);
+        throw error;
     }
 }
 
