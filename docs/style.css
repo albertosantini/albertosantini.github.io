@@ -132,7 +132,6 @@ a {
 }
 
 @media (min-width: 681px) {
-    .content.is-solo-ai > p,
     .content.is-story > p {
         text-align: justify;
         text-align-last: left;

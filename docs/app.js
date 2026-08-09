@@ -100,9 +100,6 @@ async function renderRoute() {
 
         content.innerHTML = html;
         content.classList.toggle("is-home", requestedFile === HOME_FILE);
-        content.classList.toggle("is-solo-ai", entries.some((entry) => (
-            entry.file === requestedFile && entry.section === "AI"
-        )));
         content.classList.toggle("is-story", entries.some((entry) => (
             entry.file === requestedFile && entry.kind === "story"
         )));
