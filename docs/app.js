@@ -75,10 +75,6 @@ async function renderRoute() {
 
     currentFile = known ? file : HOME_FILE;
     const requestedFile = currentFile;
-    content.classList.toggle("is-home", requestedFile === HOME_FILE);
-    content.classList.toggle("is-solo-ai", entries.some((entry) => (
-        entry.file === requestedFile && entry.section === "Solo AI"
-    )));
     updateFooter();
     setPager();
     content.setAttribute("aria-busy", "true");
@@ -96,6 +92,10 @@ async function renderRoute() {
             : `${renderPageHeader(requestedFile)}${html}`;
 
         content.innerHTML = html;
+        content.classList.toggle("is-home", requestedFile === HOME_FILE);
+        content.classList.toggle("is-solo-ai", entries.some((entry) => (
+            entry.file === requestedFile && entry.section === "Solo AI"
+        )));
         rewriteMarkdownLinks();
         document.title = `${pageTitle(requestedFile)} | ${SITE_TITLE}`;
         window.scrollTo({ top: 0, behavior: "auto" });
