@@ -160,9 +160,13 @@ a {
 }
 
 .content.is-home > blockquote {
-    max-width: 560px;
+    max-width: 520px;
     margin-right: auto;
     margin-left: auto;
+    padding-left: 1.1em;
+    color: var(--quiet);
+    font-size: 0.88rem;
+    line-height: 1.58;
 }
 
 .content.is-home > blockquote:first-of-type {
@@ -170,14 +174,15 @@ a {
 }
 
 .content.is-home > blockquote + p {
-    max-width: 560px;
-    margin-top: -0.7em;
+    max-width: 520px;
+    margin-top: -0.85em;
     margin-right: auto;
-    margin-bottom: 2.1em;
+    margin-bottom: 1.8em;
     margin-left: auto;
     color: var(--muted);
-    font-size: 0.78rem;
-    opacity: 0.68;
+    font-size: 0.68rem;
+    line-height: 1.45;
+    opacity: 0.62;
 }
 
 .page-header {
