@@ -247,7 +247,9 @@ function renderPageHeader(file) {
         ? `<p class="page-updated"><span class="page-updated-group"><span class="page-updated-item page-updated-publication"><span class="page-updated-symbol" aria-hidden="true" title="Data di pubblicazione">⤴</span><time datetime="${escapeHtml(publication.publishedAt)}" aria-label="Data di pubblicazione: ${escapeHtml(formattedPublishedAt)}" title="Data di pubblicazione">${escapeHtml(formattedPublishedAt)}</time>, <span class="page-updated-version" aria-label="Versione ${escapeHtml(publication.mark)}" title="Versione">Mk ${escapeHtml(publication.mark)}</span></span></span><span class="page-updated-item page-updated-creation"><span class="page-updated-symbol" aria-hidden="true" title="Data di creazione">✦</span><time datetime="${escapeHtml(publication.createdAt)}" aria-label="Data di creazione: ${escapeHtml(formattedCreatedAt)}" title="Data di creazione">${escapeHtml(formattedCreatedAt)}</time></span></p>`
         : "";
 
-    return `<header class="page-header"><div><h1>${escapeHtml(pageTitle(file))}</h1>${collection}${publicationDetails}</div><a class="page-home-link" href="#/" aria-label="Torna all&#39;indice dei testi">Alberto Santini</a></header>`;
+    const headerClass = publication ? "page-header page-header-publication" : "page-header";
+
+    return `<header class="${headerClass}"><div><h1>${escapeHtml(pageTitle(file))}</h1>${collection}${publicationDetails}</div><a class="page-home-link" href="#/" aria-label="Torna all&#39;indice dei testi">Alberto Santini</a></header>`;
 }
 
 function renderHomeIndex() {

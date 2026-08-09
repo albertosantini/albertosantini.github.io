@@ -195,6 +195,27 @@ a {
     border-bottom: 1px solid var(--line);
 }
 
+.page-header-publication {
+    padding-bottom: 0.35em;
+}
+
+@media (min-width: 681px) {
+    .page-header-publication > div {
+        display: grid;
+        grid-template-columns: max-content minmax(0, 1fr);
+        column-gap: 1.15em;
+        align-items: baseline;
+    }
+
+    .page-header-publication > div > h1 {
+        grid-column: 1 / -1;
+    }
+
+    .page-header-publication .page-updated {
+        margin-top: 0.08em;
+    }
+}
+
 .page-home-link {
     color: var(--muted);
     font-size: 0.78rem;
@@ -223,7 +244,7 @@ a {
 .page-updated {
     display: flex;
     flex-wrap: nowrap;
-    gap: 0.2em 0.8em;
+    gap: 0.2em 1.15em;
     margin: 0.55em 0 0;
     color: var(--quiet);
     font-size: 0.7rem;
