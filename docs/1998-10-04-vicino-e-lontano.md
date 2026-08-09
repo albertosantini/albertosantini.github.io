@@ -4,7 +4,7 @@ In una notte calda
 la crosta marcia  
 della ferita si stacca  
 e vomita nei meandri  
-sotterranei della citt&agrave;.  
+sotterranei della città.  
 Le mani senza speranza  
 si protendono verso un  
 pezzo di pane o qualsiasi  
@@ -23,6 +23,6 @@ che basti a lenire la
 vocina cretina dentro di me.  
 Ma il loro volto s'illumina,  
 come se avessero ricevuto  
-chiss&agrave; che cosa,  
-ed io soffro di pi&ugrave;,  
+chissà che cosa,  
+ed io soffro di più,  
 dentro.  

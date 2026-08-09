@@ -35,14 +35,14 @@ Insostenibile sforzo
 ricordare il profumo  
 tra le file di sedie  
 dove sei seduta  
-cos&igrave; vicina  
-cos&igrave; lontana  
+così vicina  
+così lontana  
 mentre tocco con la punta  
 delle dita  
 gli eroi dello schermo.  
 Ti tocco in un abbraccio  
 ma la mia mente  
-&egrave; altrove.  
+è altrove.  
 Amo una donna di luce  
 che vive in un telo bianco  
 che mi sorride.  
@@ -71,7 +71,7 @@ aperti
 uiish shiii modula il bruco  
 uiiih iiish danza la farfalla  
 e le sporche foglie  
-tutte gi&ugrave; per terra  
+tutte giù per terra  
   
 non il mondo ma un sasso  
 dietro l'angolo  
@@ -108,7 +108,7 @@ d'amore appagato
 mi puoi dare tu  
 solo un bacio,  
 la paura di un bacio  
-che non arriva pi&ugrave;  
+che non arriva più  
 sotto la fioca luce  
 del lampione chiassoso  
 dei pensieri geloso.  
@@ -153,7 +153,7 @@ con le lacrime spente
 al lieve poggiare di soli tocchi:  
 cieco rapito da tortuose labbra  
 rimango invaghito,  
-sempre pi&ugrave; m'avvicino  
+sempre più m'avvicino  
 velocemente al dolce serpente.  
   
 ## Specchio d'acqua `1990`  
@@ -180,13 +180,13 @@ un'incontrollabile frenesia
 prosciuga la mente  
 e, piano, tutto  
 tace in  
-s&eacute;.  
+sé.  
 Non regalate sogni  
 a  
 chi  
 sogna che seguir vuole.  
 Il tempo di sognare  
-sogni &egrave;  
+sogni è  
 passato  
 ma un ultimo sguardo.  
 Le foto sui muri di  
@@ -194,13 +194,13 @@ casa ricordan
 il profumo di  
 tante risate perse.  
 Mi giro attorno nella vuota  
-stanza, vedo che non &egrave; pi&ugrave; vuota:  
+stanza, vedo che non è più vuota:  
 la riempie una musica soave  
 una voce di donna adorabile.  
   
 Mi travolge un fiume che scorre  
 dentro di me e accanto a te,  
-quando ti siedi l&igrave; sulla riva  
+quando ti siedi lì sulla riva  
 ti prego, ripensa anche a me.  
 Tendo la mano verso  
 un punto nella  
@@ -210,7 +210,7 @@ La luce nella stanza
 se ne va  
 e adesso  
 il gelo della notte.  
-La voce &egrave; lontana  
+La voce è lontana  
 e  
 ora  
 soltanto il silenzio,  
@@ -240,17 +240,17 @@ una nuvola di gomma...
 ## Al tramonto `1990`  
   
 Di nuovo sul muretto: con le gambe  
-che dondolano su e gi&ugrave;, con le mani  
+che dondolano su e giù, con le mani  
 che sono viola di more raccolte;  
 invidio le colline verdi e gialle  
-che sono sempre l&igrave; ad aspettarmi,  
+che sono sempre lì ad aspettarmi,  
 silenziose parco giochi di anni  
-ahim&egrave; passati; ammiro seduto  
+ahimè passati; ammiro seduto  
 solo e triste il lavoro sui campi:  
 al sentire il ciaociao degli amici  
 e poi dai dopo cena ci vediamo  
 mi volto a guardar dei bambini con gli  
-occhi di un bambino che non c'&egrave; pi&ugrave;.  
+occhi di un bambino che non c'è più.  
   
 ## Sul cuscino `1990`  
   

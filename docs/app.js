@@ -103,6 +103,9 @@ async function renderRoute() {
         content.classList.toggle("is-solo-ai", entries.some((entry) => (
             entry.file === requestedFile && entry.section === "AI"
         )));
+        content.classList.toggle("is-story", entries.some((entry) => (
+            entry.file === requestedFile && entry.kind === "story"
+        )));
         rewriteMarkdownLinks();
         document.title = `${pageTitle(requestedFile)} | ${SITE_TITLE}`;
         window.scrollTo({ top: 0, behavior: "auto" });

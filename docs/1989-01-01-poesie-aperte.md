@@ -77,8 +77,8 @@ e vola via.
   
 ## La voce dell'anima `1989`  
   
-Vanit&agrave;.  
-Solo vanit&agrave;.  
+Vanità.  
+Solo vanità.  
 La vanagloria  
 di splendenti eroi  
 di cartauomini  
@@ -115,13 +115,13 @@ terra aria,
 fuoco acqua,  
 sai chi sono?  
 Love is a feeling:  
-&egrave; una bella giornata  
+è una bella giornata  
 per morire.  
   
 ## Agonia `1989`  
   
 Deliziosa agonia  
-&egrave; l'amore  
+è l'amore  
 che ti prende  
 improvviso,  
 ti lascia straccio  

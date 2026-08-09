@@ -132,7 +132,8 @@ a {
 }
 
 @media (min-width: 681px) {
-    .content.is-solo-ai > p {
+    .content.is-solo-ai > p,
+    .content.is-story > p {
         text-align: justify;
         text-align-last: left;
         text-justify: inter-word;
@@ -159,7 +160,8 @@ a {
     text-align: center;
 }
 
-.content.is-home > blockquote {
+.content.is-home > blockquote,
+.content.is-story > blockquote {
     max-width: 520px;
     margin-right: auto;
     margin-left: auto;
@@ -169,11 +171,13 @@ a {
     line-height: 1.58;
 }
 
-.content.is-home > blockquote:first-of-type {
+.content.is-home > blockquote:first-of-type,
+.content.is-story > blockquote:first-of-type {
     margin-top: 0;
 }
 
-.content.is-home > blockquote + p {
+.content.is-home > blockquote + p,
+.content.is-story > blockquote + p {
     max-width: 520px;
     margin-top: -0.85em;
     margin-right: auto;

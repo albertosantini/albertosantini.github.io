@@ -6,7 +6,7 @@ cercando le labbra
 che ora non incontrano  
 le mie; continua nei sogni  
 l'amore che ho perso  
-e non ritrover&ograve;.  
+e non ritroverò.  
   
 ## A Annamaria `12-05-1996`  
   
@@ -21,13 +21,13 @@ scariche di adrenalina
 cadono nel baratro  
 lasciando tutto al  
 piano superiore,  
-gi&ugrave; un tonfo sordo.  
+giù un tonfo sordo.  
   
 ## Gelo `04-05-1996`  
   
 Le nubi all'orizzonte nascondono  
 le foglie che cadono che scivolano  
-senza piet&agrave; in un baratro di cemento  
+senza pietà in un baratro di cemento  
 cercando di catturare l'ultimo raggio  
 di sole dietro la nuvola color cenere.  
   
@@ -37,17 +37,17 @@ un incauto vento padrone del destino
 gratta via la crosta e la maschera.  
   
 Discesa rapida all'inferno, andata  
-senza ritorno perch&eacute; l&igrave; dove cerco  
-non &egrave; rimasto pi&ugrave; niente, dove sono  
+senza ritorno perché lì dove cerco  
+non è rimasto più niente, dove sono  
 le foglie?  
   
 ## Muove `04-05-1996`  
   
-Si muove tutto l&igrave; sotto, poco  
-pi&ugrave; in l&agrave;, i contorni sono indefiniti,  
+Si muove tutto lì sotto, poco  
+più in là, i contorni sono indefiniti,  
 ho paura di riaddormentarmi, nessuno si  
 offre volontario per tenermi la mano  
-n&eacute; per accarezzarmi i capelli  
+né per accarezzarmi i capelli  
 mi manca la sensazione di amare  
 e di essere amato per quello che sono  
 anche con i contorni indefiniti.  
@@ -62,7 +62,7 @@ ed una volta ancora
 per sempre disordinati  
 pensieri e lacrime  
 di sabbia soffia  
-lontano perch&eacute; possa  
+lontano perché possa  
 abbracciare il nulla o  
 l'infinito delle tue  
 labbra.  
@@ -74,7 +74,7 @@ in piedi di fronte alla
 parete della stanza, non  
 riesco a dormire, sono  
 solo. Penso a te e a come  
-ti senti. Perch&eacute; non sei  
+ti senti. Perché non sei  
 qui con me ad ascoltare la  
 musica, ad asciugare le lacrime  
 ad aiutarmi a deglutire.  
@@ -91,7 +91,7 @@ tu carta, donde me
 explicas el porque,  
 porque las olas de  
 mi mar han dejado  
-tu coraz&oacute;n una playa  
+tu corazón una playa  
 desierta.  
   
 ## Gioco `23-12-1995`  
@@ -109,12 +109,12 @@ emozioni e musica
 grido  
 insieme.  
   
-L'amore &egrave; un torsolo  
+L'amore è un torsolo  
 di mela che qualcuno  
 prende e, prima o poi,  
 getta via.  
   
-## Al di l&agrave; delle nuvole `25-11-1995`  
+## Al di là delle nuvole `25-11-1995`  
   
 Vivo per lei  
 dopo aver attraversato  

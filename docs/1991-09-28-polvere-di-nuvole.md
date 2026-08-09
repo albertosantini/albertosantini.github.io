@@ -7,8 +7,8 @@ mentre sotto la pioggia
 ti vedo allontanare.  
 Socchiudo la mia bocca  
 per dirti torna indietro  
-ma ora &egrave; troppo tardi  
-perch&eacute; tu non mi senti.  
+ma ora è troppo tardi  
+perché tu non mi senti.  
 Ripeto a nessuno  
 un addio di saluto  
 quanto mi manchi, adDIO.  
@@ -26,7 +26,7 @@ d'una bonaccia stanca.
   
 ## Eroe `1991`  
   
-Un eroe &egrave; un  
+Un eroe è un  
 errore  
 che ha il terrore  
 di commettere un  
@@ -54,7 +54,7 @@ nel cassetto aspettando
 trepidamente l'alba  
 per vedere di nuovo  
 una giornata pallida;  
-cos&igrave; per rinnovare  
+così per rinnovare  
 la maschera bugiarda  
 recito una parte  
 che non scopre le carte.  
@@ -83,7 +83,7 @@ due gocce di rugiada;
   
 cresce l'albero anche  
 quando il vento strappa  
-i pi&ugrave; lontani ricordi,  
+i più lontani ricordi,  
 che adagio si posano  
 sulla sponda del fiume  
 e spariscono nelle rapide d'acqua  
@@ -98,7 +98,7 @@ il suo nome era Sissy.
 Giocavo con la palla da una parte  
 all'altra della stanza, senza fine;  
 non vedevo la scrivania o la sedia  
-o l&agrave; il letto, ma un campo d'erba  
+o là il letto, ma un campo d'erba  
 con una macchia nera che s'avvicina  
 per riportarmi la gialla pallina.  
 Le carezze su quei riccioli neri,  
@@ -123,7 +123,7 @@ con occhi da bambino.
 Non lo so  
 se i ladri di parole  
 rinunciano a  
-trarre vantaggi dalla verit&agrave;:  
+trarre vantaggi dalla verità:  
 che cosa sono?  
 se non pezzi  
 a incastro di un gioco  
@@ -138,7 +138,7 @@ come le pagine bianche
 di un diario,  
 anonime ed incerte;  
 un'ora  
-&egrave; un'intera vita. Nella...  
+è un'intera vita. Nella...  
 Che cosa cerco?  
 se non risposte  
 a domande che non  

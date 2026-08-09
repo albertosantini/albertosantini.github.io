@@ -25,7 +25,7 @@ A Chiara
 che vive la vita  
 a colori, che non  
 cambia canale mai  
-perch&eacute; &egrave; una dura  
+perché è una dura  
 disegno arcobaleni  
 nel cielo.  
 Dolci le sue parole  
@@ -36,8 +36,8 @@ i capelli giocherellano
 con i raggi del sole  
 al tramonto.  
 Mi piace Chiara  
-perch&eacute; &egrave; tenace  
-perch&eacute; ama Halle.  
+perché è tenace  
+perché ama Halle.  
 Una donna senza  
 storie senza scuse  
 dolce come un bacio  
@@ -65,7 +65,7 @@ e una mano sul cuore
 mentre le conchiglie ci guardavano  
 e le onde del mare cantavano in coro.  
 La spiaggia, la luna, il mare  
-non ci sono pi&ugrave;  
+non ci sono più  
 esisti soltanto tu  
 con quel bacio  
 in riva al mare.  
@@ -78,7 +78,7 @@ baciano il sole
 che annega nel tuo cuore  
 un bagliore...  
 un bacio rubato  
-non sono pi&ugrave; solo.  
+non sono più solo.  
   
 ## Coccola `20-01-1998`  
   

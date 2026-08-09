@@ -26,6 +26,11 @@ richiede un processo di build.
   contenuti editoriali senza una richiesta esplicita dell'autore.
 - Conservare in `docs/texts.json` la distinzione tra `Me` (`section: "Me"`)
   e `AI` (`section: "AI"`).
+- Nei racconti narrativi usare le caporali italiane senza spazi interni per i
+  dialoghi (`«Testo»`) e non inserire un trattino tra la chiusura del dialogo e
+  il verbo dichiarativo. Conservare gli apostrofi semplici e i tre punti
+  consecutivi già usati nei testi storici.
+- Scrivere le lettere accentate direttamente in UTF-8, senza entità HTML.
 - Non modificare le diciture visibili nei footer relative all'uso dell'AI
   senza approvazione esplicita. Sono dichiarazioni editoriali del sito.
 - Questo file è soltanto una guida operativa per chi lavora sul repository;

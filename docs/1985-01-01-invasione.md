@@ -4,13 +4,13 @@ ad una roccia bucherellata.
 
 I raggi del sole si riflettevano sui solchi della ciambella, lasciando sullo
 sfondo nero chiazze di color pastello. Non molto lontana v'era la Terra, blu e
-bianca con una macchia gialla, e le stelle sembravano che ridessero. Ma una
+bianca con una macchia gialla, e le stelle sembravano ridere. Ma una
 macchia di grigio uniforme stava riempendo il sistema solare, lambendo le sponde
 di Saturno.
 
 Era la Flotta Interstellare del pianeta Barnard. Le astronavi non si potevano
 contare, tanto numerose quanto le stelle nel cielo. Alcune erano giganti,
-dall'aspetto mostruoso, senza grazia, altre pi&ugrave; piccole, veloci e
+dall'aspetto mostruoso, senza grazia, altre più piccole, veloci e
 ribelli, schizzavano da una parte all'altra della Flotta. Era un vespaio, un
 vespaio pronto a pungere. Gli abitanti del pianeta Barnard avevano abbandonato
 il proprio pianeta, oramai morente, alla ricerca di un altro che li potesse
@@ -18,7 +18,7 @@ accogliere. Lo sbarco su un nuovo pianeta consisteva nella distruzione totale
 degli esseri viventi che lo abitavano: niente cerimonie di benvenuto, niente
 relazioni diplomatiche, niente scambio di prigionieri, niente. Un'avanzatissima
 tecnologia al servizio di crudeli guerrafondai annientava e rivoltava il
-pianeta, cancellando ogni segno di civilt&agrave; precedente.
+pianeta, cancellando ogni segno di civiltà precedente.
 
 Dopo l'avvicinamento al punto di controllo, seguiva nel piano strategico la
 prima fase: osservazione e studio. I telescopi elettronici a cristalli rarefatti
@@ -30,19 +30,19 @@ dell'osservazione fu che l'annientamento sarebbe durato dodici minuti.
 
 Era arrivato il momento di passare alla seconda fase: raggiungimento della
 distanza orbitale in formazione di attacco. Il quartiere generale decise di
-lasciare le navi-citt&agrave; dietro Giove, spost&ograve; le
-navi-trasporto truppa dietro la Luna, come riserva; schier&ograve; i caccia alle
+lasciare le navi-città dietro Giove, spostò le
+navi-trasporto truppa dietro la Luna, come riserva; schierò i caccia alle
 ali per scortare gli incrociatori e le tre ammiraglie in posizione arretrata;
 v'erano due linee di droidi per l'assalto iniziale.
 
-Per evitare i problemi inerziali, lo schieramento nemico si avvicin&ograve; con
-un microbalzo e circond&ograve; la Terra.
+Per evitare i problemi inerziali, lo schieramento nemico si avvicinò con
+un microbalzo e circondò la Terra.
 
 Mancavano settantadue secondi all'inizio dell'attacco che avrebbe polverizzato
 il nemico. Ma, quando tornarono gli ultimi ricognitori dalle missioni di
-scansione superficiale, suon&ograve; l'allarme rosso di allerta massima. Colti
-alla sprovvista la formazione si divise, una parte si allontan&ograve; verso
-Mercurio e l'altra si nascose dietro Marte. Si ordin&ograve; di mantenere la
+scansione superficiale, suonò l'allarme rosso di allerta massima. Colta
+alla sprovvista, la formazione si divise, una parte si allontanò verso
+Mercurio e l'altra si nascose dietro Marte. Si ordinò di mantenere la
 distanza di sicurezza e, immediatamente, le misure di osservazione e
 avvistamento furono intensificate; per il momento l'attacco era sospeso.
 
@@ -50,13 +50,13 @@ Sembrava che fossero arrivati troppo tardi per conquistare la Terra: era in
 corso un'altra invasione. Gli attacchi erano numerosi e concentrati in piccole
 aree. Gli invasori sfrecciavano su oggetti volanti a forma di disco, di color
 nero; volavano rasi al suolo e quando si alzavano, puntualmente, venivano
-disintegrati dai terrestri. Quest'ultimi impiegavano un'arma segreta, mai vista
+disintegrati dai terrestri. Questi ultimi impiegavano un'arma segreta, mai vista
 prima, manuale, molto efficace, con una potenza distruttrice incredibile. Per
 tre giorni la Flotta assistette incredula alla sconfitta di quegli sconosciuti
 invasori che li avevano preceduti.
 
-Cos&igrave; i Generali decisero che era pi&ugrave; prudente trovare un altro
-pianeta da colonizzare. Con un balzo stellare la Flotta lasci&ograve; il sistema
+Così i Generali decisero che era più prudente trovare un altro
+pianeta da colonizzare. Con un balzo stellare la Flotta lasciò il sistema
 solare in direzione di Alfa Centauri.
 
 Intanto i campionati mondiali di tiro al piattello terminarono con la vittoria

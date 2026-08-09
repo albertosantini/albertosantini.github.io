@@ -1,6 +1,6 @@
 ## Goccia `23-10-1997`  
   
-Forse &egrave; gi&agrave; primavera  
+Forse è già primavera  
 che appare all'improvviso  
 il mio fiore preferito  
 come una goccia  
@@ -17,12 +17,12 @@ amore.
   
 ## Bella `01-10-1997`  
   
-Tu che sei cos&igrave; bella  
+Tu che sei così bella  
 non lasciarmi qui da solo  
 a guardare il sole  
 che bagna la spiaggia  
 bianca; tu che sei  
-cos&igrave; vicino abbracciami  
+così vicino abbracciami  
 forte.  
   
 ## Bacio `A Chiara 12-07-1997`  
@@ -33,15 +33,15 @@ scivolare sulla sua pelle
 dimenticare chi sei  
 e volare insieme a lei.  
 Correre a perdi fiato  
-gi&ugrave; per una collina  
+giù per una collina  
 d'erba medica  
 con le braccia aperte  
 per stringerla e baciare  
 labbra di velluto che  
 alzano il vento, che muovono  
 le nuvole.  
-Verso un viso pi&ugrave; luminoso  
-del sole, pi&ugrave; invitante della  
+Verso un viso più luminoso  
+del sole, più invitante della  
 luna mi getto senza testa  
 come un bambino e il cioccolato;  
 inseguo per il cielo  
@@ -63,7 +63,7 @@ ritmo di un'onda
 che non controllo.  
 Tutto in un momento  
 mi accorgo che  
-qualcosa &egrave; cambiato.  
+qualcosa è cambiato.  
 Dentro, non fuori.  
   
 ## Strappo `23-05-1997`  
@@ -73,13 +73,13 @@ sorride mentre solo
 al buio piango  
 aspettando l'alba.  
 Il tuo volto reclinato  
-sulla spalla &egrave; l'unico  
+sulla spalla è l'unico  
 punto di contatto con  
 il mondo, che  
 sento scivolare via  
 lontano. So  
 che quando ti sveglierai  
-gi&agrave; non sarai qui  
+già non sarai qui  
 con me ed allora  
 vorrei strappare la luna  
 dal cielo; buttarla  

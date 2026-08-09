@@ -133,7 +133,8 @@
     {
         "title": "Dio non mi vuole",
         "file": "1991-01-01-dio-non-mi-vuole.md",
-        "section": "Me"
+        "section": "Me",
+        "kind": "story"
     },
     {
         "title": "La porta si chiude",
@@ -148,16 +149,19 @@
     {
         "title": "Foglie al vento",
         "file": "1989-01-01-foglie-al-vento.md",
-        "section": "Me"
+        "section": "Me",
+        "kind": "story"
     },
     {
         "title": "Primi? Forse.",
         "file": "1986-01-01-primi-forse.md",
-        "section": "Me"
+        "section": "Me",
+        "kind": "story"
     },
     {
         "title": "Invasione",
         "file": "1985-01-01-invasione.md",
-        "section": "Me"
+        "section": "Me",
+        "kind": "story"
     }
 ]
