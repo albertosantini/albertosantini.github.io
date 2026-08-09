@@ -221,10 +221,40 @@ a {
 }
 
 .page-updated {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.2em 0.8em;
     margin: 0.55em 0 0;
     color: var(--quiet);
     font-size: 0.7rem;
     line-height: 1.4;
+}
+
+.page-updated-item {
+    white-space: nowrap;
+}
+
+.page-updated-group {
+    display: flex;
+}
+
+.page-updated-symbol {
+    display: inline-flex;
+    width: 1.45em;
+    justify-content: center;
+    color: var(--muted);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 .content h1,
@@ -506,6 +536,11 @@ a {
 
     .page-header > div {
         grid-row: 2;
+    }
+
+    .page-updated {
+        flex-direction: column;
+        gap: 0.12em;
     }
 
     .page-home-link {
