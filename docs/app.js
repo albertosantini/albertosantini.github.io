@@ -70,10 +70,17 @@ async function boot() {
 }
 
 async function renderRoute() {
-    const file = fileFromHash(location.hash);
-    const known = entries.some((entry) => entry.file === file);
+    const routeFile = fileFromHash(location.hash);
+    const known = routeFile && (
+        routeFile === HOME_FILE
+        || entries.some((entry) => entry.file === routeFile)
+    );
 
-    currentFile = known ? file : HOME_FILE;
+    if (!known) {
+        window.history.replaceState(null, "", "#/");
+    }
+
+    currentFile = known ? routeFile : HOME_FILE;
     const requestedFile = currentFile;
     updateFooter();
     setPager();
@@ -156,7 +163,13 @@ async function fetchJson(path) {
 }
 
 function fileFromHash(hash) {
-    const value = decodeURIComponent((hash || "").replace(/^#\/?/, ""));
+    let value;
+
+    try {
+        value = decodeURIComponent((hash || "").replace(/^#\/?/, ""));
+    } catch {
+        return null;
+    }
 
     if (!value || value === "/") {
         return HOME_FILE;
