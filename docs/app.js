@@ -238,9 +238,7 @@ function pageTitle(file) {
 function renderPageHeader(file) {
     const entry = entries.find((item) => item.file === file);
     const publication = entry && entry.section === "AI" ? entry : null;
-    const collection = entry && entry.collection
-        ? `<p class="page-collection">${escapeHtml(entry.collection)}</p>`
-        : "";
+    const collection = renderCollection(entry, "page-collection");
     const formattedPublishedAt = publication ? formatDate(publication.publishedAt) : "";
     const formattedCreatedAt = publication ? formatDate(publication.createdAt) : "";
     const publicationDetails = formattedPublishedAt
@@ -271,9 +269,7 @@ function renderHomeIndex() {
         const items = sections[section]
             .map((entry) => {
                 const year = (entry.file.match(/^(\d{4})/) || ["", ""])[1];
-                const subtitle = entry.collection
-                    ? `<span class="home-index-subtitle">${escapeHtml(entry.collection)}</span>`
-                    : "";
+                const subtitle = renderCollection(entry, "home-index-subtitle");
                 return `<li><a href="${routeForFile(entry.file)}"><span class="home-index-title"><span class="home-index-title-text">${escapeHtml(entry.title)}</span>${subtitle}</span><span class="home-index-rule" aria-hidden="true"></span><span class="home-index-year">${escapeHtml(year)}</span></a></li>`;
             })
             .join("");
@@ -283,6 +279,14 @@ function renderHomeIndex() {
     }).join("");
 
     return `<section class="home-index" aria-label="Testi"><div class="home-index-columns">${renderedSections}</div></section>`;
+}
+
+function renderCollection(entry, className) {
+    if (!entry || !entry.collection) {
+        return "";
+    }
+
+    return `<span class="${className}">${escapeHtml(entry.collection)}</span>`;
 }
 
 function rewriteMarkdownLinks() {

@@ -235,6 +235,7 @@ a {
 }
 
 .page-collection {
+    display: block;
     margin: 0.08em 0 0;
     color: var(--quiet);
     font-size: 0.62rem;
@@ -420,7 +421,8 @@ a {
 
 .home-index-rule {
     height: 0.8em;
-    align-self: center;
+    align-self: start;
+    margin-top: 0.55em;
     background-image: radial-gradient(circle, rgba(105, 103, 98, 0.34) 0 0.75px, transparent 0.85px);
     background-position: center;
     background-repeat: repeat-x;
@@ -439,7 +441,10 @@ a {
 }
 
 .home-index-subtitle {
+    display: flex;
+    flex-direction: column;
     margin-top: 0.08em;
+    margin-bottom: -1.33em;
     color: var(--quiet);
     font-size: 0.62rem;
     line-height: 1.25;
