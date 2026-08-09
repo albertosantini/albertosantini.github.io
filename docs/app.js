@@ -238,13 +238,16 @@ function pageTitle(file) {
 function renderPageHeader(file) {
     const entry = entries.find((item) => item.file === file);
     const publication = entry && entry.section === "Solo AI" ? entry : null;
+    const collection = entry && entry.collection
+        ? `<p class="page-collection">${escapeHtml(entry.collection)}</p>`
+        : "";
     const formattedPublishedAt = publication ? formatDate(publication.publishedAt) : "";
     const formattedCreatedAt = publication ? formatDate(publication.createdAt) : "";
     const publicationDetails = formattedPublishedAt
         ? `<p class="page-updated"><time datetime="${escapeHtml(publication.publishedAt)}">Ultima pubblicazione: ${escapeHtml(formattedPublishedAt)}</time> · Mk ${escapeHtml(publication.mark)} · <time datetime="${escapeHtml(publication.createdAt)}">Creazione: ${escapeHtml(formattedCreatedAt)}</time></p>`
         : "";
 
-    return `<header class="page-header"><div><h1>${escapeHtml(pageTitle(file))}</h1>${publicationDetails}</div><a class="page-home-link" href="#/" aria-label="Torna all&#39;indice dei testi">Alberto Santini</a></header>`;
+    return `<header class="page-header"><div><h1>${escapeHtml(pageTitle(file))}</h1>${collection}${publicationDetails}</div><a class="page-home-link" href="#/" aria-label="Torna all&#39;indice dei testi">Alberto Santini</a></header>`;
 }
 
 function renderHomeIndex() {
@@ -266,7 +269,10 @@ function renderHomeIndex() {
         const items = sections[section]
             .map((entry) => {
                 const year = (entry.file.match(/^(\d{4})/) || ["", ""])[1];
-                return `<li><a href="${routeForFile(entry.file)}"><span class="home-index-title">${escapeHtml(entry.title)}</span><span class="home-index-rule" aria-hidden="true"></span><span class="home-index-year">${escapeHtml(year)}</span></a></li>`;
+                const subtitle = entry.collection
+                    ? `<span class="home-index-subtitle">${escapeHtml(entry.collection)}</span>`
+                    : "";
+                return `<li><a href="${routeForFile(entry.file)}"><span class="home-index-title"><span class="home-index-title-text">${escapeHtml(entry.title)}</span>${subtitle}</span><span class="home-index-rule" aria-hidden="true"></span><span class="home-index-year">${escapeHtml(year)}</span></a></li>`;
             })
             .join("");
 

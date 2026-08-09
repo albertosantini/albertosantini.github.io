@@ -202,10 +202,17 @@ a {
     color: var(--text);
 }
 
-.page-header h1 {
+.content .page-header h1 {
     margin: 0;
     font-size: 1.45rem;
     line-height: 1.35;
+}
+
+.page-collection {
+    margin: 0.08em 0 0;
+    color: var(--quiet);
+    font-size: 0.62rem;
+    line-height: 1.25;
 }
 
 .page-updated {
@@ -365,7 +372,26 @@ a {
 }
 
 .home-index-title {
+    display: flex;
+    flex-direction: column;
     min-width: 0;
+    line-height: 1.35;
+}
+
+.home-index-title-text {
+    display: block;
+}
+
+.home-index-subtitle {
+    margin-top: 0.08em;
+    color: var(--quiet);
+    font-size: 0.62rem;
+    line-height: 1.25;
+    transition: color 140ms ease;
+}
+
+.home-index-list a:hover .home-index-subtitle {
+    color: var(--link-hover);
 }
 
 .pager {
