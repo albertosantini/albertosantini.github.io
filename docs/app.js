@@ -3,8 +3,8 @@ import { marked } from "./vendor/marked.esm.js";
 const HOME_FILE = "README.md";
 const SITE_TITLE = "Alberto Santini";
 const SECTION_LABELS = {
-    "Solo Io": "Scritti da me",
-    "Solo AI": "Esperimenti con AI"
+    Me: "Scritti da me",
+    AI: "Esperimenti con AI"
 };
 const DATE_FORMATTER = new Intl.DateTimeFormat("it-IT", {
     year: "numeric",
@@ -101,7 +101,7 @@ async function renderRoute() {
         content.innerHTML = html;
         content.classList.toggle("is-home", requestedFile === HOME_FILE);
         content.classList.toggle("is-solo-ai", entries.some((entry) => (
-            entry.file === requestedFile && entry.section === "Solo AI"
+            entry.file === requestedFile && entry.section === "AI"
         )));
         rewriteMarkdownLinks();
         document.title = `${pageTitle(requestedFile)} | ${SITE_TITLE}`;
@@ -191,7 +191,7 @@ function setPager() {
     const sectionEntries = current && current.file !== HOME_FILE
         ? entries.filter((entry) => (
             entry.file !== HOME_FILE
-            && (entry.section || "Solo Io") === (current.section || "Solo Io")
+            && (entry.section || "Me") === (current.section || "Me")
         ))
         : [];
     const index = sectionEntries.indexOf(current);
@@ -207,7 +207,7 @@ function updateFooter() {
 
     if (currentFile === HOME_FILE) {
         siteFooter.textContent = "AI usata per il sito e l’impaginazione.";
-    } else if (entry && entry.section === "Solo AI") {
+    } else if (entry && entry.section === "AI") {
         siteFooter.textContent = "Esperimento di scrittura con AI, rivisto da me.";
     } else {
         siteFooter.textContent = "Testo scritto da me, rivisto con AI solo per i refusi.";
@@ -237,7 +237,7 @@ function pageTitle(file) {
 
 function renderPageHeader(file) {
     const entry = entries.find((item) => item.file === file);
-    const publication = entry && entry.section === "Solo AI" ? entry : null;
+    const publication = entry && entry.section === "AI" ? entry : null;
     const collection = entry && entry.collection
         ? `<p class="page-collection">${escapeHtml(entry.collection)}</p>`
         : "";
@@ -258,12 +258,12 @@ function renderHomeIndex() {
             return;
         }
 
-        const section = entry.section || "Solo Io";
+        const section = entry.section || "Me";
         sections[section] = sections[section] || [];
         sections[section].push(entry);
     });
 
-    const sectionOrder = ["Solo Io", "Solo AI"].filter((section) => sections[section]);
+    const sectionOrder = ["Me", "AI"].filter((section) => sections[section]);
     const renderedSections = sectionOrder.map((section) => {
         const sectionLabel = SECTION_LABELS[section] || section;
         const items = sections[section]
@@ -276,7 +276,7 @@ function renderHomeIndex() {
             })
             .join("");
 
-        const aiClass = section === "Solo AI" ? " home-index-ai" : "";
+        const aiClass = section === "AI" ? " home-index-ai" : "";
         return `<section class="home-index-column${aiClass}" aria-label="${escapeHtml(sectionLabel)}"><h2>${escapeHtml(sectionLabel)}</h2><ul class="home-index-list">${items}</ul></section>`;
     }).join("");
 

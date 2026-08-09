@@ -24,8 +24,8 @@ richiede un processo di build.
 
 - Non riscrivere, correggere o modificare testi poetici, biografici o altri
   contenuti editoriali senza una richiesta esplicita dell'autore.
-- Conservare la distinzione in `docs/texts.json` tra `Solo Io` (assenza di
-  `section`) e `Solo AI` (`section: "Solo AI"`).
+- Conservare in `docs/texts.json` la distinzione tra `Me` (`section: "Me"`)
+  e `AI` (`section: "AI"`).
 - Non modificare le diciture visibili nei footer relative all'uso dell'AI
   senza approvazione esplicita. Sono dichiarazioni editoriali del sito.
 - Questo file è soltanto una guida operativa per chi lavora sul repository;
