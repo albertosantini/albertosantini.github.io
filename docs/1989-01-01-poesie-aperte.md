@@ -1,14 +1,14 @@
-## Rocche `1989`  
-  
+## Rocche `1989`
+
 Rocche solitarie  
 fronte ai pugni del tempo,  
 sorridendo alle formiche  
 che rubano loro  
 le briciole,  
 sognano la luna.  
-  
-## Soldato di ventura `1989`  
-  
+
+## Soldato di ventura `1989`
+
 Gli hai dato una casa  
 prima che morisse  
 lontano dalla sua famiglia.  
@@ -36,18 +36,18 @@ ritrovi la fede di Dio
 perduto  
 in un altro tempo  
 in un altro luogo.  
-  
-## Relitto `1989`  
-  
+
+## Relitto `1989`
+
 Il relitto di un sogno  
 striscia nella sabbia  
 scavando buchi  
 in cerca di acqua  
 per affogare  
 il sogno di un relitto.  
-  
-## Pianto di un epitaffio `1989`  
-  
+
+## Pianto di un epitaffio `1989`
+
 I meravigliosi anni  
 delle bambole e dei trenini  
 delle corse e dei wow  
@@ -74,9 +74,9 @@ una farfalla
 su un raggio di sole  
 che verso nel cuore  
 e vola via.  
-  
-## La voce dell'anima `1989`  
-  
+
+## La voce dell’anima `1989`
+
 Vanità.  
 Solo vanità.  
 La vanagloria  
@@ -84,7 +84,7 @@ di splendenti eroi
 di cartauomini  
 brucia  
 i vortici pensieri  
-dell'anima,  
+dell’anima,  
 la gioia  
 il sorriso  
 della natura  
@@ -101,9 +101,9 @@ spengono
 i sogni degli uomini  
 che piangono  
 al chiaro di luna.  
-  
-## LSD `1989`  
-  
+
+## LSD `1989`
+
 Love is feeling:  
 gli alberi delle case  
 che sono sui tetti,  
@@ -117,19 +117,19 @@ sai chi sono?
 Love is a feeling:  
 è una bella giornata  
 per morire.  
-  
-## Agonia `1989`  
-  
+
+## Agonia `1989`
+
 Deliziosa agonia  
-è l'amore  
+è l’amore  
 che ti prende  
 improvviso,  
 ti lascia straccio  
 alle onde di un mare  
 che non puoi fermare.  
-  
-## Il fiore in bocca `1989`  
-  
+
+## Il fiore in bocca `1989`
+
 Un amore non vissuto  
 un amore perduto,  
 una pagina di polvere  
@@ -138,9 +138,9 @@ dai mulini a vento
 soffia  
 nuvole confuse  
 di grovigli passioni.  
-  
-## Romeo a Giulietta `1989`  
-  
+
+## Romeo a Giulietta `1989`
+
 Se potessi vivere  
 in un palazzo sulla luna  
 con le stelle nel giardino,  
@@ -150,37 +150,37 @@ mettermi piano nel letto
 e toccare il tuo corpo  
 ti direi  
 che sono pazzo di te  
-e...  
-  
+e…  
+
 Ti sussurro  
-un sospiro nell'orecchio  
+un sospiro nell’orecchio  
 e leggo  
 la magia nei tuoi occhi.  
 Un ricordo, una bugia  
 una stella fulgente  
 brucia in un momento,  
-ma tu l'universo  
-solo tu...  
-  
+ma tu l’universo  
+solo tu…  
+
 Lo sto cercando dentro di te  
 lo posso vedere nei tuoi occhi  
 lo posso vedere nel tuo sorriso  
-mille volte un battito d'ali  
-finalmente l'ho trovato:  
-un prezioso gioiello...  
-  
+mille volte un battito d’ali  
+finalmente l’ho trovato:  
+un prezioso gioiello…  
+
 il tuo amore.  
-  
-## La mano della luna `1989`  
-  
+
+## La mano della luna `1989`
+
 Il pirata e la sua dama  
 volano per il mare  
 nel magico galeone,  
-guardando la scia d'amore  
+guardando la scia d’amore  
 nel tramonto rosso sole.  
-  
-## Un giorno di mezzaestate `1989`  
-  
+
+## Un giorno di mezzaestate `1989`
+
 Mi ricordo  
 di quelle notti  
 quando la vita  
@@ -197,9 +197,9 @@ che non ascolta
 il grido della vita  
 fuggire  
 dai campi di vittoria.  
-  
-## Pioggia `1989`  
-  
+
+## Pioggia `1989`
+
 Con la pioggia di sole  
 nel lago infuocato  
 cadeva  

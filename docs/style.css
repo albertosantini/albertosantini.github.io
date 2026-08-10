@@ -6,6 +6,14 @@
     src: url("fonts/ibm-plex-mono-400.woff2") format("woff2");
 }
 
+@font-face {
+    font-family: "IBM Plex Mono";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("fonts/ibm-plex-mono-400-italic.woff2") format("woff2");
+}
+
 :root {
     color-scheme: light;
     --bg: #ececea;
@@ -48,7 +56,7 @@ body {
     font-family: "IBM Plex Mono", monospace;
     font-size: 16px;
     font-weight: 400;
-    font-synthesis: style;
+    font-synthesis: none;
     line-height: 1.75;
 }
 
@@ -67,9 +75,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-b,
-strong {
+h6 {
     font-weight: inherit;
 }
 
@@ -129,6 +135,10 @@ a {
 .content {
     max-width: 760px;
     margin: 0 auto;
+}
+
+.content.is-story {
+    max-width: 700px;
 }
 
 @media (min-width: 681px) {
@@ -269,6 +279,12 @@ a {
     color: var(--muted);
 }
 
+.page-updated-symbol svg {
+    display: block;
+    width: 1em;
+    height: 1em;
+}
+
 .content h1,
 .content h2,
 .content h3 {
@@ -288,6 +304,7 @@ a {
 
 .content h2 {
     font-size: 1.1rem;
+    font-style: italic;
 }
 
 .content h3 {
@@ -315,6 +332,11 @@ a {
 .content code {
     font: inherit;
     color: var(--muted);
+}
+
+.content h2 code {
+    font-size: 0.8em;
+    font-style: normal;
 }
 
 .content hr {

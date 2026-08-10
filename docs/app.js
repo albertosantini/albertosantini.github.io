@@ -7,6 +7,8 @@ const SECTION_LABELS = {
     Me: "Scritti da me",
     AI: "Esperimenti con AI"
 };
+const PUBLICATION_ICON = '<svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M6 10V2m0 0L3 5m3-3 3 3" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const CREATION_ICON = '<svg viewBox="0 0 12 12" aria-hidden="true" focusable="false"><path d="M6 1.5 7.2 4.8 10.5 6 7.2 7.2 6 10.5 4.8 7.2 1.5 6 4.8 4.8Z" fill="currentColor"/></svg>';
 const DATE_FORMATTER = new Intl.DateTimeFormat("it-IT", {
     year: "numeric",
     month: "short",
@@ -74,13 +76,13 @@ function initEvents() {
 }
 
 async function boot() {
-    content.innerHTML = '<p class="loading">Caricamento...</p>';
+    content.innerHTML = '<p class="loading">Caricamento…</p>';
 
     try {
         entries = await fetchJson("texts.json");
         await renderRoute();
     } catch {
-        showError("Non riesco a caricare l'indice dei testi.");
+        showError("Non riesco a caricare l’indice dei testi.");
     }
 }
 
@@ -223,9 +225,9 @@ function updateFooter() {
     if (currentFile === HOME_FILE) {
         siteFooter.textContent = "AI usata per il sito e l’impaginazione.";
     } else if (entry && entry.section === "AI") {
-        siteFooter.textContent = "Esperimento di scrittura con AI, rivisto da me.";
+        siteFooter.textContent = "Generato con AI, rivisto da me.";
     } else {
-        siteFooter.textContent = "Testo scritto da me, rivisto con AI solo per i refusi.";
+        siteFooter.textContent = "Scritto da me, AI solo per i refusi.";
     }
 
     siteFooter.hidden = false;
@@ -257,7 +259,7 @@ function renderPageHeader(file) {
     const formattedPublishedAt = publication ? formatDate(publication.publishedAt) : "";
     const formattedCreatedAt = publication ? formatDate(publication.createdAt) : "";
     const publicationDetails = formattedPublishedAt
-        ? `<p class="page-updated"><span class="page-updated-group"><span class="page-updated-item page-updated-publication"><span class="page-updated-symbol" aria-hidden="true" title="Data di pubblicazione">⤴</span><time datetime="${escapeHtml(publication.publishedAt)}" aria-label="Data di pubblicazione: ${escapeHtml(formattedPublishedAt)}" title="Data di pubblicazione">${escapeHtml(formattedPublishedAt)}</time>, <span class="page-updated-version" aria-label="Versione ${escapeHtml(publication.mark)}" title="Versione">Mk ${escapeHtml(publication.mark)}</span></span></span><span class="page-updated-item page-updated-creation"><span class="page-updated-symbol" aria-hidden="true" title="Data di creazione">✦</span><time datetime="${escapeHtml(publication.createdAt)}" aria-label="Data di creazione: ${escapeHtml(formattedCreatedAt)}" title="Data di creazione">${escapeHtml(formattedCreatedAt)}</time></span></p>`
+        ? `<p class="page-updated"><span class="page-updated-group"><span class="page-updated-item page-updated-publication"><span class="page-updated-symbol" aria-hidden="true" title="Data di pubblicazione">${PUBLICATION_ICON}</span><time datetime="${escapeHtml(publication.publishedAt)}" aria-label="Data di pubblicazione: ${escapeHtml(formattedPublishedAt)}" title="Data di pubblicazione">${escapeHtml(formattedPublishedAt)}</time>, <span class="page-updated-version" aria-label="Versione ${escapeHtml(publication.mark)}" title="Versione">Mk ${escapeHtml(publication.mark)}</span></span></span><span class="page-updated-item page-updated-creation"><span class="page-updated-symbol" aria-hidden="true" title="Data di creazione">${CREATION_ICON}</span><time datetime="${escapeHtml(publication.createdAt)}" aria-label="Data di creazione: ${escapeHtml(formattedCreatedAt)}" title="Data di creazione">${escapeHtml(formattedCreatedAt)}</time></span></p>`
         : "";
 
     const headerClass = publication ? "page-header page-header-publication" : "page-header";

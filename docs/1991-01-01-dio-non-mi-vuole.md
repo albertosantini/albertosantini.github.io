@@ -13,15 +13,15 @@
 > angolo  
 > e dimenticata.  
 
--- `Ungaretti`
+— `Ungaretti`
 
 > A Brick e a Sissy,
 > e a tutti coloro che hanno amato questi due cani.
 
-> Il desiderio di realizzare l'impossibile
+> Il desiderio di realizzare l’impossibile
 > rende irrealizzabile il possibile.
 
-> La misura dell'amore di una donna è data dal grado di potere
+> La misura dell’amore di una donna è data dal grado di potere
 > con cui quella donna può punire chi soffre per lei.
 
 ## Capitolo 1: UNA STORIA
@@ -34,19 +34,19 @@ vantaggi dalla realtà o dalla verità? Ma dove vivo? Penso
 sempre, ma non so cosa penso. Finalmente ho capito. È così bello
 rimanere in silenzio mentre un amico ascolta la musica della tua anima.
 
-Era notte. Faceva caldo nella stanza dell'albergo Royal Dutch. Dalla finestra
+Era notte. Faceva caldo nella stanza dell’albergo Royal Dutch. Dalla finestra
 filtravano le luci al neon della città. Un uomo ed una donna
 discutevano.
 
 «Dammi la possibilità di spiegarti la situazione» disse Sik a Patty.
 
-«Siamo stati troppo tempo lontani l'uno dall'altro. Le cose sono cambiate, io
+«Siamo stati troppo tempo lontani l’uno dall’altro. Le cose sono cambiate, io
 sono cambiato, la guerra mi ha trasformato. Ti prego, ritorniamo insieme e
 proviamo di nuovo» continuò Sik.
 
 «Non lo so, Sik. Sono confusa. Hai sempre dimenticato il compleanno di nostro
 figlio. È nato quando tu eri qui, a migliaia di chilometri di distanza. Hai
-preferito la guerra alla famiglia, l'avventura alla responsabilità, e,
+preferito la guerra alla famiglia, l’avventura alla responsabilità, e,
 ora, ti dovrei anche credere. Perché saresti cambiato?» chiese Patty
 con il tono di voce di chi abbia già preso una decisione.
 
@@ -57,10 +57,10 @@ saprei che volto avrebbe nostro figlio.»
 che cercavano di farmi lo scalpo; quasi non trovavo il tempo per sopravvivere.
 Ma, Patty, il passato non conta. Ora voglio vivere con te, con nostro figlio e
 voglio dimenticare. La mia vita è cambiata perché i miei amici
-sono morti ed alcuni sono morti al mio posto. Là fuori c'è una
+sono morti ed alcuni sono morti al mio posto. Là fuori c’è una
 pallottola con inciso sopra il nome di ogni soldato e bisogna pregare che la tua
 pallottola non ti trovi. Capisci, non è una questione di addestramento,
-d'abilità, d'esperienza. No, no. La pallottola ti scova e sei morto. Non
+d’abilità, d’esperienza. No, no. La pallottola ti scova e sei morto. Non
 hai la possibilità di decidere. Dai, Patty, torniamo insieme.»
 
 «Ho poco tempo, Sik. È già stato difficile venire qui e ho chiesto molti
@@ -72,12 +72,12 @@ aereo per raggiungermi, ho pensato che le cose sarebbero andate per il verso
 giusto. Ho pensato: non ho avuto molta fortuna con le donne, ma la fortuna, ora,
 sta girando. È vero, non abbiamo molto tempo, ma è meraviglioso che
 stiamo insieme, parlando. Ho commesso molti errori da quando ci siamo
-conosciuti. Mi sono arruolato nell'esercito senza pensare al nostro futuro. Ti
+conosciuti. Mi sono arruolato nell’esercito senza pensare al nostro futuro. Ti
 ricordi la notte prima che partissi, che scappassi: siamo andati al lago. Ti
 volevo dire che andavo via perché avevo paura di amarti troppo e non ti
 dissi niente perché avevo paura che smettessi di amarmi. Maledizione al
-gioco di parole. È difficile spiegarlo. Siamo stati sdraiati sull'erba, mano
-nella mano, tutta la notte, mentre guardavamo le stelle. Venne l'alba e mi
+gioco di parole. È difficile spiegarlo. Siamo stati sdraiati sull’erba, mano
+nella mano, tutta la notte, mentre guardavamo le stelle. Venne l’alba e mi
 baciasti. Poi ti sei seduta sopra il mio corpo e mi hai sussurrato parole di un
 altro mondo. Ci siamo spogliati ed abbiamo spento la nostra passione nelle acque
 fredde del lago.»
@@ -88,14 +88,14 @@ nostro figlio ebbe inizio» disse Patty senza trasporto.
 «Oh, Patty. Ho sbagliato a non dirti che non partivo, ho sbagliato a non
 confidarti le mie paure, ma ti amo, ti ho sempre amato.»
 
-Patty s'avvicinò a Sik, che aprì le braccia per stringere a sé il
+Patty s’avvicinò a Sik, che aprì le braccia per stringere a sé il
 corpo che sognava durante le sortite nella giungla. Il grido di una sirena
 entrò per la finestra, rompendo il magico momento.
 
-Patty si fermò e disse: «Non posso. Anch'io t'amo, ma non ti posso
+Patty si fermò e disse: «Non posso. Anch’io t’amo, ma non ti posso
 perdonare. Quella notte mi hai abbandonata con un figlio, con tuo figlio nel
 ventre. Non posso rischiare che ci abbandoni di nuovo. Mi sono costruita
-un'altra vita: ho una casa, un'automobile, un lavoro, un conto in banca, molti
+un’altra vita: ho una casa, un’automobile, un lavoro, un conto in banca, molti
 amici. Sono felice. Quella notte tu hai scelto per entrambi, ora tocca a me
 decidere, per me e per te. Non voglio ritornare a vivere insieme. Ho già
 chiamato un avvocato per iniziare le pratiche del divorzio. Non prendertela, Sik.
@@ -110,9 +110,9 @@ Sik si mise a piangere, singhiozzava.
 Il mio aereo sta per partire. Devo andare.» Sik continuava a singhiozzare,
 mentre Patty si dirigeva verso la porta.
 
-Ma, al di là della porta, c'era qualcuno che origliava.
+Ma, al di là della porta, c’era qualcuno che origliava.
 
-«Ehi, Sik, ti vuoi dare una mossa. Il tuo periodo è finito. Molla l'osso
+«Ehi, Sik, ti vuoi dare una mossa. Il tuo periodo è finito. Molla l’osso
 ed esci. Ora tocca a me. Dai, Sik, esci che sono stanco di aspettare, hai
 capito?»
 
@@ -121,25 +121,25 @@ capito?»
 «Addio, Patty, ti amo» disse Sik con gli occhi gonfi dalle lacrime.
 
 Una luce diffusa riempì la stanza e Patty scomparve. Sik Sullivan si era
-svegliato da un sogno. La camera da letto dell'albergo non era altro che un
+svegliato da un sogno. La camera da letto dell’albergo non era altro che un
 laboratorio pieno di telecamere, cavi, quadri di comando, scatole nere,
 generatori, lampadine, bottoni e leve. Sik impiegava sempre un certo tempo per
-riprendersi da una seduta dell'Ologramma Solido Sofisticato; esso era stato
+riprendersi da una seduta dell’Ologramma Solido Sofisticato; esso era stato
 inventato per creare ologrammi dai ricordi dei soldati, affinché non
 perdessero contatto con la realtà e dimenticassero gli orrori della
-guerra. Il tecnico s'avvicinò al generatore del laser e lo toccò
+guerra. Il tecnico s’avvicinò al generatore del laser e lo toccò
 come se stesse accarezzando un bambino, poi si rivolse a Sik.
 
 «Non dovrei impicciarmi in cose che non mi riguardano, ma sei fortunato se la
 tipa ti ha lasciato, sembrava insopportabile.»
 
-Bruce entrò nella sala dell'OSSO e disse al tecnico: «Bill, creami la
+Bruce entrò nella sala dell’OSSO e disse al tecnico: «Bill, creami la
 spiaggia di Santa Monica, con quella bionda; e le onde, anche, belle alte. Oggi
-m'infilo in un paio di tunnel.»
+m’infilo in un paio di tunnel.»
 
 Poi scontroso disse a Sik: «Ehi, Sik, cosa volevi fare? Passare tutto il giorno
-qui dentro. Scommetto che hai ricordato l'ultima volta che ti sei incontrato con
-la tua ex moglie. Sei un maniaco. Invece di divertirti, t'incrosti con quel
+qui dentro. Scommetto che hai ricordato l’ultima volta che ti sei incontrato con
+la tua ex moglie. Sei un maniaco. Invece di divertirti, t’incrosti con quel
 stupido ologramma. Surf e belle donne, questa è vita.»
 
 Sik si era ripreso completamente e si stava alzando dalla poltrona virtuale per
@@ -149,7 +149,7 @@ impediva che si sfilasse.
 «Ragazzi, venite ad aiutarmi, non riesco a sganciarlo» disse Sik indicando il
 groviglio di fili sulla sua testa.
 
-Bruce e Bill si voltarono per guardare come Sik annaspava con le mani nell'aria.
+Bruce e Bill si voltarono per guardare come Sik annaspava con le mani nell’aria.
 
 Bruce, ridendo, disse: «Vuoi che ti chiami la mamma, bambino caro?»
 
@@ -158,27 +158,27 @@ sia divertito» disse Bill con aria professionale.
 
 Entrambi si avvicinarono a Sik ed iniziarono a staccare le connessioni. Non
 avevano ancora staccato il circuito principale che il quadro comandi
-s'illuminò di rosso ed un allarme stridulo iniziò a
+s’illuminò di rosso ed un allarme stridulo iniziò a
 gracchiare.
 
 Bill diventò improvvisamente serio ed urlò: «La leva, abbassa
-immediatamente la leva d'alimentazione, ora!»
+immediatamente la leva d’alimentazione, ora!»
 
 «Che cosa sta succedendo, Doc? Il videogioco si è rotto?» chiese Bruce.
 
 «Fate qualcosa, toglietemi il casco, ora, o ve ne pentirete» disse Sik
 preoccupandosi.
 
-Il tecnico si lanciò sulla leva e l'abbassò; poi corse al pannello
-comandi e mosse velocemente alcuni interruttori. L'allarme continuava a suonare
+Il tecnico si lanciò sulla leva e l’abbassò; poi corse al pannello
+comandi e mosse velocemente alcuni interruttori. L’allarme continuava a suonare
 e le luci non si spegnevano. I sensori erano al rosso vivo, il casco emanava
 scintille bioenergetiche. E, mentre Bruce e Bill osservavano Sik avvolto in un
 aura elettromagnetica, successe di nuovo.
 
-Swap. Zap, zapping, zap za z...
+Swap. Zap, zapping, zap za z…
 
-Il film è interrotto dall'ennesima pubblicità. Cambio canale e le
-immagini sbiadiscono nella mia mente e sulla retina s'imprimono le noiose
+Il film è interrotto dall’ennesima pubblicità. Cambio canale e le
+immagini sbiadiscono nella mia mente e sulla retina s’imprimono le noiose
 nozioni pubblicitarie. I canali della televisione sono i burattini del
 telecomando, ma, fuori di me, non esiste la pubblicità. Penso alla mia
 storia ed alle storie che scrivo per gli amici: non ho ancora scritto la mia. È
@@ -189,7 +189,7 @@ non sarò più un bambino, mi sparerò. Non ho ancora deciso
 se è meglio puntare la canna alla tempia, il colpo potrebbe anche non
 uccidermi, o nella bocca. Forse proverò dolore; ho paura del dolore
 fisico. Ma esiste un dolore più crudele di quello fisico, che lacera
-l'anima e apre ferite che sanguinano felicità.
+l’anima e apre ferite che sanguinano felicità.
 
 Non sto dormendo, ho gli occhi aperti, ma ho ancora gli incubi; e mi dicevano
 che, quando, nella vita, incontri un ostacolo, non bisogna chiudere gli occhi
@@ -202,7 +202,7 @@ con la mano mi sfiorò la guancia e mi cullò al ritmo di una nenia
 appena mormorata. Ero un bambino stretto fra le braccia di sua madre. Assunsi la
 posizione fetale, ritornai ad essere uno con chi mi diede la luce. Dimenticai il
 rumore della vita, che giungeva alle orecchie senza tregua, ed ascoltai il
-battito sincronizzato dei due cuori: ttaamm ttuumm... ttaamm ttuumm.
+battito sincronizzato dei due cuori: ttaamm ttuumm… ttaamm ttuumm.
 
 Imparai di nuovo che non ero solo, non ero più solo. Solo. Allora mi
 staccai impercettibilmente dal corpo a cui stavo avvinghiato, afferrai il
@@ -213,10 +213,10 @@ mamma, diedi la buonanotte e già, quando la porta si stava socchiudendo,
 cominciai a sognare. Sognavo di correre, sognavo quella corsa che non ho corso e
 che ho sempre voluto vincere.
 
-Ero in mutande davanti allo specchio; fuori c'era il sole. Cominciavo a sentire
-la musica della vittoria, vivere nell'aria, presagio d'una funesta illusione.
+Ero in mutande davanti allo specchio; fuori c’era il sole. Cominciavo a sentire
+la musica della vittoria, vivere nell’aria, presagio d’una funesta illusione.
 Indossai le calze di cotone, i calzoni di felpa della tuta ed appoggiai sopra le
-spalle il maglioncino; il colore blu dei pantaloni e l'odore di gomma delle
+spalle il maglioncino; il colore blu dei pantaloni e l’odore di gomma delle
 scarpe nuove da ginnastica si mescolavano con la maglietta bianca, che
 rifletteva una strana assenza di tensione. Avevo vissuto il momento della
 partenza mille volte: caricare i muscoli fino allo spasmo, scaricarli al via in
@@ -224,11 +224,11 @@ una corsa di cento metri senza fiato, ed io che alla fine tagliavo il traguardo
 per primo. Le congratulazioni degli amici.
 
 Lo sguardo compiaciuto e soddisfatto dei miei, che, con una pacca virile sulla
-spalla, sistemavano l'evento in una scatola dimenticata nello sgabuzzino. Ma,
+spalla, sistemavano l’evento in una scatola dimenticata nello sgabuzzino. Ma,
 per un momento, la certezza di aver fatto qualcosa che altri non erano stati
 capaci e, senza ulteriori verifiche, il consenso di tutti mi riempiva di luce
 spavalda: sarei diventato un uomo, o così credevo. A quel punto la porta
-chiusa della mia camera s'aprì e s'affacciò mio padre. Non disse
+chiusa della mia camera s’aprì e s’affacciò mio padre. Non disse
 più parole di quelle necessarie; quasi con un mezzo sorriso fra le
 labbra, stampato nei denti, disse che quel pomeriggio non sarei potuto uscire,
 non avrei potuto partecipare ai campionati studenteschi di atletica. Non potevo
@@ -237,30 +237,30 @@ dopo, un muro pesantissimo, alto come una montagna, mi cadde addosso. Gli
 applausi, la medaglia, il petto gonfio di gloria sfocarono lontani,
 irraggiungibili. Non opposi resistenza: mi guardai e mi feci schifo, piansi.
 
-Mi alzo dalla sedia, stropiccio gli occhi, m'affaccio alla finestra. L'aria
-pungente d'inizio autunno solidifica i miei polmoni. Osservo la vita nella
+Mi alzo dalla sedia, stropiccio gli occhi, m’affaccio alla finestra. L’aria
+pungente d’inizio autunno solidifica i miei polmoni. Osservo la vita nella
 natura. La vita non è una fotocopia, che salvo nella memoria, che getto
-senza storia, una collezione d'immagini astratte, è una morte senza boria
-(che Dio m'abbia in gloria). Le bozze d'acquarello si trasformano sotto il mio
+senza storia, una collezione d’immagini astratte, è una morte senza boria
+(che Dio m’abbia in gloria). Le bozze d’acquarello si trasformano sotto il mio
 sguardo: la mezzaluna, che riposa sulla collina, sopra il blu notte, sotto il
-rosso morente, ti stringe l'occhio, alza una spalla, et voilà, vicino a
+rosso morente, ti stringe l’occhio, alza una spalla, et voilà, vicino a
 me una stella. Le fronde degli alberi, scure ed indistinguibili, abbracciano la
 luce che sgorga dalla luna. Non più terra di sogni e di desideri da
-quando l'uomo ha lasciato l'impronta. Ritorno alla mia droga. Schiaccio il
+quando l’uomo ha lasciato l’impronta. Ritorno alla mia droga. Schiaccio il
 bottone del telecomando. Il puntino luminoso, in mezzo allo schermo nero,
-s'ingigantisce in un lampo accecante, le immagini traballano e, poi, si
+s’ingigantisce in un lampo accecante, le immagini traballano e, poi, si
 stabilizzano, dopo aver rimbalzato su e giù dentro la realtà
 virtuale. Le labbra degli attori si muovono, ma sento soltanto il ronzio delle
 zanzare vicino ai piedi; anche il sonoro, lentamente, come se resuscitasse da un
-posto lontano, è nell'aria. La televisione è accesa.
+posto lontano, è nell’aria. La televisione è accesa.
 
-## Capitolo 2: UN'ALTRA STORIA
+## Capitolo 2: UN’ALTRA STORIA
 
-Penso che quando morirò, ricorderò quell'amica che ha scritto una
+Penso che quando morirò, ricorderò quell’amica che ha scritto una
 mia poesia, una poesia dedicata a lei, su una maglietta bianca; le parole blu,
 sparse sul cotone, ricordano le punte di nostalgia che provavo mentre le ho
 scritto. Soltanto una voce suona forte nella mia testa, mi domanda: ed ora che
-fai, ed ora che fai, ora che fai, che fai, fai, dimmelo? Un'altra volta ancora
+fai, ed ora che fai, ora che fai, che fai, fai, dimmelo? Un’altra volta ancora
 mi domanda la stessa nenia, ma non ho una risposta; non riesco a prendere sonno,
 tanto è il rumore della mia coscienza.
 
@@ -268,15 +268,15 @@ Clic, cambio canale.
 
 «Baciami» disse Sik.
 
-«Non penso che...» sospirò Patty.
+«Non penso che…» sospirò Patty.
 
 «Non pensare. Baciami.»
 
-Sik e Patty s'avvicinarono. Sik le cinse la vita con una mano e mise l'altra
+Sik e Patty s’avvicinarono. Sik le cinse la vita con una mano e mise l’altra
 dietro la nuca. Strinse Patty al suo corpo e appoggiò le labbra a quelle
-di lei. Ella s'inclinò leggermente e assecondò il movimento con il
+di lei. Ella s’inclinò leggermente e assecondò il movimento con il
 bacino. Le mani di Patty erano dovunque sul corpo di Sik. Nel momento in cui Sik
-introduceva la lingua nella bocca di Patty, ella s'allontanò bruscamente.
+introduceva la lingua nella bocca di Patty, ella s’allontanò bruscamente.
 Vi fu un momento di silenzio e terrore. Un dialogo segreto iniziò fra i
 loro occhi.
 
@@ -286,14 +286,14 @@ loro occhi.
 
 «Non posso farlo, né posso continuare a vivere con te. Il tuo ritmo, le
 tue abitudini sono troppo diverse dalle mie. Non ci riesco. Non riesco a
-capirti. Tu, d'altra parte, non hai mosso un passo per venirmi incontro. Non ti
+capirti. Tu, d’altra parte, non hai mosso un passo per venirmi incontro. Non ti
 sei sforzato di capirmi. Tu non hai bisogno di me. Tu vuoi rimanere solo, sei
 solo, perché sei solo dentro. Trasmetti le tue paure alle persone che ti
 circondano, affinché si sentano in colpa. No, questa volta ti dico no.
 Basta. Le tue manie, i tuoi gesti, le tue battute, semplicemente mi dai la
-nausea. Questa è la mia storia: dal paradiso all'inferno in undici mesi.
+nausea. Questa è la mia storia: dal paradiso all’inferno in undici mesi.
 Dal dolce e ingenuo ragazzo, che conobbi in riva al mare, ti sei trasformato in
-un calcolatore e spietato uomo d'affari. Mia madre mi aveva avvisato, ma, io,
+un calcolatore e spietato uomo d’affari. Mia madre mi aveva avvisato, ma, io,
 cretina, ho voluto far di testa mia. E guardati. Stai lì come un idiota.»
 
 «Cara Patty, ti sei, forse, bevuta il cervello. Che cosa mi stai dicendo? Sono
@@ -302,26 +302,26 @@ ricordi chi eri quando ci siamo incontrati, né ti ricordi quando ti
 strusciavi, chiedendomi di farlo ancora, solo qualche ora dopo che ci siamo
 conosciuti» disse tranquillo Sik.
 
-«Bastardo! Tu volevi un'altra madre, non una moglie» aggiunse come una furia
+«Bastardo! Tu volevi un’altra madre, non una moglie» aggiunse come una furia
 Patty.
 
-«Sei una... Non ho ancora finito di parlare, non interrompermi.»
+«Sei una… Non ho ancora finito di parlare, non interrompermi.»
 
 «Oh. Il grande chirurgo non vuole che sia interrotto quando parla. Così
-parlò l'uomo dai mille miracoli. Se sei così felice in ospedale,
+parlò l’uomo dai mille miracoli. Se sei così felice in ospedale,
 perché non passi anche le notti con i tuoi pazienti, o con le infermiere,
 anziché venire nel mio letto, disturbandomi.»
 
 «Certo, certo. Tu sei intelligente, un genio e i piccoli problemi, che dico
 problemi, le piccole inezie di una moglie non contano in confronto ad una
-operazione a cuore aperto o ad un trapianto. Nooo. Prima viene l'ospedale, i
-pazienti, che morissero tutti, il dovere, poi la casa, l'auto ed infine la
+operazione a cuore aperto o ad un trapianto. Nooo. Prima viene l’ospedale, i
+pazienti, che morissero tutti, il dovere, poi la casa, l’auto ed infine la
 mogliettina, la cara Patty.»
 
 «Sei ubriaca. Non sai quello che stai dicendo. Vai a letto, è meglio;
 domani avrai le idee più chiare.»
 
-«Non significa niente che t'ami?»
+«Non significa niente che t’ami?»
 
 «Vai a dormire, cara, è tardi.»
 
@@ -358,7 +358,7 @@ mediocre.»
 
 Patty gli diede le spalle e camminò verso la scala che portava alle
 camere. Sik vide un sorriso malizioso, stampato sulla bocca di Patty, prima che
-si girasse, e sentì l'ira crescere dentro di sé. Voleva fermarla e
+si girasse, e sentì l’ira crescere dentro di sé. Voleva fermarla e
 sapere la verità. La raggiunse a balzi e la tirò per un braccio,
 violentemente. Patty non parlò, scoppiò in una risata. Allora Sik
 le diede una sberla ed ella cadde sul pavimento. Quando fu seduta
@@ -370,38 +370,38 @@ odiava sentir piangere.
 Patty si mise decisamente a piangere più forte. Adirato Sik disse
 seccamente di smetterla. Egli cercò di spingerla su per le scale,
 affinché andasse di sopra e non la sentisse più. Ma Patty non si
-muoveva; era seduta sull'ultimo scalino con in mano il fazzoletto, trattenendo
+muoveva; era seduta sull’ultimo scalino con in mano il fazzoletto, trattenendo
 invano i singhiozzi. In quel momento Sik si trasformò in un animale.
 Prese il candelabro, appoggiato sul comò, e lo abbassò con tutta
-la sua forza sulla testa di Patty. Una volta, due volte, un'altra volta.
+la sua forza sulla testa di Patty. Una volta, due volte, un’altra volta.
 Finalmente il silenzio regnò in casa.
 
 La brezza della sera mi saluta attraverso la finestra aperta; una farfalla entra
 e si posa sulla mia spalla, poi vola via, lasciando uno spruzzo di polvere rossa
 sul tessuto bianco del divano.
 
-Era estate. Era una calda estate del settantanove. L'idea fu mia: perché
-non andiamo da qualche parte a prendere una boccata d'aria fresca? Perché
+Era estate. Era una calda estate del settantanove. L’idea fu mia: perché
+non andiamo da qualche parte a prendere una boccata d’aria fresca? Perché
 no, fu la risposta. Così quel pomeriggio mia madre potette innamorarsi
 perdutamente di un uomo che non avevo visto prima. Ci trovavamo in un locale
-lungo l'argine d'un fiume. Non avevo fame, né sete. C'era molta gente,
+lungo l’argine d’un fiume. Non avevo fame, né sete. C’era molta gente,
 soprattutto attorno ad un tavolo in particolare. Ho capito soltanto più
 tardi il significato della parola amore. Sembrava di stare davanti al televisore
 e rivedere uno di quegli insopportabili film, visti e rivisti, scambiando gli
 attori con attori di altri film, mescolando le battute e situazioni di altri
 come se le avessi già dette tempo addietro.
 
-La vidi, per la prima volta, in ospedale; c'incontrammo per caso: mi trovavo
+La vidi, per la prima volta, in ospedale; c’incontrammo per caso: mi trovavo
 lì in visita a mia sorella Barbara, invece lei aveva accompagnato
-un'amica, la cui cugina aveva il letto vicino a quello di mia sorella.
-All'inizio non ci guardammo, poi cominciai ad attaccare bottone con l'amica ed
-una cosa tirò l'altra. Andammo in corsia a parlare ed il tempo
+un’amica, la cui cugina aveva il letto vicino a quello di mia sorella.
+All’inizio non ci guardammo, poi cominciai ad attaccare bottone con l’amica ed
+una cosa tirò l’altra. Andammo in corsia a parlare ed il tempo
 passò in fretta. Con una finta naturalezza ci dicemmo i nostri nomi,
-quasi sussurrando segreti di un altro mondo. Avevo un nodo alle budella, l'odore
+quasi sussurrando segreti di un altro mondo. Avevo un nodo alle budella, l’odore
 rancido del sudore nervoso saliva dalle mie ascelle al naso, che, in quel
 momento, mi sembrava grandissimo; avevo una grande voglia di scappare da quel
 posto, andarmene il più velocemente possibile, ma i miei piedi erano
-inchiodati all'asettico pavimento e miei occhi erano fissi su di lei, su Lia.
+inchiodati all’asettico pavimento e miei occhi erano fissi su di lei, su Lia.
 Aveva un caschetto di capelli riccioli che le coprivano parzialmente gli occhi
 verdi. La bocca era carnosa, socchiusa in un morso di passione; il corpo sinuoso
 si muoveva al ritmo di una musica, che gli altri non potevano udire,
@@ -409,11 +409,11 @@ perché era dentro di noi. La tensione crebbe fino a quando Lia
 parlò di nuovo per invitarmi alla festa che si sarebbe tenuta domenica
 prossima a casa sua. Accettai senza riserve.
 
-Quando m'innamoro, tutto diventa confuso e complicato. I relitti delle
-irrevocabili decisioni e delle irremovibili certezze d'un tempo vengono spazzati
-lontano dopo la tempesta di sentimenti; non resisto all'impulso di stringere a
+Quando m’innamoro, tutto diventa confuso e complicato. I relitti delle
+irrevocabili decisioni e delle irremovibili certezze d’un tempo vengono spazzati
+lontano dopo la tempesta di sentimenti; non resisto all’impulso di stringere a
 me il corpo che bramo e, nello stesso tempo, vorrei essere mille miglia lontano,
-per non vedere, per non sentire, per non amare. Poi, all'improvviso, la nebbia
+per non vedere, per non sentire, per non amare. Poi, all’improvviso, la nebbia
 si dissolve e guardo il mondo che mi circonda con colori talvolta sgargianti,
 talvolta color pastello, impastati e sbiaditi.
 
@@ -423,7 +423,7 @@ mamma grida con il papà, che il papà alza le spalle e poi alza la
 voce, già perché i papà non gridano, che la mamma esce di
 casa e non torna per il bacio della buonanotte, che il papà porta troppi
 regali, e non è Natale; vede le occhiate fra la mamma ed il papà,
-i singhiozzi dell'uno o dell'altro dietro la porta chiusa della camera da letto,
+i singhiozzi dell’uno o dell’altro dietro la porta chiusa della camera da letto,
 le porte sbattute, i surgelati per cena, gli squilli del telefono in piena
 notte, gli occhi dei vicini che si abbassano ed un groppo allo stomaco. Che cosa
 si può dire a questo bambino? Di giocare con le macchinine, di leggere
@@ -432,7 +432,7 @@ allontanano, trascinati da una corrente, che li porta su sponde opposte del
 fiume della vita.
 
 Anche adesso quando guardo nei ricordi vedo volti a cui avrei potuto sorridere
-almeno una volta, ma non l'ho fatto; avrei potuto stringere la mano e chiedere
+almeno una volta, ma non l’ho fatto; avrei potuto stringere la mano e chiedere
 scusa, avrei potuto fare molte cose, ma non ne ho fatta alcuna e quello che ho
 fatto mi sembra sbagliato. Se avessi combattuto in una guerra avrei capito che
 le mie paure sono inutili? o no? invece vi è una guerra dentro di me e
@@ -464,64 +464,64 @@ sofferenza, nel volere, ma non potere. E così giorno dopo giorno mi
 consumo lentamente, rinviando gli orrori personali, trovando compromessi con la
 mia coscienza. Ma non desisto di vivere. Gli amici parlano con il guscio di una
 cozza vuota, ma, naturalmente, non lo sanno; il mare purificatore ha corroso
-l'interno, ha lasciato la maschera, anche quella senza forma, anonima; un'amica,
-parlando con l'anima della cozza, ha confidato di credersi trasparente: pur
+l’interno, ha lasciato la maschera, anche quella senza forma, anonima; un’amica,
+parlando con l’anima della cozza, ha confidato di credersi trasparente: pur
 sempre un granello di sabbia entra fra le labbra del mollusco e, dopo anni di
 ricordo, nasce una perla, che qualcuno, forse, porterà al collo, che
-tutti potranno ammirarla; già ora quest'amica è la più rara
+tutti potranno ammirarla; già ora quest’amica è la più rara
 delle perle, la più invidiata, la più preziosa.
 
 Non ho imparato molto dalla vita, ma ringrazio gli amici, per avermi insegnato
-un sentimento, che si dimentica con il passare degli anni: l'amore, l'amore
-verso le altre persone, l'amore per sé stessi. Mi accorgo soltanto ora quanto
+un sentimento, che si dimentica con il passare degli anni: l’amore, l’amore
+verso le altre persone, l’amore per sé stessi. Mi accorgo soltanto ora quanto
 sia importante avere stima di sé stessi, aver cura del proprio corpo ed allenare
-la mente; è necessario esercitarsi nell'autocontrollo, per soggiogare le
-forze che trasportano lontano dal centro d'equilibro; bisogna essere pazienti e
-guardare dietro la maschera, che nasconde l'anima di ciascuna persona. Amore
+la mente; è necessario esercitarsi nell’autocontrollo, per soggiogare le
+forze che trasportano lontano dal centro d’equilibro; bisogna essere pazienti e
+guardare dietro la maschera, che nasconde l’anima di ciascuna persona. Amore
 significa sacrificio, significa capire per capirsi, consumare una parte di noi
-stessi in favore di un'altro essere, che è e non è in noi,
+stessi in favore di un’altro essere, che è e non è in noi,
 corrodere quella parte di razionalità che limita i nostri pensieri,
 lottare contro la camicia di forza che ci costringe a pensare, a non giudicare
 secondo la vanità di chi ci giudica, infine essere una nota in uno
 spartito di un concerto: sola e insignificante, una chiazza nera fra cinque
-righe, ma in armonia con le note che la precedono e la seguono; un tutt'uno che
-risuona, canta e balla in mezzo all'aria, una sinfonia, un festa.
+righe, ma in armonia con le note che la precedono e la seguono; un tutt’uno che
+risuona, canta e balla in mezzo all’aria, una sinfonia, un festa.
 
-In quest'ultimo giorno non so cosa fare. Tutte le attività umane si
+In quest’ultimo giorno non so cosa fare. Tutte le attività umane si
 sciolgono fra le mie dita. Tutto mi pare così inutile e noioso. Quella
-sensazione del 'perché?' mi sta invadendo poco a poco e le preoccupazioni
+sensazione del ‘perché?’ mi sta invadendo poco a poco e le preoccupazioni
 stanno svanendo. Non ho nessun amico a cui posso passare il testimone, il sacco
-delle mie ansie; di tutti gli altri già conosco l'indifferenza che
+delle mie ansie; di tutti gli altri già conosco l’indifferenza che
 affiora nella conversazione, mentre abbassano gli occhi, temendo che possa
 trasmettere la mia pazzia attraverso un solo sguardo.
 
 Che cosa è una lettera se non un album di parole stropicciate, di foto
 ingiallite, che hanno la pretesa di raccontare la vita di una persona; come se
 un segno nero, inciso sulla corteccia di un albero, potesse esprimere
-l'amicizia, la passione, l'amore. Navigo, di notte, in mezzo all'oceano senza
+l’amicizia, la passione, l’amore. Navigo, di notte, in mezzo all’oceano senza
 rotta, ma una stella, la più luminosa, mi guida verso il porto; lontano
-è il faro che m'indica gli scogli, i relitti ed altri pericoli, ma ho
+è il faro che m’indica gli scogli, i relitti ed altri pericoli, ma ho
 visto una stella e la inseguo. Lì vicino la luna, che guarda e sorride;
 già conosce la storia, la storia del marinaio e della stella. Non vado,
 in porto in porto, per cercare gemme preziose o porcellane raffinate,
 perché nel mio cuore ho già una stella: sei tu e sei la più
 bella. Sei nella mia mente e sei fuori di me, ma non ti riesco a trovare; ti
 cerco disperatamente prima che impazzisca del tutto. Il buio della mia mente non
-si dirada al canto del tuo richiamo. L'anima, senza retorica, si strugge, si
+si dirada al canto del tuo richiamo. L’anima, senza retorica, si strugge, si
 batte se non ti è accanto. Non posso vivere senza di te: ma dove sei? Ho
 cercato tra i petali dei fiori, tra le onde del mare fra le ali delle farfalle,
 nei miei pensieri, vedo la tua figura eterea, ma non riesco ad afferrarla, a
 trattenerla. Per un solo attimo che le mie dita potessero accarezzare il tuo
-seno, baciare le tue labbra voluttuose, infine sentire l'intero corpo fremere
+seno, baciare le tue labbra voluttuose, infine sentire l’intero corpo fremere
 sotto i colpi della passione. Quei segni ingialliti sulla carta da lettere si
 staccano dal foglio, resuscitati dal tuo profumo, che, ancora, la carta
 trattiene: danzano in cerchio, attorno alla stilografica, tentando di
-esorcizzare un uomo in preda ai fumi dell'amore. E vedo scorrere la mia storia,
+esorcizzare un uomo in preda ai fumi dell’amore. E vedo scorrere la mia storia,
 scorgo gli errori, a cui oramai non posso riparare, intravedo le fatali
-esitazioni, vago tra il mio passato in cerca dell'errore definitivo, quello che
+esitazioni, vago tra il mio passato in cerca dell’errore definitivo, quello che
 mi ha allontanato senza speranza da te, il punto di non ritorno. Inesorabilmente
 gli eventi convergono in quei pochi secondi; forse fu meno di un secondo, quello
-in cui tu persi il controllo dell'auto e ti schiantasti su un anonimo muro di
+in cui tu persi il controllo dell’auto e ti schiantasti su un anonimo muro di
 cemento.
 
 Quando mi trovo sul ciglio di una profonda gola, allungo disperatamente la mano,
@@ -535,14 +535,14 @@ riesco a riconoscermi. E come se, dopo essermi drogato, riuscissi ancora ad
 essere legato alla viscida realtà. Cerco di risalire il palo, che mi trae
 alla salvezza, ma non ho nessun appiglio e continuo a scivolare. Anche ora
 vorrei lacerare la maschera che mi tiene prigioniero e gridare che tutto
-è falso, che è un'invenzione letteraria... sarebbe un'altra pedina
+è falso, che è un’invenzione letteraria… sarebbe un’altra pedina
 che si sposta sulla grande scacchiera, una mossa in più che non cambia la
 situazione, una mossa calcolata. Come mi posso disfare dei fili che muovono il
 burattino che è dentro di me, che controllano i miei nervi: devo buttare
 lontano il mio corpo, devo gettarlo, devo rimanere spirito per librarmi libero
-nell'aria.
+nell’aria.
 
-E se Dio non mi volesse? Ci si vede nell'altra vita.
+E se Dio non mi volesse? Ci si vede nell’altra vita.
 
 ## Capitolo 4: BASTARDO
 
@@ -550,7 +550,7 @@ Mi sento sporco. Non ho colpa se gli eventi mi trascinano in una direzione,
 tuttavia non muovo un dito per mutare il mio destino. Una sera, al mare, sono
 uscito con un amico, una persona che conoscevo. Mi sento sporco. Siamo andati su
 per una collina, su una strada sterrata. Ci siamo fermati. Abbiamo guardato per
-qualche minuto il mare, poi mi ha preso la mano e l'ha appoggiata sopra il suo
+qualche minuto il mare, poi mi ha preso la mano e l’ha appoggiata sopra il suo
 sesso. Mi disse di toccarlo e di toccarmi, che mi sarebbe piaciuto. Non feci
 niente per impedirlo. Non provai piacere. Diventai spettatore del mio disgusto.
 Ci masturbammo e provai un senso di delusione quando la cosa ebbe termine.
@@ -564,7 +564,7 @@ testa, la realtà e la mia testa, una buffa compagnia. Non riesco a voler
 bene ad una persona senza ferirla. Sempre arrivo ad un momento di tensione in
 cui dico o faccio qualcosa che compromette la relazione stabilita; subito dopo
 mi pento di aver detto quelle cose senza senso e, sebbene chieda scusa, mi sento
-un verme; il peso di aver sbagliato un'altra volta mi opprime, perché
+un verme; il peso di aver sbagliato un’altra volta mi opprime, perché
 sono disorientato, non riesco a prendere una decisione.
 Le movenze sono grazia. La grazia è la danza. La danza è magia. La
 magia è nelle movenze.
@@ -575,77 +575,77 @@ svolazzano per terra guardiamo la nostra vita ma mi preoccupo della tua,
 perché sei così lontana ed io mi sono innamorato di te ed io vivo
 bene solo se sono insieme a te ed io ed io aspetto che il giorno finisca, che il
 sole si butti dietro la collina per correre da te ed abbracciarti che cosa
-c'è, che cosa si può dire di un ragazzo di ventiquattro anni che
-si è fatto una pera d'amore che guarda cadere le foglie degli alberi
+c’è, che cosa si può dire di un ragazzo di ventiquattro anni che
+si è fatto una pera d’amore che guarda cadere le foglie degli alberi
 attraverso la finestra, passano le ore o solo i secondi, dispero perché
 ancora non ti posso vedere, oddio, quanto ti amo. Come si può vivere senza
-te? Vicino all'ombelico sento strozzare e rivoltarsi le budella per trovare quel
+te? Vicino all’ombelico sento strozzare e rivoltarsi le budella per trovare quel
 coraggio che spinge gli uomini a confessare i propri sentimenti alle donne che
 amano; non dovrebbe essere un passo difficile, ma scalare la montagna più
-alta è un'impresa, forse, meno ardua. Ci sono alcuni giorni in cui mi
+alta è un’impresa, forse, meno ardua. Ci sono alcuni giorni in cui mi
 sento leggero, sarei in grado di volare, felice è una parola inadeguata
-per descrivere quello stato d'animo; e proprio in quei momenti mi ritrovo a
-pensare ad una donna, ad un'amica e vorrei che fosse vicina a me, che fosse
-anche lei innamorata di me, per favore che qualcuno mi ami. Non sopporto l'idea
-d'immaginare una donna che non abbia un volto, un corpo solo perché
+per descrivere quello stato d’animo; e proprio in quei momenti mi ritrovo a
+pensare ad una donna, ad un’amica e vorrei che fosse vicina a me, che fosse
+anche lei innamorata di me, per favore che qualcuno mi ami. Non sopporto l’idea
+d’immaginare una donna che non abbia un volto, un corpo solo perché
 è un ideale ed allora penso ad una donna a cui voglio bene, scambiando il
-mio affetto per amore... che tragico errore!
+mio affetto per amore… che tragico errore!
 
 Bisogna ancora credere negli unicorni, nelle favole in cui tutto finisce bene
 con un sorriso. Allora la vita ci sembra meravigliosa, perché possiamo
-ricordare quei momenti passati. Sono troppo lontani: impastati con l'assurda
+ricordare quei momenti passati. Sono troppo lontani: impastati con l’assurda
 voglia di rigetto che ci prende alla mattina, quando ci guardiamo allo specchio,
 e non vogliamo uscire allo scoperto. Si vive soltanto una volta, se dobbiamo
 morire abbiamo anche il diritto di vivere, se siamo in grado di morire, allora
 possiamo correre anche il rischio di vivere. Morire in mezzo alla foresta di
-siringhe o tra le parole di un negro cazzuto non c'è differenza. Mi
+siringhe o tra le parole di un negro cazzuto non c’è differenza. Mi
 ritrovo di notte a scrivere quando tutto tace, ma non la mia coscienza, che
 perfino insegue la mia ombra. Cerco di pulirmi dallo sporco del giorno, che
 rimane attaccato sui pori della pelle, che non mi lascia respirare, che mi
 chiude la bocca quando ho voglia di gridare. Allora mi butto sotto il letto,
-come da bambino, per credere di essere in un'astronave; quanto è passato dal
+come da bambino, per credere di essere in un’astronave; quanto è passato dal
 biscotto perso nel tempo? Comincio a grattare la rete del materasso, ipnotizzo
 il rantolo di polvere che si è formato in un angolo della stanza, il ballo del
 raggio di sole fra i drappeggi della tenda. Ma ancora penso a lei, perché
 lei mi ha dato tutto, lei è tutto quello che ho di mio dentro di me. Non
-posso dimenticare, scoppiare il palloncino e puff soltanto l'aria rimane fra
-l'aria ancora. Sospiro embè; dietro la luna ci sono i sogni; forse
+posso dimenticare, scoppiare il palloncino e puff soltanto l’aria rimane fra
+l’aria ancora. Sospiro embè; dietro la luna ci sono i sogni; forse
 sognare non è la stessa barca di vivere? Permetto al mio cuore di battere
 perché ho bisogno di amarla e di nuovo amarla finché strizzo il mio
-odio fino all'ultima goccia. Che bello rimanere abbracciati, mano nella mano,
+odio fino all’ultima goccia. Che bello rimanere abbracciati, mano nella mano,
 gustando i momenti passati, i momenti che verranno. Veramente la pace avvolge
-non solo le persone ma anche il mondo, perfino il tempo colorandolo con l'iride
+non solo le persone ma anche il mondo, perfino il tempo colorandolo con l’iride
 arcobaleno. Ti voglio bene.
 
 ## Capitolo 5: CHIARO DI LUNA
 
 Risalivo, a tentoni, il lunghissimo tunnel in cui ero caduto; in fondo brillava
-una luce che m'indicava la via d'uscita; crudele, perché, anche se
+una luce che m’indicava la via d’uscita; crudele, perché, anche se
 avanzavo, non riuscivo ad avvicinarmi. Risalivo la mia coscienza nel tentativo
-disperato di svegliarmi. All'improvviso un suono, una pulsazione regolare della
+disperato di svegliarmi. All’improvviso un suono, una pulsazione regolare della
 stessa nota, penetrò il buio; vidi avvicinarsi il piccolo puntino
 luminoso, come zoomato da una telecamera e mi ritrovai immerso in un altro
 mondo. Sentii il contatto del lenzuolo, con quel profumo che hanno le lenzuola
 appena lavate e del morbido cuscino sotto la mia testa. Era notte fonda e
-l'allarme della sveglia, senza motivo, era scattato.
+l’allarme della sveglia, senza motivo, era scattato.
 
 «Diventerò vecchia e crederò sempre di averlo saputo, ma non
 avrò mai una risposta.» Deglutì.
 
 «Penso? Io penso?» ansimò.
 
-Il metallo brillò, malgrado fosse un po' opaco. Per un istante il
-nastro, la griglia, l'elevatore, lo sfogliatore si paralizzarono, come se
+Il metallo brillò, malgrado fosse un po’ opaco. Per un istante il
+nastro, la griglia, l’elevatore, lo sfogliatore si paralizzarono, come se
 stessero cercando qualcosa che avevano perduto. Poi, nel grande capannone, il
-rumore ritornò assordante. Per un istante il rumore si trasformò in un'aria
-di Bach, come se le macchine si fossero ricordate di un'impresa difficile e
+rumore ritornò assordante. Per un istante il rumore si trasformò in un’aria
+di Bach, come se le macchine si fossero ricordate di un’impresa difficile e
 superba di campagne passate.
 
-«No!» Un urlo d'angoscia.
+«No!» Un urlo d’angoscia.
 
 Ho iniziato a lavorare qualche giorno dopo ferragosto. Ancora gironzolavano, per
-la città, alcuni zombi, che spalmavano i loro piedi sull'asfalto estivo.
-La fabbrica era uno scoppiettio d'attività, un formicaio che si gonfiava
+la città, alcuni zombi, che spalmavano i loro piedi sull’asfalto estivo.
+La fabbrica era uno scoppiettio d’attività, un formicaio che si gonfiava
 di concentrati, tubetti, polpa, passati. Un continuo stridulio di rulli, un
 ritorcere di latta, un macinare infernale, schizzi e sbotti, soffocavano il
 denso fumo che si levava dai forni; il cuore della fabbrica pulsava ad un ritmo
@@ -653,17 +653,17 @@ lento, ma inarrestabile. I giovani operai costruivano la loro distruzione. Le
 macchine inscatolavano sogni e ricordi, promettevano invane speranze.
 
 Il significato di un rituale o il rituale di un significato? Il conflitto del
-rumore, forse? O il rumore del conflitto, mi sembra. Un'assonanza senza senso.
+rumore, forse? O il rumore del conflitto, mi sembra. Un’assonanza senza senso.
 Sto guardando la vetrina di un negozio che vende cappelli e vedo due ragazze che
 ne stanno provando alcuni. Sto a guardarla. Passano i minuti ed io fuori come un
-ebete guardo due ragazze che si divertono, mentre s'infilano sulla testa i
+ebete guardo due ragazze che si divertono, mentre s’infilano sulla testa i
 più buffi cappelli. Non si accorgono di me. O forse sì però non lo
 danno a vedere. Mi domando se mi sto innamorando.
 
 Sik Sullivan era un quattro occhi di origine italiana. Era seduto davanti al
-terminale collegato con la libreria digitale per mezzo di un'interfaccia
+terminale collegato con la libreria digitale per mezzo di un’interfaccia
 miospinale. Stava cercando di sfondare un muro di contromisure elettroniche di
-livello sette, teoricamente insuperabile, ma Sik era all'attacco con uno dei
+livello sette, teoricamente insuperabile, ma Sik era all’attacco con uno dei
 suoi migliori cerca-informazioni, che sfruttava la corrente di spostamento. Sik
 era speciale. Si stava concentrando sulla distruzione di un programma, in cui
 bisogna eseguire la corretta combinazione di procedure per aggirarlo.
@@ -672,7 +672,7 @@ qualsiasi rete o sistema per recuperare determinate informazioni; si potevano
 programmare in modo che apprendessero dagli stessi dati acquisiti; erano, con un
 confronto biologico, virus muranti altamente reagenti; si potevano anche
 impiegare in misure di sicurezza, come difensori contro penetrazioni non
-autorizzate. All'improvviso un flusso di dati sgorgò dalla testa di Sik.
+autorizzate. All’improvviso un flusso di dati sgorgò dalla testa di Sik.
 Un Difensore si era riprodotto e traslato dal sistema principale al sistema
 remoto. Il contrattacco consisteva nel creare un programma preda ed uno di
 ricerca. La navigazione nella rete era difficoltosa. Il Difensore cambiava i
@@ -683,42 +683,42 @@ codice ed il nucleo confermò il suo accesso come legale. Aveva superato
 il livello sette, il livello del presidente.
 
 Ma tutto questo è una grande illusione. Pacchetti, sorprese, regali,
-auguri danno per scontato l'esistenza di qualche pezzo di carne comandato da
+auguri danno per scontato l’esistenza di qualche pezzo di carne comandato da
 qualche altro pezzo di neurone. La coscienza di una richiesta: soltanto
 le evoluzioni pindariche di un pensiero, uno stato comune di felicità, una
 forma colorata, una miniatura straordinaria. Non parlo dei ricordi, ma di
 quello che siamo ora, in questo momento, per quello che siamo stati, anche se,
 di chi o di cosa, sarebbe più preciso parlare. I sentimenti che possiamo
-vedere negli occhi, un'illusione che ricordo nel futuro. Sono felice
-d'illudermi.
+vedere negli occhi, un’illusione che ricordo nel futuro. Sono felice
+d’illudermi.
 
 Desidero aprire le braccia e stringere forte a me quella ragazza che vorrei che
 mi guardasse. Ho sempre aspettato che le donne compiessero il primo passo, ma
 è giunto il momento di dire «è che cazzo» ed agire. In un modo
 assolutamente confusionale trascino la mente in un turbine di piani e contro
-piani, di mosse, di battute e approcci, d'inviti, di sorrisi, di qualsiasi cosa
+piani, di mosse, di battute e approcci, d’inviti, di sorrisi, di qualsiasi cosa
 che mi permetta di raggiungere quella donna. Ho paura che quando io capisca che
 possa essere mia mi nasconda dietro un bieco maschilismo, un narcisismo
-resuscitato, che nasconda la unica cosa che mi rende felice: l'amore di una
+resuscitato, che nasconda la unica cosa che mi rende felice: l’amore di una
 donna.
 
 ## Capitolo 6: VOLARE
 
 La donna, che so che amerò, mi cerca, mi chiama, vuole parlarmi. Non
 credo ancora che sia successo proprio a me. Schizzinoso mi accingo a
-interpretare la parte più difficile della mia vita: l'innamorato. Non
+interpretare la parte più difficile della mia vita: l’innamorato. Non
 sono abituato a esprimere così esplicitamente i miei sentimenti. Ma con
 uno sforzo di volontà, mi dico che questa volta deve essere diverso,
 più bello. Lasciati andare, mi dico, soffri per amare, per almeno una
 volta cerca di essere te stesso. Ho paura di sbagliare, di essere tradito. La
-penso e mi viene la pelle d'oca. Inizia tutto come uno scherzo. Faccio finta
+penso e mi viene la pelle d’oca. Inizia tutto come uno scherzo. Faccio finta
 di essere al di sopra di tutto e di tutti, ma sono già pazzo di lei. Ci
 sentiamo tutti i giorni, più di una volta al giorno. Quando lei mi
 chiama, ogni tanto, invento una scusa per non parlarle, ma, alla fine, ci casco
 sempre; non riesco a resistere, desidero ascoltare la sua voce, immagino le sue
 labbra muoversi in una danza erotica, ballano solo per me. Tutto intorno a me
 svanisce, esistiamo soltanto io e lei. So così poco della sua vita, ma
-non m'importa, voglio vivere ora. Ci ascoltiamo per ore, parliamo del tempo, del
+non m’importa, voglio vivere ora. Ci ascoltiamo per ore, parliamo del tempo, del
 sesso, della noia, della solitudine, dei pantaloni e delle gonne. Non ci
 stanchiamo di scoprirci, di tagliarci a fette per lasciare a nudo soltanto il
 niente. Le nostre conversazioni sono spontanee, intime, inerosabilmente ci
@@ -728,9 +728,9 @@ voglio sapere. Mi piacerebbe essere dentro la sua testa per afferrare i
 pensieri, dentro il suo corpo per sentire cosa prova quando mi dice quelle cose.
 La curiosità mi spinge a sapere tutto di lei. Desidero toccarla, vedere
 il suo volto. Il telefono non mi basta. La sua voce scatena un desiderio
-impazzito. Per agguantare l'unico sentimento naturale che ho provato sono
+impazzito. Per agguantare l’unico sentimento naturale che ho provato sono
 pronto a tutto. Una ragnatela lega la fantasia, la volontà di fare in
-luogo di non fare, rende viscida l'aria che respiro. Devo scappare lontano,
+luogo di non fare, rende viscida l’aria che respiro. Devo scappare lontano,
 devo andare da lei. Analizzo come in una partita a scacchi le conseguenze delle
 mie azioni, cerco una via di fuga, non posso perdere questa occasione.
 Gironzolo tra i miei pensieri come un cane rabbioso, che sa di avere poco tempo

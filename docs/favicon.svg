@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
     <rect width="64" height="64" fill="#fffefa"/>
-    <text x="32" y="39" text-anchor="middle" fill="#23211d" font-family="IBM Plex Mono, monospace" font-size="21" font-weight="400">A.</text>
+    <path fill="#23211d" d="M31.37 39h-1.869l-1.239-4.179h-5.145L21.878 39h-1.827l4.494-14.658h2.331L31.37 39Zm-3.528-5.712-2.058-7.077h-.189l-2.058 7.077h4.305ZM38.3 39.189q-.861 0-1.207-.357-.347-.357-.347-.903v-.378q0-.546.347-.903.346-.357 1.207-.357t1.208.357q.346.357.346.903v.378q0 .546-.346.903-.347.357-1.208.357Z"/>
 </svg>

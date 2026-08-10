@@ -1,5 +1,5 @@
-## Ferita `04-10-1998`  
-  
+## Ferita `04-10-1998`
+
 In una notte calda  
 la crosta marcia  
 della ferita si stacca  
@@ -21,7 +21,7 @@ accompagnata da un sorriso
 di circostanza, sperando  
 che basti a lenire la  
 vocina cretina dentro di me.  
-Ma il loro volto s'illumina,  
+Ma il loro volto s’illumina,  
 come se avessero ricevuto  
 chissà che cosa,  
 ed io soffro di più,  

@@ -3,7 +3,7 @@
 ## Scopo
 
 Questo repository contiene il sito personale statico di Alberto Santini.
-L'applicazione è composta da HTML, CSS, JavaScript e testi Markdown; non
+L’applicazione è composta da HTML, CSS, JavaScript e testi Markdown; non
 richiede un processo di build.
 
 ## Struttura
@@ -11,9 +11,9 @@ richiede un processo di build.
 - `docs/index.html` definisce la struttura della pagina pubblicata.
 - `docs/style.css` contiene tutti gli stili e le regole responsive.
 - `docs/app.js` è un modulo browser: importa `marked` dal bundle ESM locale,
-  carica l'indice, rende il Markdown e gestisce la navigazione. Caricarlo con
+  carica l’indice, rende il Markdown e gestisce la navigazione. Caricarlo con
   `type="module"`.
-- `docs/texts.json` è l'indice e la fonte dei metadati dei testi.
+- `docs/texts.json` è l’indice e la fonte dei metadati dei testi.
 - I contenuti pubblicati in `docs/` usano il nome `yyyy-mm-dd-nomedefile.md`, dove la
   data ISO a quattro cifre corrisponde alla data di creazione del testo e il
   nome file è descrittivo e in minuscolo.
@@ -23,18 +23,52 @@ richiede un processo di build.
 ## Contenuti e attribuzione
 
 - Non riscrivere, correggere o modificare testi poetici, biografici o altri
-  contenuti editoriali senza una richiesta esplicita dell'autore.
+  contenuti editoriali senza una richiesta esplicita dell’autore.
 - Conservare in `docs/texts.json` la distinzione tra `Me` (`section: "Me"`)
   e `AI` (`section: "AI"`).
-- Nei racconti narrativi usare le caporali italiane senza spazi interni per i
-  dialoghi (`«Testo»`) e non inserire un trattino tra la chiusura del dialogo e
-  il verbo dichiarativo. Conservare gli apostrofi semplici e i tre punti
-  consecutivi già usati nei testi storici.
+- Nei contenuti editoriali usare l’apostrofo tipografico (`’`) e il carattere
+  di ellissi (`…`). Nei racconti narrativi usare le caporali italiane senza
+  spazi interni per i dialoghi (`«Testo»`) e le virgolette inglesi tipografiche
+  per eventuali citazioni annidate (`“Testo”`); non inserire un trattino tra la
+  chiusura del dialogo e il verbo dichiarativo. Usare la lineetta emme (`—`) per
+  le attribuzioni e la lineetta enne (`–`) per gli intervalli. Questa
+  normalizzazione si applica anche ai testi storici.
 - Scrivere le lettere accentate direttamente in UTF-8, senza entità HTML.
-- Non modificare le diciture visibili nei footer relative all'uso dell'AI
-  senza approvazione esplicita. Sono dichiarazioni editoriali del sito.
+- Non modificare le diciture visibili nei footer relative all’uso dell’AI
+  senza approvazione esplicita. Sono dichiarazioni editoriali del sito. Le
+  diciture approvate sono: `AI usata per il sito e l’impaginazione.` per
+  l’indice, `Scritto da me, AI solo per i refusi.` per i testi umani e
+  `Generato con AI, rivisto da me.` per i testi AI.
 - Questo file è soltanto una guida operativa per chi lavora sul repository;
-  non è una dichiarazione pubblica sull'origine o sulla revisione dei testi.
+  non è una dichiarazione pubblica sull’origine o sulla revisione dei testi.
+
+## Tipografia
+
+- Usare esclusivamente IBM Plex Mono Regular 400 e IBM Plex Mono Italic 400,
+  entrambi incorporati localmente in formato WOFF2. Non introdurre altri pesi
+  o famiglie senza una richiesta esplicita.
+- Mantenere `font-synthesis: none`: corsivi e altri stili non devono essere
+  simulati dal browser.
+- Non usare grassetto, tag `b` o `strong`, né la sintassi Markdown `**testo**`.
+  Per l’enfasi editoriale usare il corsivo reale (`*testo*`). I titoli di
+  poesie e capitoli (`h2`) sono Italic; le date al loro interno sono più piccole
+  e Regular. Il titolo principale (`h1`) e i sottotitoli (`h3`) restano Regular.
+  Le gerarchie si distinguono anche tramite corpo, colore, spaziatura e
+  posizione.
+- Nei testi nuovi e storici usare `’` per l’apostrofo; non usarlo come
+  virgoletta. Usare `«…»` al primo livello, `“…”` al secondo ed eventualmente
+  `‘…’` al terzo. Usare `…`, non tre punti consecutivi.
+- Usare il trattino (`-`) per parole composte e notazioni tecniche, la lineetta
+  enne (`–`) per intervalli e la lineetta emme (`—`) per attribuzioni. Per gli
+  ordinali usare `º`, non il simbolo dei gradi (`°`).
+- Le storie hanno una misura massima di 700 px; da 681 px sono giustificate con
+  spaziatura tra parole e sillabazione automatica, mentre fino a 680 px restano
+  allineate a sinistra.
+- Per i simboli dell’interfaccia usare caratteri IBM Plex Mono quando presenti
+  nel subset Latin locale. Se un glifo richiede un font di fallback, usare un
+  SVG inline definito una sola volta nel sorgente e colorato con
+  `currentColor`. Il favicon deve usare tracciati SVG, non testo dipendente da
+  font installati sul dispositivo.
 
 ## Raccolta `Solo AI` e Nora
 
@@ -46,11 +80,11 @@ richiede un processo di build.
 - Osserva numeri, dettagli e contraddizioni che gli altri hanno imparato a
   ignorare. Diffida in particolare dei sistemi che presentano decisioni morali
   o politiche come misurazioni neutrali.
-- La sua caratteristica centrale è l'incapacità di restare indifferente alla
+- La sua caratteristica centrale è l’incapacità di restare indifferente alla
   sofferenza altrui. La sua compassione diventa feroce quando decide di agire.
 - Nora può avere paura, esitare e calcolare le conseguenze; il suo coraggio
-  consiste nell'agire nonostante questo, non nell'assenza di vulnerabilità.
-- Non rappresentarla come un'eroina convenzionale, una vendicatrice o una
+  consiste nell’agire nonostante questo, non nell’assenza di vulnerabilità.
+- Non rappresentarla come un’eroina convenzionale, una vendicatrice o una
   hacker stereotipata. La sua competenza serve a individuare la menzogna
   nascosta dentro una misura apparentemente oggettiva.
 - Mostrare queste caratteristiche attraverso azioni, osservazioni concrete e
@@ -60,32 +94,32 @@ richiede un processo di build.
   precedenti.
 - Prima di creare o modificare un racconto con Nora, rileggere gli altri testi
   della raccolta per verificarne la coerenza caratteriale, evitando però di
-  introdurre collegamenti fra i mondi paralleli non richiesti dall'autore.
+  introdurre collegamenti fra i mondi paralleli non richiesti dall’autore.
 - Non modificare nomi dei dispositivi, cronologie, numeri, snodi o finali già
-  approvati senza una richiesta esplicita dell'autore.
+  approvati senza una richiesta esplicita dell’autore.
 
 ## Modifiche al sito
 
 - Mantenere il sito statico e privo di dipendenze o processi di build, salvo
   richiesta esplicita.
 - Prima di pubblicare, verificare la versione di `docs/vendor/marked.esm.js` e
-  confrontarla con l'ultima release stabile di Marked. Se è disponibile un
+  confrontarla con l’ultima release stabile di Marked. Se è disponibile un
   aggiornamento compatibile, sostituire il bundle UMD locale con quello
   ufficiale e verificare il rendering di indice e testi.
 - Per un nuovo testo, aggiungere in `docs/` un file `yyyy-mm-dd-nomedefile.md` e la
-  relativa voce in `docs/texts.json`, nell'ordine editoriale desiderato.
+  relativa voce in `docs/texts.json`, nell’ordine editoriale desiderato.
 - Per ogni modifica salvata a un testo `Solo AI`, incrementare `mark` di uno
   in `texts.json`: `Mk` è il numero progressivo di tutte le versioni, anche
   prima della pubblicazione. Salvare `publishedAt` e `createdAt` come data e
   ora ISO 8601 con fuso orario. Ogni volta che si aggiorna `Mk`, aggiornare
-  contestualmente `publishedAt` con la data e l'ora della nuova versione: non
-  lasciare il timestamp del `Mk` precedente. Mostrarlo nell'intestazione con
+  contestualmente `publishedAt` con la data e l’ora della nuova versione: non
+  lasciare il timestamp del `Mk` precedente. Mostrarlo nell’intestazione con
   ore e minuti. Non modificare `createdAt`.
-- `docs/app.js` usa `Mk` come parametro di versione nell'URL del Markdown (`?v=Mk`):
+- `docs/app.js` usa `Mk` come parametro di versione nell’URL del Markdown (`?v=Mk`):
   non rimuoverlo né sostituirlo con un timestamp casuale. In questo modo ogni
   nuova versione evita una copia obsoleta nella cache di GitHub Pages/CDN,
   mantenendo la cache efficace per le versioni già pubblicate.
-- Preservare l'aspetto sobrio, leggibile e responsive; verificare sia la
+- Preservare l’aspetto sobrio, leggibile e responsive; verificare sia la
   pagina indice sia una pagina di testo dopo modifiche a HTML, CSS o JS.
 - Evitare modifiche non richieste ai file di contenuto durante interventi
   tecnici o grafici.
@@ -95,13 +129,18 @@ richiede un processo di build.
 - `eslint-recommended.js` contiene una fotografia esplicita delle regole
   `recommended` di `@eslint/js` 10.0.1, importata da `eslint.config.js`, per
   evitare `node_modules` e import di pacchetti esterni. Per aggiornare la
-  fotografia, ricopiare l'intero set dalla nuova release e rieseguire
+  fotografia, ricopiare l’intero set dalla nuova release e rieseguire
   `npm run validate`; non aggiungere o rimuovere singole regole senza una
   decisione esplicita.
 
 ## Igiene dei file
 
-- Usare UTF-8, terminazioni LF, nessuno spazio finale e un solo newline finale.
+- Usare UTF-8, terminazioni LF e un solo newline finale. Non lasciare spazi
+  finali, salvo i due spazi Markdown intenzionali che producono
+  un’interruzione di riga.
+- Nei Markdown poetici conservare le interruzioni di verso con esattamente due
+  spazi finali; non usarli su titoli o righe vuote e non sostituirli con
+  backslash o tag HTML.
 - Prima della consegna, controllare che i link di navigazione, il caricamento
   di `texts.json` e il rendering di un testo funzionino correttamente.
 
