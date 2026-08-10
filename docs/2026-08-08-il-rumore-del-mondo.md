@@ -32,13 +32,13 @@ Lo disse piano.
 
 Un uomo indicò il pannello d’emergenza. Era protetto da un vetro rosso. Sotto il martello era stampato il costo previsto:
 
-> Arresto manuale della linea: dispersione stimata 4,8 megajoule. Danno reversibile. Responsabilità personale dell’attivante.
+*Arresto manuale della linea: dispersione stimata 4,8 megajoule. Danno reversibile. Responsabilità personale dell’attivante.*
 
 Quarantatré secondi.
 
 Nora guardò le telecamere. Gli obiettivi si erano già orientati verso di lei. Il suo Entropimetro vibrò al polso.
 
-> Alterazione acustica rilevata. Restare immobili per agevolare la valutazione.
+*Alterazione acustica rilevata. Restare immobili per agevolare la valutazione.*
 
 La donna in grigio continuava a chiedere aiuto con una voce sempre più sottile. Le persone intorno arretrarono di un passo, tutte insieme, come se la distanza potesse ridurre il loro coinvolgimento nel mondo.
 
@@ -94,7 +94,7 @@ Nora guardò la telecamera sopra la spalla dell’agente. La spia rossa era acce
 
 Sul polso di Nora comparve la classificazione definitiva:
 
-> Azione reversibile ad alta dispersione. Custodia cautelare obbligatoria.
+*Azione reversibile ad alta dispersione. Custodia cautelare obbligatoria.*
 
 Gli agenti le chiusero le manette senza produrre uno scatto. Intorno a lei, la stazione tornava già al silenzio. Le persone abbassavano le braccia, le porte del treno si aprivano, gli Entropimetri distribuivano a ciascuno la sua piccola parte di colpa.
 

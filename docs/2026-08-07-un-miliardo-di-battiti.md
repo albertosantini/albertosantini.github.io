@@ -18,7 +18,7 @@ Sua madre l’aveva chiamata *la restituzione*, come se lo Stato le avesse chies
 
 Sul telefono comparve un avviso.
 
-> Frequenza non conforme. Ridurre l’attività entro trenta secondi.
+*Frequenza non conforme. Ridurre l’attività entro trenta secondi.*
 
 Nora chiuse la notifica. Avrebbe potuto fermarsi. Il battito sarebbe sceso, l’Archivio avrebbe registrato il rientro nella norma e la ragazza sarebbe diventata un problema di qualcun altro. Nora provò a lasciarla sparire. Non ci riuscì.
 
@@ -54,7 +54,7 @@ Nora non rispose. Aveva imparato che i sistemi mentivano soprattutto quando pret
 
 Nora sentì il Cardiometro vibrare. Sul display non comparve più la frequenza cardiaca, ma una riga di testo:
 
-> Comunicazione urgente: presentarsi domani all’Ufficio di Continuità.
+*Comunicazione urgente: presentarsi domani all’Ufficio di Continuità.*
 
 La ragazza sorrise senza allegria.
 
@@ -64,6 +64,6 @@ Da qualche parte, sotto la piazza, cominciò a suonare una sirena. La gente del 
 
 Sul muro, tra due manifesti strappati, affiorava una frase dipinta molti anni prima:
 
-> Il cuore non conta il tempo. Lo attraversa.
+*Il cuore non conta il tempo. Lo attraversa.*
 
 Nora posò una mano sul Cardiometro. Il numero continuava a salire.

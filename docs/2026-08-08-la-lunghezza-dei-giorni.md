@@ -2,7 +2,7 @@ Alle diciassette e quaranta, Nora si fermò.
 
 I corridori si divisero ai suoi lati senza rallentare. Qualcuno la urtò con una spalla; qualcun altro le gridò di spostarsi, ma senza voltarsi. Sopra il viale, i pannelli del Ministero della Longevità scandivano gli ultimi venti minuti di attività obbligatoria.
 
-> Il movimento conserva. L’immobilità consuma.
+*Il movimento conserva. L’immobilità consuma.*
 
 Il Telometro le strinse il polso.
 
@@ -38,7 +38,7 @@ Per qualche passo cercò di ascoltare soltanto il proprio respiro. La melodia co
 
 Il Telometro vibrò.
 
-> Cadenza inferiore alla soglia. Ripristinare 140 passi al minuto.
+*Cadenza inferiore alla soglia. Ripristinare 140 passi al minuto.*
 
 Nel sottopassaggio, una donna suonava seduta su una cassetta rovesciata. Aveva i capelli bianchi legati dietro la nuca e un abito troppo largo. L’archetto tremava, ma la musica riempiva lo spazio tra i passi, i respiri e il ronzio delle macchine.
 
@@ -52,7 +52,7 @@ Una bambina correva in cerchio davanti a lei per non ricevere sanzioni.
 
 Dal soffitto si accese una luce rossa. Le telecamere ruotarono verso la violinista.
 
-> Attività improduttiva rilevata. Unità di Accelerazione in arrivo.
+*Attività improduttiva rilevata. Unità di Accelerazione in arrivo.*
 
 La bambina continuò a correre. Aveva il fiato corto e le lacrime sulle guance.
 
@@ -96,7 +96,7 @@ Sul viale qualcuno rallentò.
 
 Nora pizzicò una seconda corda. La donna le guidò la mano, cercando le note senza archetto. La bambina smise di correre.
 
-> Immobilità volontaria. Classificazione in corso.
+*Immobilità volontaria. Classificazione in corso.*
 
 Mancavano cinque minuti.
 
@@ -108,7 +108,7 @@ La sua voce era bassa e irregolare. La bambina si unì a lei. Poi un uomo sul vi
 
 I pannelli del Ministero lampeggiarono.
 
-> Riprendere il movimento. Proteggere la propria lunghezza.
+*Riprendere il movimento. Proteggere la propria lunghezza.*
 
 Alle diciotto, i Telometri avviarono insieme il prelievo notturno.
 
