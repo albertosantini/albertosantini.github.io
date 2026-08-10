@@ -274,8 +274,10 @@ a {
 
 .page-updated-symbol {
     display: inline-flex;
+    align-items: center;
     width: 1.45em;
     justify-content: center;
+    vertical-align: -0.08em;
     color: var(--muted);
 }
 

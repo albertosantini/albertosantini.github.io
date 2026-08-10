@@ -223,7 +223,7 @@ function updateFooter() {
     const entry = entries.find((item) => item.file === currentFile);
 
     if (currentFile === HOME_FILE) {
-        siteFooter.textContent = "AI usata per il sito e l’impaginazione.";
+        siteFooter.textContent = "AI per il sito e la grafica.";
     } else if (entry && entry.section === "AI") {
         siteFooter.textContent = "Generato con AI, rivisto da me.";
     } else {
