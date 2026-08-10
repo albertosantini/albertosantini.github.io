@@ -444,6 +444,43 @@ a {
     color: var(--link-hover);
 }
 
+.home-index-pager {
+    display: grid;
+    grid-template-columns: 32px auto 32px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    margin-top: 1.2em;
+    color: var(--muted);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.home-index-control {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    background: transparent;
+    color: var(--text);
+    cursor: pointer;
+    font: inherit;
+    line-height: 1;
+}
+
+.home-index-control:hover:not(:disabled),
+.home-index-control:focus-visible {
+    border-color: var(--link-hover);
+    color: var(--link-hover);
+}
+
+.home-index-control:disabled {
+    color: var(--quiet);
+    cursor: default;
+    opacity: 0.5;
+}
+
 .pager {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);

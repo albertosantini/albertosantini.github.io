@@ -2,6 +2,7 @@ import { marked } from "./vendor/marked.esm.js";
 
 const HOME_FILE = "README.md";
 const SITE_TITLE = "Alberto Santini";
+const HOME_PAGE_SIZE = 5;
 const SECTION_LABELS = {
     Me: "Scritti da me",
     AI: "Esperimenti con AI"
@@ -17,6 +18,7 @@ const DATE_FORMATTER = new Intl.DateTimeFormat("it-IT", {
 });
 let entries = [];
 let currentFile = HOME_FILE;
+const homeSectionOffsets = {};
 /** @type {Map<string, Promise<string>>} */
 const markdownCache = new Map();
 
@@ -45,6 +47,19 @@ function initEvents() {
         }
 
         const link = event.target.closest("a");
+
+        const homeControl = /** @type {HTMLButtonElement | null} */ (
+            event.target.closest("button[data-home-offset]")
+        );
+        if (homeControl && currentFile === HOME_FILE) {
+            const section = homeControl.dataset.homeSection || "Me";
+            homeSectionOffsets[section] = Number(homeControl.dataset.homeOffset);
+            const homeIndex = content.querySelector(".home-index");
+            if (homeIndex) {
+                homeIndex.outerHTML = renderHomeIndex();
+            }
+            return;
+        }
 
         if (!link) {
             return;
@@ -266,7 +281,12 @@ function renderHomeIndex() {
     const sectionOrder = ["Me", "AI"].filter((section) => sections[section]);
     const renderedSections = sectionOrder.map((section) => {
         const sectionLabel = SECTION_LABELS[section] || section;
-        const items = sections[section]
+        const sectionOffset = homeSectionOffsets[section] || 0;
+        const sectionEntries = sections[section].slice(
+            sectionOffset,
+            sectionOffset + HOME_PAGE_SIZE
+        );
+        const items = sectionEntries
             .map((entry) => {
                 const year = (entry.file.match(/^(\d{4})/) || ["", ""])[1];
                 const subtitle = renderCollection(entry, "home-index-subtitle");
@@ -275,10 +295,29 @@ function renderHomeIndex() {
             .join("");
 
         const aiClass = section === "AI" ? " home-index-ai" : "";
-        return `<section class="home-index-column${aiClass}" aria-label="${escapeHtml(sectionLabel)}"><h2>${escapeHtml(sectionLabel)}</h2><ul class="home-index-list">${items}</ul></section>`;
+        const controls = renderHomeControls(section, sections[section].length, sectionOffset);
+        return `<section class="home-index-column${aiClass}" aria-label="${escapeHtml(sectionLabel)}"><h2>${escapeHtml(sectionLabel)}</h2><ul class="home-index-list">${items}</ul>${controls}</section>`;
     }).join("");
 
     return `<section class="home-index" aria-label="Testi"><div class="home-index-columns">${renderedSections}</div></section>`;
+}
+
+function renderHomeControls(section, total, offset) {
+    if (total < HOME_PAGE_SIZE) {
+        return "";
+    }
+
+    const start = offset + 1;
+    const end = Math.min(offset + HOME_PAGE_SIZE, total);
+    const previousOffset = Math.max(0, offset - HOME_PAGE_SIZE);
+    const nextOffset = Math.min(
+        Math.floor((total - 1) / HOME_PAGE_SIZE) * HOME_PAGE_SIZE,
+        offset + HOME_PAGE_SIZE
+    );
+    const previousDisabled = offset === 0 ? " disabled" : "";
+    const nextDisabled = offset >= nextOffset ? " disabled" : "";
+
+    return `<nav class="home-index-pager" aria-label="Navigazione di ${escapeHtml(SECTION_LABELS[section] || section)}"><button type="button" class="home-index-control" data-home-section="${escapeHtml(section)}" data-home-offset="${previousOffset}" aria-label="Scritti più recenti"${previousDisabled}>↑</button><span aria-live="polite">${start}–${end} di ${total}</span><button type="button" class="home-index-control" data-home-section="${escapeHtml(section)}" data-home-offset="${nextOffset}" aria-label="Scritti meno recenti"${nextDisabled}>↓</button></nav>`;
 }
 
 function renderCollection(entry, className) {
