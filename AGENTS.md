@@ -134,13 +134,49 @@ richiede un processo di build.
   ufficiale e verificare il rendering di indice e testi.
 - Per un nuovo testo, aggiungere in `docs/` un file `yyyy-mm-dd-nomedefile.md` e la
   relativa voce in `docs/texts.json`, nell’ordine editoriale desiderato.
-- Per ogni modifica salvata a un testo `Solo AI`, incrementare `mark` di uno
-  in `texts.json`: `Mk` è il numero progressivo di tutte le versioni, anche
-  prima della pubblicazione. Salvare `publishedAt` e `createdAt` come data e
-  ora ISO 8601 con fuso orario. Ogni volta che si aggiorna `Mk`, aggiornare
-  contestualmente `publishedAt` con la data e l’ora della nuova versione: non
-  lasciare il timestamp del `Mk` precedente. Mostrarlo nell’intestazione con
-  ore e minuti. Non modificare `createdAt`.
+- `docs/feed.xml` è il feed RSS 2.0 statico del sito: mantenerlo manualmente,
+  senza introdurre generatori o processi di build. Aggiungere un elemento per
+  ogni nuova pubblicazione. Per un testo `Solo AI`, aggiungere un nuovo elemento
+  per ogni versione salvata, comprese quelle che correggono soltanto refusi,
+  applicando sempre la regola di incremento di `Mk` descritta sotto.
+- Nei nuovi elementi del feed usare la data di pubblicazione registrata come
+  `publishedAt` in `docs/texts.json`; per un nuovo testo umano destinato al feed,
+  aggiungere questo metadato senza cambiare la data di creazione nel nome file.
+  Per le revisioni dei testi AI, includere `Mk` nel `guid` non permalink, così
+  ogni versione pubblicata resta identificabile. Il feed include al massimo i
+  30 aggiornamenti più recenti, in ordine di `pubDate` dal più recente al meno
+  recente; quando si aggiunge il trentunesimo, rimuovere l’elemento più vecchio.
+  Per i testi umani usare un `guid` stabile derivato dal file. Finché gli
+  elementi sono meno di 30, il feed contiene l’intero archivio indicizzato.
+- Per i testi umani storici, `createdAt` deriva dalla data ISO nel nome file;
+  se una pagina raccoglie più testi, `publishedAt` e `updatedAt` usano la data
+  esplicita dell’ultimo testo contenuto. Tutti e tre i metadati usano le ore
+  09:00 con il corretto offset di `Europe/Rome`. Se nel contenuto manca un
+  giorno finale verificabile, mantenere la data del nome file. Il collegamento
+  RSS non è visibile nella pagina: affidarsi all’autodiscovery dichiarato in
+  `docs/index.html`.
+- I testi non AI non usano `mark` e non registrano come nuove versioni gli
+  interventi tecnici. Per un nuovo testo singolo, impostare `createdAt`,
+  `publishedAt` e `updatedAt` alla data di composizione. Quando si aggiunge un
+  nuovo testo a una raccolta, conservare `createdAt` e aggiornare `publishedAt`
+  e `updatedAt` alla data di composizione dell’ultimo testo aggiunto; aggiornare
+  lo stesso elemento RSS mantenendo il `guid` stabile derivato dal file.
+- La sola correzione di refusi in un testo non AI non modifica `createdAt`,
+  `publishedAt` o `updatedAt` e non crea né aggiorna un elemento RSS. Una
+  revisione editoriale sostanziale richiede una decisione esplicita dell’autore
+  sulla ripubblicazione: se non viene ripubblicata, date e feed restano
+  invariati; se viene ripubblicata, aggiornare `publishedAt` e `updatedAt` al
+  momento della ripubblicazione e aggiornare l’elemento RSS esistente senza
+  cambiare il suo `guid`.
+- Per ogni modifica salvata a un testo `Solo AI`, refusi compresi, incrementare
+  `mark` di uno in `texts.json`: `Mk` è il numero progressivo di tutte le
+  versioni, anche prima della pubblicazione. Salvare `publishedAt`, `updatedAt`
+  e `createdAt` come data e ora ISO 8601 con fuso orario. Ogni volta che si
+  aggiorna `Mk`, aggiornare contestualmente `publishedAt` e `updatedAt` con la
+  data e l’ora della nuova versione, aggiungere al feed il relativo elemento con
+  il nuovo `Mk` e conservare gli elementi delle versioni precedenti finché non
+  escono dal limite dei 30 aggiornamenti. Mostrarlo nell’intestazione con ore e
+  minuti. Non modificare `createdAt`.
 - `docs/app.js` usa `Mk` come parametro di versione nell’URL del Markdown (`?v=Mk`):
   non rimuoverlo né sostituirlo con un timestamp casuale. In questo modo ogni
   nuova versione evita una copia obsoleta nella cache di GitHub Pages/CDN,
@@ -168,7 +204,9 @@ richiede un processo di build.
   spazi finali; non usarli su titoli o righe vuote e non sostituirli con
   backslash o tag HTML.
 - Prima della consegna, controllare che i link di navigazione, il caricamento
-  di `texts.json` e il rendering di un testo funzionino correttamente.
+  di `texts.json` e il rendering di un testo funzionino correttamente. Quando
+  cambia `docs/feed.xml`, verificarne anche la validità XML, le date RFC 822 e
+  gli URL assoluti degli elementi.
 
 ## Commit
 

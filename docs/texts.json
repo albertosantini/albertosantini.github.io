@@ -51,131 +51,200 @@
         "title": "Moto Perpetuo",
         "file": "2016-11-22-moto-perpetuo.md",
         "section": "Me",
-        "collection": "2016-nov – 2018-gen"
+        "collection": "2016-nov – 2018-gen",
+        "publishedAt": "2018-01-30T09:00:00+01:00",
+        "createdAt": "2016-11-22T09:00:00+01:00",
+        "updatedAt": "2018-01-30T09:00:00+01:00"
     },
     {
         "title": "Abisso",
         "file": "2008-05-17-abisso.md",
-        "section": "Me"
+        "section": "Me",
+        "publishedAt": "2008-05-17T09:00:00+02:00",
+        "createdAt": "2008-05-17T09:00:00+02:00",
+        "updatedAt": "2008-05-17T09:00:00+02:00"
     },
     {
         "title": "NY Marathon 2007",
         "file": "2007-11-04-ny-marathon-2007.md",
-        "section": "Me"
+        "section": "Me",
+        "publishedAt": "2007-11-04T09:00:00+01:00",
+        "createdAt": "2007-11-04T09:00:00+01:00",
+        "updatedAt": "2007-11-04T09:00:00+01:00"
     },
     {
         "title": "Anna",
         "file": "1998-12-12-anna.md",
         "section": "Me",
-        "collection": "1998-dic – 2002-dic"
+        "collection": "1998-dic – 2002-dic",
+        "publishedAt": "2002-12-08T09:00:00+01:00",
+        "createdAt": "1998-12-12T09:00:00+01:00",
+        "updatedAt": "2002-12-08T09:00:00+01:00"
     },
     {
         "title": "Lei",
         "file": "1998-11-15-lei.md",
-        "section": "Me"
+        "section": "Me",
+        "publishedAt": "1998-11-24T09:00:00+01:00",
+        "createdAt": "1998-11-15T09:00:00+01:00",
+        "updatedAt": "1998-11-24T09:00:00+01:00"
     },
     {
         "title": "Vicino e Lontano",
         "file": "1998-10-04-vicino-e-lontano.md",
-        "section": "Me"
+        "section": "Me",
+        "publishedAt": "1998-10-04T09:00:00+02:00",
+        "createdAt": "1998-10-04T09:00:00+02:00",
+        "updatedAt": "1998-10-04T09:00:00+02:00"
     },
     {
         "title": "Musica nella Notte",
         "file": "1998-01-19-musica-nella-notte.md",
         "section": "Me",
-        "collection": "1998-gen – 1998-mag"
+        "collection": "1998-gen – 1998-mag",
+        "publishedAt": "1998-05-12T09:00:00+02:00",
+        "createdAt": "1998-01-19T09:00:00+01:00",
+        "updatedAt": "1998-05-12T09:00:00+02:00"
     },
     {
         "title": "Ondina",
         "file": "1997-08-22-ondina.md",
         "section": "Me",
-        "collection": "1997-ago – 1998-gen"
+        "collection": "1997-ago – 1998-gen",
+        "publishedAt": "1998-01-03T09:00:00+01:00",
+        "createdAt": "1997-08-22T09:00:00+02:00",
+        "updatedAt": "1998-01-03T09:00:00+01:00"
     },
     {
         "title": "Momenti ed Interruzioni",
         "file": "1997-05-23-momenti-ed-interruzioni.md",
         "section": "Me",
-        "collection": "1997-mag – 1997-ott"
+        "collection": "1997-mag – 1997-ott",
+        "publishedAt": "1997-10-23T09:00:00+02:00",
+        "createdAt": "1997-05-23T09:00:00+02:00",
+        "updatedAt": "1997-10-23T09:00:00+02:00"
     },
     {
         "title": "Parole",
         "file": "1996-05-12-parole.md",
         "section": "Me",
-        "collection": "1996-mag – 1997-mar"
+        "collection": "1996-mag – 1997-mar",
+        "publishedAt": "1997-03-15T09:00:00+01:00",
+        "createdAt": "1996-05-12T09:00:00+02:00",
+        "updatedAt": "1997-03-15T09:00:00+01:00"
     },
     {
         "title": "Giochi d’Acqua",
         "file": "1995-09-05-giochi-dacqua.md",
         "section": "Me",
-        "collection": "1995-set – 1996-mag"
+        "collection": "1995-set – 1996-mag",
+        "publishedAt": "1996-05-12T09:00:00+02:00",
+        "createdAt": "1995-09-05T09:00:00+02:00",
+        "updatedAt": "1996-05-12T09:00:00+02:00"
     },
     {
         "title": "Sensi",
         "file": "1993-10-10-sensi.md",
         "section": "Me",
-        "collection": "1993-ott – 1994-ott"
+        "collection": "1993-ott – 1994-ott",
+        "publishedAt": "1994-10-29T09:00:00+01:00",
+        "createdAt": "1993-10-10T09:00:00+01:00",
+        "updatedAt": "1994-10-29T09:00:00+01:00"
     },
     {
         "title": "Blmo",
         "file": "1993-06-12-blmo.md",
         "section": "Me",
-        "collection": "1993-giu – 1995-mag"
+        "collection": "1993-giu – 1995-mag",
+        "publishedAt": "1995-05-25T09:00:00+02:00",
+        "createdAt": "1993-06-12T09:00:00+02:00",
+        "updatedAt": "1995-05-25T09:00:00+02:00"
     },
     {
         "title": "Contatti",
         "file": "1993-03-14-contatti.md",
         "section": "Me",
-        "collection": "1993-mar – 1994-dic"
+        "collection": "1993-mar – 1994-dic",
+        "publishedAt": "1994-12-14T09:00:00+01:00",
+        "createdAt": "1993-03-14T09:00:00+01:00",
+        "updatedAt": "1994-12-14T09:00:00+01:00"
     },
     {
         "title": "Sirene",
         "file": "1993-03-01-sirene.md",
-        "section": "Me"
+        "section": "Me",
+        "publishedAt": "1993-03-01T09:00:00+01:00",
+        "createdAt": "1993-03-01T09:00:00+01:00",
+        "updatedAt": "1993-03-01T09:00:00+01:00"
     },
     {
         "title": "Immagini",
         "file": "1992-01-29-immagini.md",
         "section": "Me",
-        "collection": "1992-gen – 1994-ago"
+        "collection": "1992-gen – 1994-ago",
+        "publishedAt": "1994-08-19T09:00:00+02:00",
+        "createdAt": "1992-01-29T09:00:00+01:00",
+        "updatedAt": "1994-08-19T09:00:00+02:00"
     },
     {
         "title": "Polvere di Nuvole",
         "file": "1991-09-28-polvere-di-nuvole.md",
         "section": "Me",
-        "collection": "1991-set – 1991-ott"
+        "collection": "1991-set – 1991-ott",
+        "publishedAt": "1991-10-18T09:00:00+01:00",
+        "createdAt": "1991-09-28T09:00:00+02:00",
+        "updatedAt": "1991-10-18T09:00:00+01:00"
     },
     {
         "title": "Dio non mi vuole",
         "file": "1991-01-01-dio-non-mi-vuole.md",
         "section": "Me",
-        "kind": "story"
+        "kind": "story",
+        "publishedAt": "1991-01-01T09:00:00+01:00",
+        "createdAt": "1991-01-01T09:00:00+01:00",
+        "updatedAt": "1991-01-01T09:00:00+01:00"
     },
     {
         "title": "La porta si chiude",
         "file": "1990-01-01-la-porta-si-chiude.md",
-        "section": "Me"
+        "section": "Me",
+        "publishedAt": "1990-01-01T09:00:00+01:00",
+        "createdAt": "1990-01-01T09:00:00+01:00",
+        "updatedAt": "1990-01-01T09:00:00+01:00"
     },
     {
         "title": "Poesie Aperte",
         "file": "1989-01-01-poesie-aperte.md",
-        "section": "Me"
+        "section": "Me",
+        "publishedAt": "1989-01-01T09:00:00+01:00",
+        "createdAt": "1989-01-01T09:00:00+01:00",
+        "updatedAt": "1989-01-01T09:00:00+01:00"
     },
     {
         "title": "Foglie al vento",
         "file": "1989-01-01-foglie-al-vento.md",
         "section": "Me",
-        "kind": "story"
+        "kind": "story",
+        "publishedAt": "1989-01-01T09:00:00+01:00",
+        "createdAt": "1989-01-01T09:00:00+01:00",
+        "updatedAt": "1989-01-01T09:00:00+01:00"
     },
     {
         "title": "Primi? Forse.",
         "file": "1986-01-01-primi-forse.md",
         "section": "Me",
-        "kind": "story"
+        "kind": "story",
+        "publishedAt": "1986-01-01T09:00:00+01:00",
+        "createdAt": "1986-01-01T09:00:00+01:00",
+        "updatedAt": "1986-01-01T09:00:00+01:00"
     },
     {
         "title": "Invasione",
         "file": "1985-01-01-invasione.md",
         "section": "Me",
-        "kind": "story"
+        "kind": "story",
+        "publishedAt": "1985-01-01T09:00:00+01:00",
+        "createdAt": "1985-01-01T09:00:00+01:00",
+        "updatedAt": "1985-01-01T09:00:00+01:00"
     }
 ]
