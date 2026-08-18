@@ -1,5 +1,16 @@
 [
     {
+        "title": "La seconda scheggia",
+        "file": "2026-08-18-la-seconda-scheggia.md",
+        "section": "AI",
+        "collection": "Universo dei Precursori",
+        "kind": "story",
+        "publishedAt": "2026-08-18T21:14:02+02:00",
+        "mark": 2,
+        "createdAt": "2026-08-18T21:00:34+02:00",
+        "updatedAt": "2026-08-18T21:14:02+02:00"
+    },
+    {
         "title": "README",
         "file": "README.md"
     },

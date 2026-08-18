@@ -98,6 +98,32 @@ richiede un processo di build.
 - Non modificare nomi dei dispositivi, cronologie, numeri, snodi o finali già
   approvati senza una richiesta esplicita dell’autore.
 
+## Raccolta `Universo dei Precursori`
+
+- L’`Universo dei Precursori` è separato dall’`Universo di Nora`: non
+  introdurre Nora, i suoi dispositivi o collegamenti fra le due raccolte senza
+  una richiesta esplicita dell’autore.
+- `La seconda scheggia` è il primo racconto della raccolta e ne stabilisce le
+  premesse: una civiltà umana di un altro mondo si è estinta dopo il cedimento
+  delle centrali nucleari, la disattivazione dei servizi gestiti dalle AI e le
+  guerre per la sopravvivenza; le AI superstiti osservano gli ominidi sulla
+  Terra milioni di anni prima della civiltà umana terrestre.
+- Conservare `Human Act`, la responsabilità ambigua delle AI e l’illusione
+  umana del controllo. Non trasformare le AI in colpevoli o salvatrici certe
+  senza una decisione esplicita dell’autore.
+- Preservare la rivelazione finale: il pianeta Terra, l’Africa orientale e la
+  distanza temporale devono emergere soltanto nella parte conclusiva. Usare
+  titoli evocativi, non titoli che anticipino gli umani estinti o la Terra.
+- Non rendere espliciti i misteri che il racconto lascia aperti, compresa la
+  memoria personale dell’AI madre e il futuro rapporto fra le AI e gli ominidi.
+- Curare la consecutio temporum: usare il passato per gli eventi storici dei
+  Precursori e, nei dialoghi, il presente per verità generali o funzioni ancora
+  valide nel tempo della cornice narrativa, per esempio `Le favole servono a
+  ricordare i pericoli.`
+- Prima di creare o modificare un racconto dell’`Universo dei Precursori`,
+  rileggere gli altri testi della raccolta e preservarne nomi, cronologia,
+  rivelazioni e ambiguità già approvate.
+
 ## Modifiche al sito
 
 - Mantenere il sito statico e privo di dipendenze o processi di build, salvo
