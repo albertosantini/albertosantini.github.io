@@ -246,6 +246,13 @@ a {
     color: var(--text);
 }
 
+.page-home-link:focus-visible {
+    outline: none;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.24em;
+}
+
 .content .page-header h1 {
     margin: 0;
     font-size: 1.45rem;
@@ -421,11 +428,15 @@ a {
     gap: 14px;
     align-items: baseline;
     margin-inline: -10px;
-    padding: 0.15em 10px;
+    padding: 0.12em 10px;
     border-radius: 3px;
     color: var(--text);
     text-decoration: none;
     transition: background-color 140ms ease, color 140ms ease;
+}
+
+.home-index-list a:focus-visible {
+    outline-offset: 0;
 }
 
 .home-index-list a:hover {
@@ -546,6 +557,8 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
+    width: max-content;
+    max-width: 100%;
     min-height: 40px;
     color: var(--muted);
     font-size: 0.8rem;
@@ -561,6 +574,7 @@ a {
 .pager-next {
     justify-content: end;
     text-align: right;
+    justify-self: end;
 }
 
 .pager-link:hover {
@@ -569,7 +583,21 @@ a {
 
 .pager-link:focus-visible {
     outline: none;
-    box-shadow: inset 0 -1px 0 var(--focus);
+    box-shadow: none;
+}
+
+.pager-index:focus-visible {
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.24em;
+}
+
+.pager-previous:focus-visible #previousText,
+.pager-next:focus-visible #nextText {
+    display: inline-block;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.24em;
 }
 
 .pager-link[aria-disabled="true"] {
