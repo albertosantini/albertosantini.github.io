@@ -79,11 +79,27 @@ async function boot() {
     content.innerHTML = '<p class="loading">Caricamento…</p>';
 
     try {
-        entries = await fetchJson("texts.json");
+        entries = orderEntries(await fetchJson("texts.json"));
         await renderRoute();
     } catch {
         showError("Non riesco a caricare l’indice dei testi.");
     }
+}
+
+function orderEntries(sourceEntries) {
+    const homeEntry = sourceEntries.find((entry) => entry.file === HOME_FILE);
+    const contentEntries = sourceEntries
+        .filter((entry) => entry.file !== HOME_FILE)
+        .sort(compareEntries);
+
+    return homeEntry ? [homeEntry, ...contentEntries] : contentEntries;
+}
+
+function compareEntries(first, second) {
+    const creationDifference = new Date(second.createdAt).getTime()
+        - new Date(first.createdAt).getTime();
+
+    return creationDifference || first.file.localeCompare(second.file);
 }
 
 async function renderRoute() {

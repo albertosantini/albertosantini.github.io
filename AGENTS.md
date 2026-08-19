@@ -144,7 +144,15 @@ richiede un processo di build.
   aggiornamento compatibile, sostituire il bundle UMD locale con quello
   ufficiale e verificare il rendering di indice e testi.
 - Per un nuovo testo, aggiungere in `docs/` un file `yyyy-mm-dd-nomedefile.md` e la
-  relativa voce in `docs/texts.json`, nell’ordine editoriale desiderato.
+  relativa voce in `docs/texts.json`, mantenendo l’ordine fisico descritto sotto.
+- In `docs/texts.json`, `README.md` deve essere il primo elemento dell’array. Le
+  pubblicazioni devono seguire in ordine decrescente di `createdAt`, usando
+  `file` come criterio secondario stabile in caso di pari data. Questo ordine è
+  mantenuto e verificato durante gli aggiornamenti del repository.
+- `docs/app.js` ripete lo stesso ordinamento dopo il caricamento, come protezione
+  runtime: esclude `README.md`, ordina le pubblicazioni per `createdAt` e usa
+  `file` come criterio secondario. L’indice e la paginazione usano entrambi
+  questo ordine; `updatedAt` e `publishedAt` non partecipano all’ordinamento.
 - `docs/feed.xml` è il feed RSS 2.0 statico del sito: mantenerlo manualmente,
   senza introdurre generatori o processi di build. Aggiungere un elemento per
   ogni nuova pubblicazione. Per un testo `Solo AI`, aggiungere un nuovo elemento
