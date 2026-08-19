@@ -246,6 +246,10 @@ a {
     line-height: 1.35;
 }
 
+.content .page-header h1:focus {
+    outline: none;
+}
+
 .page-collection {
     display: block;
     margin: 0.08em 0 0;
