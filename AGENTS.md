@@ -14,9 +14,10 @@ richiede un processo di build.
   carica l’indice, rende il Markdown e gestisce la navigazione. Caricarlo con
   `type="module"`.
 - `docs/texts.json` è l’indice e la fonte dei metadati dei testi.
-- I contenuti editoriali in `docs/content/texts/` usano il nome `yyyy-mm-dd-nomedefile.md`, dove la
-  data ISO a quattro cifre corrisponde alla data di creazione del testo e il
-  nome file è descrittivo e in minuscolo.
+- I contenuti editoriali in `docs/content/texts/` usano il nome
+  `yyyy-mm-dd-nomedefile.md`, dove la data ISO `yyyy-mm-dd` (con anno a quattro
+  cifre) corrisponde alla data di creazione del testo e il nome file è
+  descrittivo e in minuscolo.
 - `docs/assets/vendor/marked.esm.js` e `docs/assets/vendor/marked.esm.d.ts` sono dipendenze locali:
   non modificarle salvo una richiesta esplicita.
 - `docs/content/texts/` contiene i sorgenti editoriali Markdown.
@@ -35,7 +36,8 @@ richiede un processo di build.
   - `kind` vale `"poetry"` oppure `"story"`;
   - `collection` è facoltativo e identifica una raccolta editoriale;
   - `mark` è obbligatorio soltanto per i testi `section: "AI"` e identifica la
-    versione pubblicata; i testi `section: "Me"` non lo usano;
+    versione progressiva salvata del testo; i testi `section: "Me"` non lo
+    usano;
   - l’entry `README.md` è la homepage: ha `title`, `file`, `kind: "home"`,
     `createdAt`, `publishedAt` e `updatedAt`, non appartiene a una `section` e
     non usa `collection` o `mark`.
@@ -143,39 +145,39 @@ richiede un processo di build.
   richiesta esplicita.
 - Prima di pubblicare, verificare la versione di `docs/assets/vendor/marked.esm.js` e
   confrontarla con l’ultima release stabile di Marked. Se è disponibile un
-  aggiornamento compatibile, sostituire il bundle UMD locale con quello
+  aggiornamento compatibile, sostituire il bundle ESM locale con quello
   ufficiale e verificare il rendering di indice e testi.
 - Per un nuovo testo, aggiungere in `docs/content/texts/` un file `yyyy-mm-dd-nomedefile.md` e la
   relativa voce in `docs/texts.json`, mantenendo l’ordine fisico descritto sotto.
-- In `docs/texts.json`, `content/texts/README.md` deve essere il primo elemento dell’array. Le
-  pubblicazioni devono seguire in ordine decrescente di `createdAt`, usando
-  `file` come criterio secondario stabile in caso di pari data. Questo ordine è
-  mantenuto e verificato durante gli aggiornamenti del repository.
+- In `docs/texts.json`, mantenere l’ordine fisico descritto nella checklist
+  tecnica obbligatoria: `content/texts/README.md` deve essere il primo elemento
+  e le pubblicazioni devono seguire l’ordine previsto senza eccezioni.
 - `docs/app.js` ripete lo stesso ordinamento dopo il caricamento, come protezione
   runtime: esclude `content/texts/README.md`, ordina le pubblicazioni per `createdAt` e usa
   `file` come criterio secondario. L’indice e la paginazione usano entrambi
   questo ordine; `updatedAt` e `publishedAt` non partecipano all’ordinamento.
-- `docs/feed.xml` è il feed RSS 2.0 statico del sito: mantenerlo manualmente,
-  senza introdurre generatori o processi di build. Aggiungere un elemento per
-  ogni nuova pubblicazione. Per un testo `Solo AI`, aggiungere un nuovo elemento
-  per ogni versione salvata, comprese quelle che correggono soltanto refusi,
-  applicando sempre la regola di incremento di `Mk` descritta sotto.
-- Nei nuovi elementi del feed usare la data di pubblicazione registrata come
-  `publishedAt` in `docs/texts.json`; per un nuovo testo umano destinato al feed,
-  aggiungere questo metadato senza cambiare la data di creazione nel nome file.
-  Per le revisioni dei testi AI, includere `Mk` nel `guid` non permalink, così
-  ogni versione pubblicata resta identificabile. Il feed include al massimo i
-  30 aggiornamenti più recenti, in ordine di `pubDate` dal più recente al meno
-  recente; quando si aggiunge il trentunesimo, rimuovere l’elemento più vecchio.
-  Per i testi umani usare un `guid` stabile derivato dal file. Finché gli
-  elementi sono meno di 30, il feed contiene l’intero archivio indicizzato.
+- `docs/feed.xml` è il feed RSS statico del sito: mantenerlo manualmente, senza
+  introdurre generatori o processi di build. Aggiungere un elemento per ogni
+  nuova pubblicazione. Per un testo `Solo AI`, aggiungere un nuovo elemento per
+  ogni versione salvata, comprese quelle che correggono soltanto refusi,
+  applicando sempre la regola di incremento di `Mk` descritta sotto e verificando
+  il risultato con la checklist tecnica obbligatoria.
+- Nei nuovi elementi del feed usare `publishedAt` come data di pubblicazione.
+  Per un nuovo testo umano destinato al feed, aggiungere questo metadato senza
+  cambiare la data di creazione nel nome file. Per le revisioni dei testi AI,
+  includere `Mk` nel `guid`, così ogni versione pubblicata resta identificabile.
+  Applicare il limite dei 30 aggiornamenti e le regole per GUID, ordine e URL
+  indicate nella checklist tecnica obbligatoria.
 - Per i testi umani storici, `createdAt` deriva dalla data ISO nel nome file;
   se una pagina raccoglie più testi, `publishedAt` e `updatedAt` usano la data
-  esplicita dell’ultimo testo contenuto. Tutti e tre i metadati usano le ore
-  09:00 con il corretto offset di `Europe/Rome`. Se nel contenuto manca un
-  giorno finale verificabile, mantenere la data del nome file. Il collegamento
-  RSS non è visibile nella pagina: affidarsi all’autodiscovery dichiarato in
-  `docs/index.html`.
+  esplicita dell’ultimo testo contenuto. Se nel contenuto manca un giorno finale
+  verificabile, mantenere la data del nome file. Il collegamento RSS non è
+  visibile nella pagina: affidarsi all’autodiscovery dichiarato in
+  `docs/index.html`. Quando una data storica è ricavata soltanto dal nome file
+  o da informazioni incomplete, usare convenzionalmente le 09:00 con l’offset
+  corretto di `Europe/Rome`; quando giorno e ora reali sono noti, conservarli.
+  Il formato e l’offset delle date sono verificati secondo la checklist tecnica
+  obbligatoria.
 - I testi non AI non usano `mark` e non registrano come nuove versioni gli
   interventi tecnici. Per un nuovo testo singolo, impostare `createdAt`,
   `publishedAt` e `updatedAt` alla data di composizione. Quando si aggiunge un
@@ -194,7 +196,9 @@ richiede un processo di build.
   la pagina homepage e non una pubblicazione indicizzata.
 - Per ogni modifica salvata a un testo `Solo AI`, refusi compresi, incrementare
   `mark` di uno in `texts.json`: `Mk` è il numero progressivo di tutte le
-  versioni, anche prima della pubblicazione. Salvare `publishedAt`, `updatedAt`
+  versioni salvate, anche prima della pubblicazione. Ogni versione salvata
+  destinata alla pubblicazione deve essere registrata anche nel feed RSS.
+  Salvare `publishedAt`, `updatedAt`
   e `createdAt` come data e ora ISO 8601 con fuso orario. Ogni volta che si
   aggiorna `Mk`, aggiornare contestualmente `publishedAt` e `updatedAt` con la
   data e l’ora della nuova versione, aggiungere al feed il relativo elemento con
@@ -227,6 +231,69 @@ richiede un processo di build.
   `npm run validate`; non aggiungere o rimuovere singole regole senza una
   decisione esplicita.
 
+## Checklist tecnica obbligatoria prima della consegna
+
+Questa checklist è obbligatoria dopo ogni modifica a codice, metadati,
+contenuti, feed o risorse del sito. Non introdurre uno script di validazione o
+un nuovo processo di build per automatizzarla: verificare manualmente questi
+invarianti durante il lavoro e prima della consegna. La sezione “Contenuti e
+attribuzione” è la fonte normativa dello schema; questa checklist ne verifica
+il rispetto prima della consegna.
+
+- `docs/texts.json` deve contenere una sola entry homepage, con `file` uguale
+  a `content/texts/README.md`, `kind: "home"` e senza `section`, `collection`
+  o `mark`. Ogni pubblicazione deve avere `title`, `file`, `section`, `kind`,
+  `createdAt`, `publishedAt` e `updatedAt`; `section` deve essere `Me` o `AI`,
+  `kind` deve essere `poetry` o `story`, `collection` deve essere una stringa
+  non vuota quando presente, e non devono essere introdotti campi non previsti
+  senza aggiornare prima queste istruzioni.
+- `mark` deve essere presente soltanto per le entry `section: "AI"` e deve
+  essere un intero positivo. Le entry `section: "Me"` non devono usarlo.
+- `content/texts/README.md` deve essere il primo elemento dell’array. Tutte le
+  pubblicazioni devono seguire in ordine decrescente di `createdAt`, usando
+  `file` come criterio secondario stabile in caso di pari data. Non devono
+  esserci file, entry o titoli duplicati accidentalmente.
+- Ogni file indicato da una pubblicazione deve esistere sotto
+  `docs/content/texts/`; non devono restare Markdown pubblicati non presenti in
+  `texts.json`, né entry che puntano a file mancanti.
+- Per ogni pubblicazione umana presente nella finestra dei 30 aggiornamenti
+  deve esistere un solo elemento corrispondente in `docs/feed.xml`. Per ogni
+  testo AI devono essere presenti gli elementi RSS delle versioni pubblicate
+  ancora comprese nella stessa finestra, inclusa la versione corrente indicata
+  da `mark`. Titolo, route, categoria e `pubDate` devono corrispondere
+  all’indice; le pubblicazioni escluse perché più vecchie possono non comparire
+  nel feed.
+- Ogni GUID RSS deve essere unico. I testi umani devono mantenere un GUID
+  stabile derivato dal file; i testi AI devono usare un GUID distinto per ogni
+  versione, derivato da file e `mark`. Non riutilizzare un GUID per due
+  versioni diverse e non cambiare il GUID stabile di un testo umano.
+- Per ogni testo AI, il `mark` corrente deve essere la versione progressiva
+  salvata più recente per quel file e, se destinata alla pubblicazione, deve
+  comparire nel relativo GUID RSS. Le versioni
+  precedenti già pubblicate devono essere conservate nel feed finché rientrano
+  nel limite dei 30 aggiornamenti. Non incrementare `mark` per una sola
+  redistribuzione tecnica delle righe di una storia.
+- Tutti i valori `createdAt`, `publishedAt` e `updatedAt` devono essere date
+  ISO 8601 complete con secondi e offset esplicito, nel formato
+  `YYYY-MM-DDTHH:mm:ss+HH:MM`. Verificare che le date siano reali, che
+  l’offset corrisponda a `Europe/Rome` per quell’istante e che rispettino
+  l’ordine `createdAt <= publishedAt <= updatedAt`.
+- Per i testi umani storici, `createdAt` deve essere coerente con la data nel
+  nome file. Usare convenzionalmente le ore 09:00 e l’offset corretto di
+  `Europe/Rome` soltanto quando giorno o ora reali non sono noti; per i
+  contenuti nuovi o storici con dati completi, registrare i valori effettivi.
+- Il feed deve rimanere XML RSS 2.0 valido, contenere al massimo 30 elementi,
+  essere ordinato per `pubDate` decrescente e usare URL assoluti. Aggiornare
+  `lastBuildDate` quando cambia il feed.
+- Nei file con `kind: "story"`, le righe dei normali paragrafi Markdown non
+  devono superare 80 caratteri. Non spezzare parole, URL o costrutti Markdown
+  per soddisfare il limite; escludere dal controllo titoli, righe vuote,
+  blockquote e blocchi di codice. Conservare i due spazi finali soltanto dove
+  sono interruzioni Markdown intenzionali.
+- Dopo la checklist, eseguire `npm run validate`, verificare l’indice e almeno
+  una pagina di testo nel browser, controllare la navigazione e, se è cambiato
+  `docs/feed.xml`, verificare nuovamente XML, date, GUID e URL.
+
 ## Igiene dei file
 
 - Usare UTF-8, terminazioni LF e un solo newline finale. Non lasciare spazi
@@ -235,13 +302,8 @@ richiede un processo di build.
 - Nei Markdown poetici conservare le interruzioni di verso con esattamente due
   spazi finali; non usarli su titoli o righe vuote e non sostituirli con
   backslash o tag HTML.
-- Dopo avere creato o modificato un testo con `kind: "story"`, controllare che
-  le righe dei normali paragrafi non superino 80 caratteri. Non spezzare parole,
-  URL o costrutti Markdown per soddisfare il limite.
-- Prima della consegna, controllare che i link di navigazione, il caricamento
-  di `texts.json` e il rendering di un testo funzionino correttamente. Quando
-  cambia `docs/feed.xml`, verificarne anche la validità XML, le date RFC 822 e
-  gli URL assoluti degli elementi.
+- Per le storie e per la verifica finale del sito, applicare la checklist
+  tecnica obbligatoria prima della consegna.
 
 ## Commit
 
