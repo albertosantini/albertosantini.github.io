@@ -177,6 +177,14 @@ richiede un processo di build.
   il nuovo `Mk` e conservare gli elementi delle versioni precedenti finché non
   escono dal limite dei 30 aggiornamenti. Mostrarlo nell’intestazione con ore e
   minuti. Non modificare `createdAt`.
+- Nei testi identificati da `kind: "story"` in `docs/texts.json`, sia AI sia non
+  AI, limitare a 80 caratteri le righe dei normali paragrafi Markdown, andando a
+  capo soltanto tra due parole. La sola redistribuzione dei ritorni a capo
+  morbidi, quando non cambia l’HTML prodotto né alcun carattere, parola o segno
+  di punteggiatura del testo, è un intervento tecnico: non modifica metadati o
+  feed e, per i racconti `Solo AI`, non incrementa `mark`. Questa eccezione non
+  si applica ai ritorni a capo Markdown significativi, comprese le righe con due
+  spazi finali.
 - `docs/app.js` usa `Mk` come parametro di versione nell’URL del Markdown (`?v=Mk`):
   non rimuoverlo né sostituirlo con un timestamp casuale. In questo modo ogni
   nuova versione evita una copia obsoleta nella cache di GitHub Pages/CDN,
@@ -203,6 +211,9 @@ richiede un processo di build.
 - Nei Markdown poetici conservare le interruzioni di verso con esattamente due
   spazi finali; non usarli su titoli o righe vuote e non sostituirli con
   backslash o tag HTML.
+- Dopo avere creato o modificato un testo con `kind: "story"`, controllare che
+  le righe dei normali paragrafi non superino 80 caratteri. Non spezzare parole,
+  URL o costrutti Markdown per soddisfare il limite.
 - Prima della consegna, controllare che i link di navigazione, il caricamento
   di `texts.json` e il rendering di un testo funzionino correttamente. Quando
   cambia `docs/feed.xml`, verificarne anche la validità XML, le date RFC 822 e

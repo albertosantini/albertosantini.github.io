@@ -98,7 +98,8 @@ ventre. Non posso rischiare che ci abbandoni di nuovo. Mi sono costruita
 un’altra vita: ho una casa, un’automobile, un lavoro, un conto in banca, molti
 amici. Sono felice. Quella notte tu hai scelto per entrambi, ora tocca a me
 decidere, per me e per te. Non voglio ritornare a vivere insieme. Ho già
-chiamato un avvocato per iniziare le pratiche del divorzio. Non prendertela, Sik.
+chiamato un avvocato per iniziare le pratiche del divorzio. Non prendertela,
+Sik.
 Ho capito che sei cambiato, ma non sei il solo. Non siamo più ragazzi. È
 passato il momento delle bravate, dei genitori che ci tiravano fuori dai guai.»
 

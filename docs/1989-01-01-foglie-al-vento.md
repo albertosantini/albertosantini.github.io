@@ -27,8 +27,8 @@ vacanze perché aveva preso un brutto voto sui campi giratori del quark
 Night. Voleva essere la migliore e nessuno e nulla l’avrebbe distolta dal suo
 obiettivo.
 
-Adesso si trovava di fronte a uno sbarramento multiforme. Non si era mai inoltrata
-così dentro alla Rete. In qualsiasi momento sarebbe potuto scattare
+Adesso si trovava di fronte a uno sbarramento multiforme. Non si era mai
+inoltrata così dentro alla Rete. In qualsiasi momento sarebbe potuto scattare
 qualche allarme, uno sbuffo rosso su un terminale di controllo, e si sarebbe
 scatenato l’inferno. Le dita schizzavano veloci sulla tastiera. Gli occhi fissi
 sul monitor. Con un HUD ed un PowerGlove avrebbe finito più in fretta, ma
