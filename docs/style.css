@@ -155,7 +155,7 @@ a {
     padding-top: 16px;
 }
 
-.content.is-home > h2:first-child {
+.content.is-home > h1:first-child {
     margin-bottom: 0.3em;
     text-align: center;
     font-size: 1.7rem;

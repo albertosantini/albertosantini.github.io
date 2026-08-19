@@ -41,7 +41,7 @@ initEvents();
 boot();
 
 function initEvents() {
-    window.addEventListener("hashchange", renderRoute);
+    window.addEventListener("hashchange", () => renderRoute({ moveFocus: true }));
 
     document.addEventListener("click", (event) => {
         if (!(event.target instanceof Element)) {
@@ -102,7 +102,7 @@ function compareEntries(first, second) {
     return creationDifference || first.file.localeCompare(second.file);
 }
 
-async function renderRoute() {
+async function renderRoute({ moveFocus = false } = {}) {
     const routeFile = fileFromHash(location.hash);
     const known = routeFile && (
         routeFile === HOME_FILE
@@ -138,7 +138,7 @@ async function renderRoute() {
         setPager();
         rewriteMarkdownLinks();
         document.title = `${pageTitle(requestedFile)} | ${SITE_TITLE}`;
-        window.scrollTo({ top: 0, behavior: "auto" });
+        resetViewport(moveFocus);
     } catch {
         if (currentFile === requestedFile) {
             showError(`Non riesco a caricare ${requestedFile}.`);
@@ -148,6 +148,36 @@ async function renderRoute() {
             content.removeAttribute("aria-busy");
         }
     }
+}
+
+function focusPageHeading() {
+    const heading = /** @type {HTMLElement | null} */ (content.querySelector("h1"));
+
+    if (!heading) {
+        content.focus({ preventScroll: true });
+        return;
+    }
+
+    heading.setAttribute("tabindex", "-1");
+    heading.focus({ preventScroll: true });
+}
+
+function resetViewport(moveFocus) {
+    const finish = () => {
+        if (moveFocus) {
+            focusPageHeading();
+        }
+    };
+
+    if (window.scrollY === 0) {
+        finish();
+        return;
+    }
+
+    window.requestAnimationFrame(() => {
+        window.scrollTo({ top: 0, behavior: "auto" });
+        finish();
+    });
 }
 
 async function loadMarkdown(file) {
