@@ -14,11 +14,13 @@ richiede un processo di build.
   carica l’indice, rende il Markdown e gestisce la navigazione. Caricarlo con
   `type="module"`.
 - `docs/texts.json` è l’indice e la fonte dei metadati dei testi.
-- I contenuti pubblicati in `docs/` usano il nome `yyyy-mm-dd-nomedefile.md`, dove la
+- I contenuti editoriali in `docs/content/texts/` usano il nome `yyyy-mm-dd-nomedefile.md`, dove la
   data ISO a quattro cifre corrisponde alla data di creazione del testo e il
   nome file è descrittivo e in minuscolo.
-- `docs/vendor/marked.esm.js` e `docs/vendor/marked.esm.d.ts` sono dipendenze locali:
+- `docs/assets/vendor/marked.esm.js` e `docs/assets/vendor/marked.esm.d.ts` sono dipendenze locali:
   non modificarle salvo una richiesta esplicita.
+- `docs/content/texts/` contiene i sorgenti editoriali Markdown.
+- `docs/assets/` contiene le risorse statiche del sito, come font, vendor e favicon.
 
 ## Contenuti e attribuzione
 
@@ -139,18 +141,18 @@ richiede un processo di build.
 
 - Mantenere il sito statico e privo di dipendenze o processi di build, salvo
   richiesta esplicita.
-- Prima di pubblicare, verificare la versione di `docs/vendor/marked.esm.js` e
+- Prima di pubblicare, verificare la versione di `docs/assets/vendor/marked.esm.js` e
   confrontarla con l’ultima release stabile di Marked. Se è disponibile un
   aggiornamento compatibile, sostituire il bundle UMD locale con quello
   ufficiale e verificare il rendering di indice e testi.
-- Per un nuovo testo, aggiungere in `docs/` un file `yyyy-mm-dd-nomedefile.md` e la
+- Per un nuovo testo, aggiungere in `docs/content/texts/` un file `yyyy-mm-dd-nomedefile.md` e la
   relativa voce in `docs/texts.json`, mantenendo l’ordine fisico descritto sotto.
-- In `docs/texts.json`, `README.md` deve essere il primo elemento dell’array. Le
+- In `docs/texts.json`, `content/texts/README.md` deve essere il primo elemento dell’array. Le
   pubblicazioni devono seguire in ordine decrescente di `createdAt`, usando
   `file` come criterio secondario stabile in caso di pari data. Questo ordine è
   mantenuto e verificato durante gli aggiornamenti del repository.
 - `docs/app.js` ripete lo stesso ordinamento dopo il caricamento, come protezione
-  runtime: esclude `README.md`, ordina le pubblicazioni per `createdAt` e usa
+  runtime: esclude `content/texts/README.md`, ordina le pubblicazioni per `createdAt` e usa
   `file` come criterio secondario. L’indice e la paginazione usano entrambi
   questo ordine; `updatedAt` e `publishedAt` non partecipano all’ordinamento.
 - `docs/feed.xml` è il feed RSS 2.0 statico del sito: mantenerlo manualmente,
@@ -187,7 +189,7 @@ richiede un processo di build.
   invariati; se viene ripubblicata, aggiornare `publishedAt` e `updatedAt` al
   momento della ripubblicazione e aggiornare l’elemento RSS esistente senza
   cambiare il suo `guid`.
-- `README.md` segue le stesse regole dei testi non AI per `createdAt`,
+- `content/texts/README.md` segue le stesse regole dei testi non AI per `createdAt`,
   `publishedAt` e `updatedAt`, ma non genera un elemento nel feed RSS perché è
   la pagina homepage e non una pubblicazione indicizzata.
 - Per ogni modifica salvata a un testo `Solo AI`, refusi compresi, incrementare
@@ -217,7 +219,7 @@ richiede un processo di build.
   tecnici o grafici.
 - Per la validazione tecnica usare `npm run validate`: esegue ESLint e il
   controllo TypeScript su `docs/app.js` con `checkJs`, entrambi tramite `npx` e
-  senza dipendenze locali. Il bundle esterno in `docs/vendor/` resta escluso.
+  senza dipendenze locali. Il bundle esterno in `docs/assets/vendor/` resta escluso.
 - `eslint-recommended.js` contiene una fotografia esplicita delle regole
   `recommended` di `@eslint/js` 10.0.1, importata da `eslint.config.js`, per
   evitare `node_modules` e import di pacchetti esterni. Per aggiornare la

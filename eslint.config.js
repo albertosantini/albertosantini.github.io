@@ -2,7 +2,7 @@ import recommendedRules from "./eslint-recommended.js";
 
 export default [
     {
-        ignores: ["docs/vendor/**"]
+        ignores: ["docs/assets/vendor/**"]
     },
     {
         files: ["docs/app.js"],

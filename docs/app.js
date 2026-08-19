@@ -1,6 +1,6 @@
-import { marked } from "./vendor/marked.esm.js";
+import { marked } from "./assets/vendor/marked.esm.js";
 
-const HOME_FILE = "README.md";
+const HOME_FILE = "content/texts/README.md";
 const SITE_TITLE = "Alberto Santini";
 const HOME_PAGE_SIZE = 5;
 const SECTION_LABELS = {

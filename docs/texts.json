@@ -1,7 +1,7 @@
 [
     {
         "title": "README",
-        "file": "README.md",
+        "file": "content/texts/README.md",
         "kind": "home",
         "createdAt": "2018-02-22T19:44:45+01:00",
         "publishedAt": "2026-08-10T11:31:25+02:00",
@@ -9,7 +9,7 @@
     },
     {
         "title": "La seconda scheggia",
-        "file": "2026-08-18-la-seconda-scheggia.md",
+        "file": "content/texts/2026-08-18-la-seconda-scheggia.md",
         "section": "AI",
         "collection": "Universo dei Precursori",
         "kind": "story",
@@ -20,7 +20,7 @@
     },
     {
         "title": "La lunghezza dei giorni",
-        "file": "2026-08-08-la-lunghezza-dei-giorni.md",
+        "file": "content/texts/2026-08-08-la-lunghezza-dei-giorni.md",
         "section": "AI",
         "collection": "Universo di Nora",
         "kind": "story",
@@ -31,7 +31,7 @@
     },
     {
         "title": "Il rumore del mondo",
-        "file": "2026-08-08-il-rumore-del-mondo.md",
+        "file": "content/texts/2026-08-08-il-rumore-del-mondo.md",
         "section": "AI",
         "collection": "Universo di Nora",
         "kind": "story",
@@ -42,7 +42,7 @@
     },
     {
         "title": "Un miliardo di battiti",
-        "file": "2026-08-07-un-miliardo-di-battiti.md",
+        "file": "content/texts/2026-08-07-un-miliardo-di-battiti.md",
         "section": "AI",
         "collection": "Universo di Nora",
         "kind": "story",
@@ -53,7 +53,7 @@
     },
     {
         "title": "Moto Perpetuo",
-        "file": "2016-11-22-moto-perpetuo.md",
+        "file": "content/texts/2016-11-22-moto-perpetuo.md",
         "section": "Me",
         "kind": "poetry",
         "collection": "2016-nov – 2018-gen",
@@ -63,7 +63,7 @@
     },
     {
         "title": "Abisso",
-        "file": "2008-05-17-abisso.md",
+        "file": "content/texts/2008-05-17-abisso.md",
         "section": "Me",
         "kind": "poetry",
         "publishedAt": "2008-05-17T09:00:00+02:00",
@@ -72,7 +72,7 @@
     },
     {
         "title": "NY Marathon 2007",
-        "file": "2007-11-04-ny-marathon-2007.md",
+        "file": "content/texts/2007-11-04-ny-marathon-2007.md",
         "section": "Me",
         "kind": "poetry",
         "publishedAt": "2007-11-04T09:00:00+01:00",
@@ -81,7 +81,7 @@
     },
     {
         "title": "Anna",
-        "file": "1998-12-12-anna.md",
+        "file": "content/texts/1998-12-12-anna.md",
         "section": "Me",
         "kind": "poetry",
         "collection": "1998-dic – 2002-dic",
@@ -91,7 +91,7 @@
     },
     {
         "title": "Lei",
-        "file": "1998-11-15-lei.md",
+        "file": "content/texts/1998-11-15-lei.md",
         "section": "Me",
         "kind": "poetry",
         "publishedAt": "1998-11-24T09:00:00+01:00",
@@ -100,7 +100,7 @@
     },
     {
         "title": "Vicino e Lontano",
-        "file": "1998-10-04-vicino-e-lontano.md",
+        "file": "content/texts/1998-10-04-vicino-e-lontano.md",
         "section": "Me",
         "kind": "poetry",
         "publishedAt": "1998-10-04T09:00:00+02:00",
@@ -109,7 +109,7 @@
     },
     {
         "title": "Musica nella Notte",
-        "file": "1998-01-19-musica-nella-notte.md",
+        "file": "content/texts/1998-01-19-musica-nella-notte.md",
         "section": "Me",
         "kind": "poetry",
         "collection": "1998-gen – 1998-mag",
@@ -119,7 +119,7 @@
     },
     {
         "title": "Ondina",
-        "file": "1997-08-22-ondina.md",
+        "file": "content/texts/1997-08-22-ondina.md",
         "section": "Me",
         "kind": "poetry",
         "collection": "1997-ago – 1998-gen",
@@ -129,7 +129,7 @@
     },
     {
         "title": "Momenti ed Interruzioni",
-        "file": "1997-05-23-momenti-ed-interruzioni.md",
+        "file": "content/texts/1997-05-23-momenti-ed-interruzioni.md",
         "section": "Me",
         "kind": "poetry",
         "collection": "1997-mag – 1997-ott",
@@ -139,7 +139,7 @@
     },
     {
         "title": "Parole",
-        "file": "1996-05-12-parole.md",
+        "file": "content/texts/1996-05-12-parole.md",
         "section": "Me",
         "kind": "poetry",
         "collection": "1996-mag – 1997-mar",
@@ -149,7 +149,7 @@
     },
     {
         "title": "Giochi d’Acqua",
-        "file": "1995-09-05-giochi-dacqua.md",
+        "file": "content/texts/1995-09-05-giochi-dacqua.md",
         "section": "Me",
         "kind": "poetry",
         "collection": "1995-set – 1996-mag",
@@ -159,7 +159,7 @@
     },
     {
         "title": "Sensi",
-        "file": "1993-10-10-sensi.md",
+        "file": "content/texts/1993-10-10-sensi.md",
         "section": "Me",
         "kind": "poetry",
         "collection": "1993-ott – 1994-ott",
@@ -169,7 +169,7 @@
     },
     {
         "title": "Blmo",
-        "file": "1993-06-12-blmo.md",
+        "file": "content/texts/1993-06-12-blmo.md",
         "section": "Me",
         "kind": "poetry",
         "collection": "1993-giu – 1995-mag",
@@ -179,7 +179,7 @@
     },
     {
         "title": "Contatti",
-        "file": "1993-03-14-contatti.md",
+        "file": "content/texts/1993-03-14-contatti.md",
         "section": "Me",
         "kind": "poetry",
         "collection": "1993-mar – 1994-dic",
@@ -189,7 +189,7 @@
     },
     {
         "title": "Sirene",
-        "file": "1993-03-01-sirene.md",
+        "file": "content/texts/1993-03-01-sirene.md",
         "section": "Me",
         "kind": "poetry",
         "publishedAt": "1993-03-01T09:00:00+01:00",
@@ -198,7 +198,7 @@
     },
     {
         "title": "Immagini",
-        "file": "1992-01-29-immagini.md",
+        "file": "content/texts/1992-01-29-immagini.md",
         "section": "Me",
         "kind": "poetry",
         "collection": "1992-gen – 1994-ago",
@@ -208,7 +208,7 @@
     },
     {
         "title": "Polvere di Nuvole",
-        "file": "1991-09-28-polvere-di-nuvole.md",
+        "file": "content/texts/1991-09-28-polvere-di-nuvole.md",
         "section": "Me",
         "kind": "poetry",
         "collection": "1991-set – 1991-ott",
@@ -218,7 +218,7 @@
     },
     {
         "title": "Dio non mi vuole",
-        "file": "1991-01-01-dio-non-mi-vuole.md",
+        "file": "content/texts/1991-01-01-dio-non-mi-vuole.md",
         "section": "Me",
         "kind": "story",
         "publishedAt": "1991-01-01T09:00:00+01:00",
@@ -227,7 +227,7 @@
     },
     {
         "title": "La porta si chiude",
-        "file": "1990-01-01-la-porta-si-chiude.md",
+        "file": "content/texts/1990-01-01-la-porta-si-chiude.md",
         "section": "Me",
         "kind": "poetry",
         "publishedAt": "1990-01-01T09:00:00+01:00",
@@ -236,7 +236,7 @@
     },
     {
         "title": "Poesie Aperte",
-        "file": "1989-01-01-poesie-aperte.md",
+        "file": "content/texts/1989-01-01-poesie-aperte.md",
         "section": "Me",
         "kind": "poetry",
         "publishedAt": "1989-01-01T09:00:00+01:00",
@@ -245,7 +245,7 @@
     },
     {
         "title": "Foglie al vento",
-        "file": "1989-01-01-foglie-al-vento.md",
+        "file": "content/texts/1989-01-01-foglie-al-vento.md",
         "section": "Me",
         "kind": "story",
         "publishedAt": "1989-01-01T09:00:00+01:00",
@@ -254,7 +254,7 @@
     },
     {
         "title": "Primi? Forse.",
-        "file": "1986-01-01-primi-forse.md",
+        "file": "content/texts/1986-01-01-primi-forse.md",
         "section": "Me",
         "kind": "story",
         "publishedAt": "1986-01-01T09:00:00+01:00",
@@ -263,7 +263,7 @@
     },
     {
         "title": "Invasione",
-        "file": "1985-01-01-invasione.md",
+        "file": "content/texts/1985-01-01-invasione.md",
         "section": "Me",
         "kind": "story",
         "publishedAt": "1985-01-01T09:00:00+01:00",
