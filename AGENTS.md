@@ -26,6 +26,17 @@ richiede un processo di build.
   contenuti editoriali senza una richiesta esplicita dell’autore.
 - Conservare in `docs/texts.json` la distinzione tra `Me` (`section: "Me"`)
   e `AI` (`section: "AI"`).
+- Lo schema di `docs/texts.json` è il seguente:
+  - ogni testo pubblicato ha i campi obbligatori `title`, `file`, `section`,
+    `kind`, `createdAt`, `publishedAt` e `updatedAt`;
+  - `section` vale `"Me"` oppure `"AI"`;
+  - `kind` vale `"poetry"` oppure `"story"`;
+  - `collection` è facoltativo e identifica una raccolta editoriale;
+  - `mark` è obbligatorio soltanto per i testi `section: "AI"` e identifica la
+    versione pubblicata; i testi `section: "Me"` non lo usano;
+  - l’entry `README.md` è la homepage: ha `title`, `file`, `kind: "home"`,
+    `createdAt`, `publishedAt` e `updatedAt`, non appartiene a una `section` e
+    non usa `collection` o `mark`.
 - Nei contenuti editoriali usare l’apostrofo tipografico (`’`) e il carattere
   di ellissi (`…`). Nei racconti narrativi usare le caporali italiane senza
   spazi interni per i dialoghi (`«Testo»`) e le virgolette inglesi tipografiche
@@ -168,6 +179,9 @@ richiede un processo di build.
   invariati; se viene ripubblicata, aggiornare `publishedAt` e `updatedAt` al
   momento della ripubblicazione e aggiornare l’elemento RSS esistente senza
   cambiare il suo `guid`.
+- `README.md` segue le stesse regole dei testi non AI per `createdAt`,
+  `publishedAt` e `updatedAt`, ma non genera un elemento nel feed RSS perché è
+  la pagina homepage e non una pubblicazione indicizzata.
 - Per ogni modifica salvata a un testo `Solo AI`, refusi compresi, incrementare
   `mark` di uno in `texts.json`: `Mk` è il numero progressivo di tutte le
   versioni, anche prima della pubblicazione. Salvare `publishedAt`, `updatedAt`
