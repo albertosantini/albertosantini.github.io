@@ -321,7 +321,7 @@ function renderHomeIndex() {
 }
 
 function renderHomeControls(section, total, offset) {
-    if (total < HOME_PAGE_SIZE) {
+    if (total <= HOME_PAGE_SIZE) {
         return "";
     }
 
@@ -366,6 +366,7 @@ function formatDate(value) {
 
 function showError(message) {
     content.innerHTML = `<p class="error">${escapeHtml(message)}</p>`;
+    content.classList.remove("is-home", "is-story");
     document.title = SITE_TITLE;
 }
 

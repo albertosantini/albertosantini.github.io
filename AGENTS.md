@@ -47,7 +47,7 @@ richiede un processo di build.
 - Scrivere le lettere accentate direttamente in UTF-8, senza entità HTML.
 - Non modificare le diciture visibili nei footer relative all’uso dell’AI
   senza approvazione esplicita. Sono dichiarazioni editoriali del sito. Le
-  diciture approvate sono: `AI usata per il sito e l’impaginazione.` per
+  diciture approvate sono: `AI per il sito e la grafica.` per
   l’indice, `Scritto da me, AI solo per i refusi.` per i testi umani e
   `Generato con AI, rivisto da me.` per i testi AI.
 - Questo file è soltanto una guida operativa per chi lavora sul repository;
