@@ -115,8 +115,6 @@ async function renderRoute() {
 
     currentFile = known ? routeFile : HOME_FILE;
     const requestedFile = currentFile;
-    updateFooter();
-    setPager();
     content.setAttribute("aria-busy", "true");
 
     try {
@@ -136,6 +134,8 @@ async function renderRoute() {
         content.classList.toggle("is-story", entries.some((entry) => (
             entry.file === requestedFile && entry.kind === "story"
         )));
+        updateFooter();
+        setPager();
         rewriteMarkdownLinks();
         document.title = `${pageTitle(requestedFile)} | ${SITE_TITLE}`;
         window.scrollTo({ top: 0, behavior: "auto" });
@@ -367,6 +367,8 @@ function formatDate(value) {
 function showError(message) {
     content.innerHTML = `<p class="error">${escapeHtml(message)}</p>`;
     content.classList.remove("is-home", "is-story");
+    pager.hidden = true;
+    siteFooter.hidden = true;
     document.title = SITE_TITLE;
 }
 
