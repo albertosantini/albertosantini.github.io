@@ -104,7 +104,7 @@ al chiaro di luna.
 
 ## LSD `1989`
 
-Love is feeling:  
+Love is a feeling:  
 gli alberi delle case  
 che sono sui tetti,  
 i fiocchi del cielo  

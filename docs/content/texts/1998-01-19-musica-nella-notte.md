@@ -1,4 +1,4 @@
-## Passione `A Annamaria 12-05-1998`
+## Passione `A Annamaria 1998-05-12`
 
 Sei passione.  
 Sei un raggio di luce  
@@ -19,7 +19,7 @@ al sorgere del sole:
 la mattina ti coglie  
 imperiosamente bella.  
 
-## Vita `A Chiara 10-04-1998`
+## Vita `A Chiara 1998-04-10`
 
 A Chiara  
 che vive la vita  
@@ -43,7 +43,7 @@ storie senza scuse
 dolce come un bacio  
 dato a chi si ama.  
 
-## Odio `12-02-1998`
+## Odio `1998-02-12`
 
 Piagnucolare.  
 Odio.  
@@ -56,7 +56,7 @@ Rovisto dentro di te
 per trovare la  
 fine del mondo.  
 
-## Love for you `25-01-1998`
+## Love for you `1998-01-25`
 
 Mi ricordo di quel bacio  
 in riva al mare  
@@ -70,7 +70,7 @@ esisti soltanto tu
 con quel bacio  
 in riva al mare.  
 
-## Sfumature `21-01-1998`
+## Sfumature `1998-01-21`
 
 I riflessi rossi  
 di una conchiglia madreperla  
@@ -80,7 +80,7 @@ un bagliore…
 un bacio rubato  
 non sono più solo.  
 
-## Coccola `20-01-1998`
+## Coccola `1998-01-20`
 
 Mi piace accarezzare il cuore di  
 una donna come i suoi capelli al vento  
@@ -88,7 +88,7 @@ e farla sentire veramente donna
 al ritmo dell’onda che sale  
 per stringerla per sempre a me.  
 
-## Note nel vento `19-01-1998`
+## Note nel vento `1998-01-19`
 
 Note sull’acqua  
 spruzzate dal vento  

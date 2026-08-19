@@ -64,12 +64,12 @@ che non scopre le carte.
 Promises to keep  
 I find in the deep  
 when I see  
-my soul and no the world  
-(eyes ad sights)  
+my soul and not the world  
+(eyes and sights)  
 in the air I can fly  
-I don’t pay: all is free.  
+I don’t pay: everything is free.  
 
-## 28/09/1991
+## 1991-09-28
 
 La scorza travolgono  
 di creta che avvolge  
@@ -118,7 +118,7 @@ grande fuori dal mondo
 che avevo visto solo  
 con occhi da bambino.  
 
-## Per i ventiquattro `18-10-1991`
+## Per i ventiquattro `1991-10-18`
 
 Non lo so  
 se i ladri di parole  

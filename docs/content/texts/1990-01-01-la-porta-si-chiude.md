@@ -15,19 +15,19 @@ mentre guardo prona la donna cara.
 ## Chucker out `1990`
 
 When the sunshine goes down  
-switch on the light of the town  
+switch on the lights in town  
 because the night is dark  
-I am afraid of coming the shark;  
-the bell of Freedom says tong  
-I arise again waiting the gong:  
-so far away it’s lonely point  
+I am afraid the shark is coming;  
+the bell of Freedom rings: ding-dong  
+I arise again, waiting for the gong:  
+so far away, it’s a lonely point  
 you can know it with one coin.  
-Now the machine is going on  
+Now the machine goes on  
 I’m looking for my son:  
-this is the time of return  
+this is the time to return  
 I think I am wrong  
 the way is too long  
-you lost the way of return.  
+you have lost the way back.  
 
 ## Al cinema `1990`
 

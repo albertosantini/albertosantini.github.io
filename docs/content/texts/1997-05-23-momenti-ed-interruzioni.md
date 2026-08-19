@@ -1,4 +1,4 @@
-## Goccia `23-10-1997`
+## Goccia `1997-10-23`
 
 Forse è già primavera  
 che appare all’improvviso  
@@ -6,7 +6,7 @@ il mio fiore preferito
 come una goccia  
 di rugiada al mattino?  
 
-## Lacrime `01-10-1997`
+## Lacrime `1997-10-01`
 
 Le gocce di pioggia  
 non bagnano il mio viso  
@@ -15,7 +15,7 @@ da lacrime che
 chiamo  
 amore.  
 
-## Bella `01-10-1997`
+## Bella `1997-10-01`
 
 Tu che sei così bella  
 non lasciarmi qui da solo  
@@ -25,7 +25,7 @@ bianca; tu che sei
 così vicino abbracciami  
 forte.  
 
-## Bacio `A Chiara 12-07-1997`
+## Bacio `A Chiara 1997-07-12`
 
 Con un bacio e un sogno  
 toccare una rosa d’estate  
@@ -49,7 +49,7 @@ quella stella che mi fa
 l’occhiolino e all’alba  
 se ne va.  
 
-## Brivido `27-05-1997`
+## Brivido `1997-05-27`
 
 Quel brivido che  
 mi prende ed  
@@ -66,7 +66,7 @@ mi accorgo che
 qualcosa è cambiato.  
 Dentro, non fuori.  
 
-## Strappo `23-05-1997`
+## Strappo `1997-05-23`
 
 La vecchia luna  
 sorride mentre solo  
@@ -86,7 +86,7 @@ dal cielo; buttarla
 in terra ed urlare:  
 &quot;E adesso piangi con me&quot;.  
 
-## Vaso `23-05-1997`
+## Vaso `1997-05-23`
 
 Ogni pezzo di un  
 oggetto rotto, frammento,  

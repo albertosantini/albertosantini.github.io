@@ -33,7 +33,8 @@ richiede un processo di build.
   - ogni testo pubblicato ha i campi obbligatori `title`, `file`, `section`,
     `kind`, `createdAt`, `publishedAt` e `updatedAt`;
   - `section` vale `"Me"` oppure `"AI"`;
-  - `kind` vale `"poetry"` oppure `"story"`;
+  - `kind` vale `"poetry"`, `"story"` oppure `"sport"`; `"sport"` identifica
+    risultati e testimonianze di attività sportive;
   - `collection` è facoltativo e identifica una raccolta editoriale;
   - `mark` è obbligatorio soltanto per i testi `section: "AI"` e identifica la
     versione progressiva salvata del testo; i testi `section: "Me"` non lo
@@ -244,9 +245,9 @@ il rispetto prima della consegna.
   a `content/texts/README.md`, `kind: "home"` e senza `section`, `collection`
   o `mark`. Ogni pubblicazione deve avere `title`, `file`, `section`, `kind`,
   `createdAt`, `publishedAt` e `updatedAt`; `section` deve essere `Me` o `AI`,
-  `kind` deve essere `poetry` o `story`, `collection` deve essere una stringa
-  non vuota quando presente, e non devono essere introdotti campi non previsti
-  senza aggiornare prima queste istruzioni.
+  `kind` deve essere `poetry`, `story` o `sport`, `collection` deve essere una
+  stringa non vuota quando presente, e non devono essere introdotti campi non
+  previsti senza aggiornare prima queste istruzioni.
 - `mark` deve essere presente soltanto per le entry `section: "AI"` e deve
   essere un intero positivo. Le entry `section: "Me"` non devono usarlo.
 - `content/texts/README.md` deve essere il primo elemento dell’array. Tutte le

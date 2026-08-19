@@ -1,16 +1,16 @@
-## No `30/01/2018`
+## No `2018-01-30`
 
 No bytes, no rhymes  
 Due Date is arrived.  
 Reset.  
 
-## Notte `27/10/2017`
+## Notte `2017-10-27`
 
 Silenzio, notte,  
 acqua, doccia.  
 Respiro.  
 
-## Moto Perpetuo `22/11/2016`
+## Moto Perpetuo `2016-11-22`
 
 Quante volte ho pensato di dirti  
 Quante volte, quante le lacrime  

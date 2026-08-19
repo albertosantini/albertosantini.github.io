@@ -173,8 +173,8 @@ preoccupandosi.
 Il tecnico si lanciò sulla leva e l’abbassò; poi corse al pannello
 comandi e mosse velocemente alcuni interruttori. L’allarme continuava a suonare
 e le luci non si spegnevano. I sensori erano al rosso vivo, il casco emanava
-scintille bioenergetiche. E, mentre Bruce e Bill osservavano Sik avvolto in un
-aura elettromagnetica, successe di nuovo.
+scintille bioenergetiche. E, mentre Bruce e Bill osservavano Sik avvolto in
+un’aura elettromagnetica, successe di nuovo.
 
 Swap. Zap, zapping, zap za z…
 
@@ -477,16 +477,16 @@ un sentimento, che si dimentica con il passare degli anni: l’amore, l’amore
 verso le altre persone, l’amore per sé stessi. Mi accorgo soltanto ora quanto
 sia importante avere stima di sé stessi, aver cura del proprio corpo ed allenare
 la mente; è necessario esercitarsi nell’autocontrollo, per soggiogare le
-forze che trasportano lontano dal centro d’equilibro; bisogna essere pazienti e
+forze che trasportano lontano dal centro d’equilibrio; bisogna essere pazienti e
 guardare dietro la maschera, che nasconde l’anima di ciascuna persona. Amore
 significa sacrificio, significa capire per capirsi, consumare una parte di noi
-stessi in favore di un’altro essere, che è e non è in noi,
+stessi in favore di un altro essere, che è e non è in noi,
 corrodere quella parte di razionalità che limita i nostri pensieri,
 lottare contro la camicia di forza che ci costringe a pensare, a non giudicare
 secondo la vanità di chi ci giudica, infine essere una nota in uno
 spartito di un concerto: sola e insignificante, una chiazza nera fra cinque
 righe, ma in armonia con le note che la precedono e la seguono; un tutt’uno che
-risuona, canta e balla in mezzo all’aria, una sinfonia, un festa.
+risuona, canta e balla in mezzo all’aria, una sinfonia, una festa.
 
 In quest’ultimo giorno non so cosa fare. Tutte le attività umane si
 sciolgono fra le mie dita. Tutto mi pare così inutile e noioso. Quella
@@ -532,7 +532,7 @@ caduto, solo. Aspetto una risposta ad una domanda che non ho mai posto.
 Diventerò vecchio e crederò sempre che esista una risposta a
 tutto, ma mai avrò una risposta. Penso? Io penso? Ho una maschera
 così spessa che neppure io che la porto, guardandomi allo specchio,
-riesco a riconoscermi. E come se, dopo essermi drogato, riuscissi ancora ad
+riesco a riconoscermi. È come se, dopo essermi drogato, riuscissi ancora ad
 essere legato alla viscida realtà. Cerco di risalire il palo, che mi trae
 alla salvezza, ma non ho nessun appiglio e continuo a scivolare. Anche ora
 vorrei lacerare la maschera che mi tiene prigioniero e gridare che tutto
@@ -700,7 +700,7 @@ assolutamente confusionale trascino la mente in un turbine di piani e contro
 piani, di mosse, di battute e approcci, d’inviti, di sorrisi, di qualsiasi cosa
 che mi permetta di raggiungere quella donna. Ho paura che quando io capisca che
 possa essere mia mi nasconda dietro un bieco maschilismo, un narcisismo
-resuscitato, che nasconda la unica cosa che mi rende felice: l’amore di una
+resuscitato, che nasconda l’unica cosa che mi rende felice: l’amore di una
 donna.
 
 ## Capitolo 6: VOLARE

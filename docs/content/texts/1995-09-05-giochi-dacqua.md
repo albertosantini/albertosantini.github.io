@@ -1,4 +1,4 @@
-## G Maggiore andante `12-05-1996`
+## G Maggiore andante `1996-05-12`
 
 Mi addormento ancora  
 con il pensiero di lei  
@@ -8,7 +8,7 @@ le mie; continua nei sogni
 l’amore che ho perso  
 e non ritroverò.  
 
-## A Annamaria `12-05-1996`
+## A Annamaria `1996-05-12`
 
 Ombre di sale  
 ombre nel deserto  
@@ -23,7 +23,7 @@ lasciando tutto al
 piano superiore,  
 giù un tonfo sordo.  
 
-## Gelo `04-05-1996`
+## Gelo `1996-05-04`
 
 Le nubi all’orizzonte nascondono  
 le foglie che cadono che scivolano  
@@ -41,7 +41,7 @@ senza ritorno perché lì dove cerco
 non è rimasto più niente, dove sono  
 le foglie?  
 
-## Muove `04-05-1996`
+## Muove `1996-05-04`
 
 Si muove tutto lì sotto, poco  
 più in là, i contorni sono indefiniti,  
@@ -52,7 +52,7 @@ mi manca la sensazione di amare
 e di essere amato per quello che sono  
 anche con i contorni indefiniti.  
 
-## Inaugurazione `A Lilli 24-02-1996`
+## Inaugurazione `A Lilli 1996-02-24`
 
 Il respiro del vento  
 sulla pelle distratta  
@@ -67,7 +67,7 @@ abbracciare il nulla o
 l’infinito delle tue  
 labbra.  
 
-## Natale `25-12-1995`
+## Natale `1995-12-25`
 
 Una sera mi ritrovo  
 in piedi di fronte alla  
@@ -94,7 +94,7 @@ mi mar han dejado
 tu corazón una playa  
 desierta.  
 
-## Gioco `23-12-1995`
+## Gioco `1995-12-23`
 
 Insieme  
 musica ed emozioni  
@@ -114,7 +114,7 @@ di mela che qualcuno
 prende e, prima o poi,  
 getta via.  
 
-## Al di là delle nuvole `25-11-1995`
+## Al di là delle nuvole `1995-11-25`
 
 Vivo per lei  
 dopo aver attraversato  
@@ -126,7 +126,7 @@ Vivo per me
 tutto e per tutto  
 pensiero di lei, di te.  
 
-## Mio `13-09-1995`
+## Mio `1995-09-13`
 
 I tuoi occhi sono pezzi di cielo  
 il tuo cuore un pezzo di gelo  
@@ -137,7 +137,7 @@ con l’amore del mio corpo
 la gioia di correre  
 in mezzo al tuo cuore.  
 
-## A Monica `05-09-1995`
+## A Monica `1995-09-05`
 
 Quel fiore sulle labbra  
 che canta tam tam  

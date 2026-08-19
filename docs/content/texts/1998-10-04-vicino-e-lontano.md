@@ -1,4 +1,4 @@
-## Ferita `04-10-1998`
+## Ferita `1998-10-04`
 
 In una notte calda  
 la crosta marcia  
