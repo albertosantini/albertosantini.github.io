@@ -21,7 +21,8 @@
     --paper-edge: #ece8df;
     --text: #22211e;
     --muted: #696762;
-    --quiet: #706e68;
+    --quiet: #66635d;
+    --quote: #817e77;
     --line: #e4e1da;
     --link: #4f453d;
     --link-hover: #285c54;
@@ -163,7 +164,7 @@ a {
 
 .content.is-home > h2:nth-child(2) {
     margin-top: 0;
-    margin-bottom: 4.4em;
+    margin-bottom: 2.6em;
     color: var(--muted);
     font-size: 0.92rem;
     text-align: center;
@@ -195,6 +196,11 @@ a {
     color: var(--muted);
     font-size: 0.75rem;
     line-height: 1.45;
+}
+
+.content.is-home > blockquote,
+.content.is-home > blockquote + p {
+    color: var(--quote);
 }
 
 .page-header {
@@ -358,7 +364,7 @@ a {
 }
 
 .home-index {
-    margin-top: 62px;
+    margin-top: 42px;
     padding-top: 34px;
     border-top: 1px solid var(--line);
 }
@@ -433,6 +439,7 @@ a {
 
 .home-index-year {
     color: var(--muted);
+    line-height: 1.25;
     text-align: right;
     transition: color 140ms ease;
 }
@@ -442,7 +449,7 @@ a {
     align-self: start;
     margin-top: 0.55em;
     background-image: radial-gradient(circle, rgba(105, 103, 98, 0.34) 0 0.75px, transparent 0.85px);
-    background-position: center;
+    background-position: right center;
     background-repeat: repeat-x;
     background-size: 14px 0.8em;
 }
@@ -457,6 +464,7 @@ a {
 
 .home-index-title-text {
     display: block;
+    white-space: nowrap;
 }
 
 .home-index-subtitle {
@@ -507,6 +515,17 @@ a {
     color: var(--quiet);
     cursor: default;
     opacity: 0.5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
 }
 
 .pager {

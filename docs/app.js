@@ -2,7 +2,7 @@ import { marked } from "./assets/vendor/marked.esm.js";
 
 const HOME_FILE = "content/texts/README.md";
 const SITE_TITLE = "Alberto Santini";
-const HOME_PAGE_SIZE = 5;
+const HOME_PAGE_SIZE = 8;
 const SECTION_LABELS = {
     Me: "Scritti da me",
     AI: "Esperimenti con AI"
@@ -310,7 +310,7 @@ function renderPageHeader(file) {
 
     const headerClass = publication ? "page-header page-header-publication" : "page-header";
 
-    return `<header class="${headerClass}"><div><h1>${escapeHtml(pageTitle(file))}</h1>${collection}${publicationDetails}</div><a class="page-home-link" href="#/" aria-label="Torna all&#39;indice dei testi">Alberto Santini</a></header>`;
+    return `<header class="${headerClass}"><div><h1>${escapeHtml(pageTitle(file))}</h1>${collection}${publicationDetails}</div><a class="page-home-link" href="#/" aria-label="Torna all&#39;indice dei testi">Indice</a></header>`;
 }
 
 function renderHomeIndex() {
@@ -336,7 +336,7 @@ function renderHomeIndex() {
         );
         const items = sectionEntries
             .map((entry) => {
-                const year = (entry.file.match(/^(\d{4})/) || ["", ""])[1];
+                const year = (entry.file.match(/(\d{4})-/) || ["", ""])[1];
                 const subtitle = renderCollection(entry, "home-index-subtitle");
                 return `<li><a href="${routeForFile(entry.file)}"><span class="home-index-title"><span class="home-index-title-text">${escapeHtml(entry.title)}</span>${subtitle}</span><span class="home-index-rule" aria-hidden="true"></span><span class="home-index-year">${escapeHtml(year)}</span></a></li>`;
             })
