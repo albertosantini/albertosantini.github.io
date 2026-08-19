@@ -41,6 +41,7 @@ initEvents();
 boot();
 
 function initEvents() {
+    window.addEventListener("popstate", () => renderRoute({ moveFocus: true }));
     window.addEventListener("hashchange", () => renderRoute({ moveFocus: true }));
 
     document.addEventListener("click", (event) => {
@@ -68,9 +69,10 @@ function initEvents() {
         }
 
         const href = link.getAttribute("href");
-        if (href && href.endsWith(".md")) {
+        const file = href && fileFromHref(href);
+        if (file) {
             event.preventDefault();
-            location.hash = routeForFile(href);
+            navigateTo(file);
         }
     });
 }
@@ -103,14 +105,14 @@ function compareEntries(first, second) {
 }
 
 async function renderRoute({ moveFocus = false } = {}) {
-    const routeFile = fileFromHash(location.hash);
+    const routeFile = fileFromLocation();
     const known = routeFile && (
         routeFile === HOME_FILE
         || entries.some((entry) => entry.file === routeFile)
     );
 
     if (!known) {
-        window.history.replaceState(null, "", "#/");
+        window.history.replaceState(null, "", routeForFile(HOME_FILE));
     }
 
     currentFile = known ? routeFile : HOME_FILE;
@@ -211,14 +213,15 @@ async function fetchText(path) {
 
 function contentUrl(file) {
     const entry = entries.find((item) => item.file === file);
+    const path = sitePath(file);
 
     return !entry || typeof entry.mark !== "number"
-        ? file
-        : `${file}?v=${encodeURIComponent(entry.mark)}`;
+        ? path
+        : `${path}?v=${encodeURIComponent(entry.mark)}`;
 }
 
 async function fetchJson(path) {
-    const response = await fetch(path);
+    const response = await fetch(sitePath(path));
 
     if (!response.ok) {
         throw new Error(`Impossibile caricare ${path}`);
@@ -227,26 +230,60 @@ async function fetchJson(path) {
     return response.json();
 }
 
-function fileFromHash(hash) {
-    let value;
-
-    try {
-        value = decodeURIComponent((hash || "").replace(/^#\/?/, ""));
-    } catch {
-        return null;
-    }
-
-    if (!value || value === "/") {
+function fileFromPath(pathname) {
+    if (pathname === "/" || pathname === "/index.html") {
         return HOME_FILE;
     }
 
-    return value.endsWith(".md") ? value : `${value}.md`;
+    const match = pathname.match(/^\/t\/([^/]+)\/?$/);
+    if (!match) {
+        return null;
+    }
+
+    try {
+        return `content/texts/${decodeURIComponent(match[1])}.md`;
+    } catch {
+        return null;
+    }
+}
+
+function fileFromLocation() {
+    if (location.hash) {
+        return null;
+    }
+
+    return fileFromPath(location.pathname);
+}
+
+function fileFromHref(href) {
+    if (href.endsWith(".md")) {
+        return href;
+    }
+
+    if (href === "/" || href === "/index.html") {
+        return HOME_FILE;
+    }
+
+    if (href.startsWith("/t/")) {
+        return fileFromPath(href);
+    }
+
+    return null;
 }
 
 function routeForFile(file) {
     return file === HOME_FILE
-        ? "#/"
-        : `#/${encodeURIComponent(file.replace(/\.md$/, ""))}`;
+        ? "/"
+        : `/t/${encodeURIComponent(file.replace(/^content\/texts\//, "").replace(/\.md$/, ""))}/`;
+}
+
+function navigateTo(file) {
+    window.history.pushState(null, "", routeForFile(file));
+    renderRoute({ moveFocus: true });
+}
+
+function sitePath(path) {
+    return `/${path.replace(/^\//, "")}`;
 }
 
 function setPager() {
@@ -284,7 +321,7 @@ function updateFooter() {
 function updatePagerLink(link, label, entry) {
     if (!entry) {
         link.setAttribute("aria-disabled", "true");
-        link.href = "#";
+        link.href = "/";
         label.textContent = "";
         return;
     }
@@ -312,7 +349,7 @@ function renderPageHeader(file) {
 
     const headerClass = publication ? "page-header page-header-publication" : "page-header";
 
-    return `<header class="${headerClass}"><div><h1>${escapeHtml(pageTitle(file))}</h1>${collection}${publicationDetails}</div><a class="page-home-link" href="#/" aria-label="Torna all&#39;indice dei testi">Indice</a></header>`;
+    return `<header class="${headerClass}"><div><h1>${escapeHtml(pageTitle(file))}</h1>${collection}${publicationDetails}</div><a class="page-home-link" href="/" aria-label="Torna all&#39;indice dei testi">Indice</a></header>`;
 }
 
 function renderHomeIndex() {

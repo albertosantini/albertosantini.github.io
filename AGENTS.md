@@ -9,6 +9,9 @@ richiede un processo di build.
 ## Struttura
 
 - `docs/index.html` definisce la struttura della pagina pubblicata.
+- `docs/404.html` è il fallback per gli URL puliti su GitHub Pages e deve
+  restare sempre identico a `docs/index.html`, inclusi struttura HTML,
+  metadati, percorsi degli asset e caricamento degli script.
 - `docs/style.css` contiene tutti gli stili e le regole responsive.
 - `docs/app.js` è un modulo browser: importa `marked` dal bundle ESM locale,
   carica l’indice, rende il Markdown e gestisce la navigazione. Caricarlo con
@@ -144,6 +147,8 @@ richiede un processo di build.
 
 - Mantenere il sito statico e privo di dipendenze o processi di build, salvo
   richiesta esplicita.
+- Dopo ogni modifica a `docs/index.html`, aggiornare contestualmente
+  `docs/404.html` e verificare che i due file siano identici byte per byte.
 - Prima di pubblicare, verificare la versione di `docs/assets/vendor/marked.esm.js` e
   confrontarla con l’ultima release stabile di Marked. Se è disponibile un
   aggiornamento compatibile, sostituire il bundle ESM locale con quello
@@ -241,6 +246,9 @@ invarianti durante il lavoro e prima della consegna. La sezione “Contenuti e
 attribuzione” è la fonte normativa dello schema; questa checklist ne verifica
 il rispetto prima della consegna.
 
+- `docs/index.html` e `docs/404.html` devono essere identici byte per byte,
+  inclusi struttura HTML, metadati, percorsi degli asset e caricamento degli
+  script.
 - `docs/texts.json` deve contenere una sola entry homepage, con `file` uguale
   a `content/texts/README.md`, `kind: "home"` e senza `section`, `collection`
   o `mark`. Ogni pubblicazione deve avere `title`, `file`, `section`, `kind`,
