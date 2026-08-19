@@ -137,7 +137,9 @@ async function renderRoute({ moveFocus = false } = {}) {
         updateFooter();
         setPager();
         rewriteMarkdownLinks();
-        document.title = `${pageTitle(requestedFile)} | ${SITE_TITLE}`;
+        document.title = requestedFile === HOME_FILE
+            ? pageTitle(requestedFile)
+            : `${pageTitle(requestedFile)} | ${SITE_TITLE}`;
         resetViewport(moveFocus);
     } catch {
         if (currentFile === requestedFile) {
