@@ -34,10 +34,34 @@
     --paper-thread: rgba(128, 123, 112, 0.025);
     --paper-sheen: rgba(255, 255, 255, 0.78);
     --space-xs: 8px;
+    --space-tight: 3px;
+    --space-compact: 6px;
     --space-sm: 13px;
     --space-md: 21px;
     --space-lg: 34px;
     --space-xl: 55px;
+    --reader-max-width: 1040px;
+    --content-max-width: 720px;
+    --story-max-width: 700px;
+    --home-max-width: 900px;
+    --quote-max-width: 520px;
+    --pager-max-width: 680px;
+    --control-size: 32px;
+    --control-min-height: 40px;
+    --mobile-control-min-height: 34px;
+    --control-gap: 14px;
+    --mobile-control-gap: 10px;
+    --pager-compact-gap: 12px;
+    --list-link-padding-inline: 10px;
+    --list-link-radius: 3px;
+    --reader-compact-margin-top: 22px;
+    --footer-compact-margin-top: 14px;
+    --reader-narrow-margin-top: 16px;
+    --narrow-header-gap: 8px;
+    --list-indent: 1.5em;
+    --transition-duration: 140ms;
+    --reader-compact-padding: 38px 22px 56px;
+    --reader-narrow-padding-inline: 18px;
 }
 
 * {
@@ -104,7 +128,7 @@ a {
 }
 
 .reader {
-    width: min(100%, 1040px);
+    width: min(100%, var(--reader-max-width));
     margin: var(--space-lg) auto 0;
     padding: var(--space-xl) var(--space-lg) var(--space-xl);
     border: 1px solid var(--paper-edge);
@@ -129,7 +153,7 @@ a {
 }
 
 .site-footer {
-    width: min(100%, 1040px);
+    width: min(100%, var(--reader-max-width));
     margin: var(--space-md) auto var(--space-lg);
     padding: 0 var(--space-lg);
     color: var(--quiet);
@@ -139,12 +163,12 @@ a {
 }
 
 .content {
-    max-width: 720px;
+    max-width: var(--content-max-width);
     margin: 0 auto;
 }
 
 .content.is-story {
-    max-width: 700px;
+    max-width: var(--story-max-width);
 }
 
 @media (min-width: 681px) {
@@ -157,7 +181,7 @@ a {
 }
 
 .content.is-home {
-    max-width: 900px;
+    max-width: var(--home-max-width);
     padding-top: var(--space-sm);
 }
 
@@ -177,7 +201,7 @@ a {
 
 .content.is-home > blockquote,
 .content.is-story > blockquote {
-    max-width: 520px;
+    max-width: var(--quote-max-width);
     margin-right: auto;
     margin-left: auto;
     padding-left: 1.1em;
@@ -193,7 +217,7 @@ a {
 
 .content.is-home > blockquote + p,
 .content.is-story > blockquote + p {
-    max-width: 520px;
+    max-width: var(--quote-max-width);
     margin-top: -0.85em;
     margin-right: auto;
     margin-bottom: 1.8em;
@@ -344,7 +368,7 @@ a {
 
 .content ul,
 .content ol {
-    padding-left: 1.5em;
+    padding-left: var(--list-indent);
 }
 
 .content blockquote {
@@ -409,39 +433,40 @@ a {
 @media (max-width: 680px) {
     .home-index-columns {
         grid-template-columns: 1fr;
-        gap: 28px;
+        gap: var(--space-lg);
     }
 
     .home-index-ai {
-        padding-top: 28px;
+        padding-top: var(--space-lg);
         padding-left: 0;
         border-top: 1px dotted var(--line);
         border-left: 0;
     }
 
     .home-index-list {
-        gap: 6px;
+        gap: var(--space-compact);
     }
 }
 
 .home-index-list {
     display: grid;
-    gap: 3px;
+    gap: var(--space-tight);
     padding: 0;
     list-style: none;
 }
 
 .home-index-list a {
     display: grid;
-    grid-template-columns: minmax(0, auto) minmax(18px, 1fr) 5.5ch;
-    gap: 14px;
+    grid-template-columns: minmax(0, auto) minmax(1.125rem, 1fr) 5.5ch;
+    gap: var(--control-gap);
     align-items: baseline;
-    margin-inline: -10px;
-    padding: 0.18em 10px;
-    border-radius: 3px;
+    margin-inline: calc(-1 * var(--list-link-padding-inline));
+    padding: 0.18em var(--list-link-padding-inline);
+    border-radius: var(--list-link-radius);
     color: var(--text);
     text-decoration: none;
-    transition: background-color 140ms ease, color 140ms ease;
+    transition: background-color var(--transition-duration) ease,
+        color var(--transition-duration) ease;
 }
 
 .home-index-list a:focus-visible {
@@ -461,7 +486,7 @@ a {
     color: var(--muted);
     line-height: 1.25;
     text-align: right;
-    transition: color 140ms ease;
+    transition: color var(--transition-duration) ease;
 }
 
 .home-index-rule {
@@ -502,10 +527,10 @@ a {
 
 .home-index-pager {
     display: grid;
-    grid-template-columns: 32px auto 32px;
+    grid-template-columns: var(--control-size) auto var(--control-size);
     align-items: center;
     justify-content: space-between;
-    gap: 14px;
+    gap: var(--control-gap);
     margin-top: 1.2em;
     color: var(--muted);
     font-size: 0.8rem;
@@ -513,8 +538,8 @@ a {
 }
 
 .home-index-control {
-    width: 32px;
-    height: 32px;
+    width: var(--control-size);
+    height: var(--control-size);
     padding: 0;
     border: 1px solid var(--line);
     border-radius: 50%;
@@ -552,7 +577,7 @@ a {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     gap: var(--space-md);
-    max-width: 680px;
+    max-width: var(--pager-max-width);
     margin: var(--space-lg) auto 0;
     padding-top: var(--space-sm);
     border-top: 1px solid var(--line);
@@ -565,10 +590,10 @@ a {
 .pager-link {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: var(--mobile-control-gap);
     width: max-content;
     max-width: 100%;
-    min-height: 40px;
+    min-height: var(--control-min-height);
     color: var(--muted);
     font-size: 0.8rem;
     line-height: 1.45;
@@ -621,12 +646,12 @@ a {
 
 @media (max-width: 860px) {
     .reader {
-        margin-top: 22px;
-        padding: 38px 22px 56px;
+        margin-top: var(--reader-compact-margin-top);
+        padding: var(--reader-compact-padding);
     }
 
     .site-footer {
-        margin-top: 14px;
+        margin-top: var(--footer-compact-margin-top);
         padding-inline: 22px;
     }
 
@@ -648,7 +673,7 @@ a {
 
     .pager {
         grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
-        gap: 12px;
+        gap: var(--pager-compact-gap);
     }
 
     .pager-index {
@@ -666,13 +691,13 @@ a {
     }
 
     .reader {
-        margin-top: 16px;
-        padding-inline: 18px;
+        margin-top: var(--reader-narrow-margin-top);
+        padding-inline: var(--reader-narrow-padding-inline);
     }
 
     .page-header {
         grid-template-columns: 1fr;
-        gap: 8px;
+        gap: var(--narrow-header-gap);
     }
 
     .page-header > div {
@@ -690,15 +715,15 @@ a {
     }
 
     .site-footer {
-        padding-inline: 18px;
+        padding-inline: var(--reader-narrow-padding-inline);
     }
 
     .pager {
-        gap: 10px;
+        gap: var(--mobile-control-gap);
     }
 
     .pager-link {
-        min-height: 34px;
+        min-height: var(--mobile-control-min-height);
     }
 
     #previousText,
