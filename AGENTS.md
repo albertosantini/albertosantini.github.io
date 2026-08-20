@@ -111,6 +111,22 @@ richiede un processo di build.
 - Ogni nuovo racconto deve contenere un conflitto o una scelta con un costo
   concreto per Nora, senza ripetere meccanicamente scene o formule dei testi
   precedenti.
+- I punti fissi di Nora possono essere trattati come un patto narrativo fra
+  mondi paralleli: la protagonista, i suoi diciannove anni, la lucidità
+  tecnica, l’ora delle diciassette e quaranta quando scelta come firma e il
+  rifiuto dell’indifferenza. Non occorre spiegare una meccanica del multiverso
+  per giustificare tali ricorrenze.
+- Nei nuovi racconti variare almeno alcuni elementi strutturali: biografia e
+  relazioni, forma del sistema oppressivo, manifestazione della competenza,
+  persona o situazione che richiede l’intervento, costo dell’azione ed esito.
+  Gli invarianti possono restare impliciti: non è necessario nominarli in ogni
+  testo.
+- Non ripetere nel suo insieme la sequenza «misura istituzionale, madre colpita
+  dal sistema, persona vulnerabile, gesto di Nora, adesione collettiva». La
+  madre e il finale collettivo non sono requisiti della raccolta; alternare
+  conseguenze individuali, incerte, private o non immediatamente riconosciute.
+- La trilogia già approvata resta coerente con questa impostazione e non va
+  normalizzata retroattivamente solo per differenziare tali elementi.
 - Prima di creare o modificare un racconto con Nora, rileggere gli altri testi
   della raccolta per verificarne la coerenza caratteriale, evitando però di
   introdurre collegamenti fra i mondi paralleli non richiesti dall’autore.
