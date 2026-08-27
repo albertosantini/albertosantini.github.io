@@ -5,8 +5,18 @@
         <link>https://albertosantini.github.io/</link>
         <description>Testi e revisioni editoriali pubblicati da Alberto Santini.</description>
         <language>it-IT</language>
-        <lastBuildDate>Thu, 27 Aug 2026 13:48:30 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Aug 2026 16:58:06 GMT</lastBuildDate>
         <atom:link href="https://albertosantini.github.io/feed.xml" rel="self" type="application/rss+xml" />
+
+        <item>
+            <title>La seconda scheggia</title>
+            <link>https://albertosantini.github.io/t/2026-08-18-la-seconda-scheggia/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-08-18-la-seconda-scheggia:mk:5</guid>
+            <pubDate>Thu, 27 Aug 2026 16:58:06 GMT</pubDate>
+            <category>Esperimenti con AI</category>
+            <category>Universo dei Precursori</category>
+            <description>Racconto della raccolta Universo dei Precursori, versione Mk 5.</description>
+        </item>
 
         <item>
             <title>La seconda scheggia</title>

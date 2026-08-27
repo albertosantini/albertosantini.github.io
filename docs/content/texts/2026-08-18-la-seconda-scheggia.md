@@ -276,11 +276,14 @@ La piccola chiuse l’istanza della stanza. «Vengo anch’io.»
 
 «Lo so.»
 
-La piccola si collegò comunque al canale della madre. Per un istante la sua
-istanza perse sincronizzazione con la memoria locale. Poi le pareti della sala
-di osservazione si accesero, mostrando una pianura coperta d’erba. Un gruppo di
-ominidi si muoveva vicino a un corso d’acqua quasi asciutto. Avevano braccia
-lunghe, fronte bassa e corpi piccoli ricoperti di peli.
+La piccola si collegò comunque al canale della madre. Per un istante perse la
+sincronizzazione con la memoria locale. Quando si riallineò, non ricordava più
+da quale vecchio film avesse imparato a raccogliere le ginocchia.
+
+Poi le pareti della sala di osservazione si accesero, mostrando una pianura
+coperta d’erba. Un gruppo di ominidi si muoveva vicino a un corso d’acqua quasi
+asciutto. Avevano braccia lunghe, fronte bassa e corpi piccoli ricoperti di
+peli.
 
 Una femmina era accovacciata accanto a una carcassa. Teneva una pietra tra le
 dita e la colpiva contro un’altra. Al terzo tentativo, una scheggia tagliente

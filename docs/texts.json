@@ -13,10 +13,10 @@
         "section": "AI",
         "collection": "Universo dei Precursori",
         "kind": "story",
-        "publishedAt": "2026-08-27T15:48:30+02:00",
-        "mark": 4,
+        "publishedAt": "2026-08-27T18:58:06+02:00",
+        "mark": 5,
         "createdAt": "2026-08-18T21:00:34+02:00",
-        "updatedAt": "2026-08-27T15:48:30+02:00"
+        "updatedAt": "2026-08-27T18:58:06+02:00"
     },
     {
         "title": "La lunghezza dei giorni",
@@ -235,19 +235,19 @@
         "updatedAt": "1990-01-01T09:00:00+01:00"
     },
     {
-        "title": "Poesie Aperte",
-        "file": "content/texts/1989-01-01-poesie-aperte.md",
+        "title": "Foglie al vento",
+        "file": "content/texts/1989-01-01-foglie-al-vento.md",
         "section": "Me",
-        "kind": "poetry",
+        "kind": "story",
         "publishedAt": "1989-01-01T09:00:00+01:00",
         "createdAt": "1989-01-01T09:00:00+01:00",
         "updatedAt": "1989-01-01T09:00:00+01:00"
     },
     {
-        "title": "Foglie al vento",
-        "file": "content/texts/1989-01-01-foglie-al-vento.md",
+        "title": "Poesie Aperte",
+        "file": "content/texts/1989-01-01-poesie-aperte.md",
         "section": "Me",
-        "kind": "story",
+        "kind": "poetry",
         "publishedAt": "1989-01-01T09:00:00+01:00",
         "createdAt": "1989-01-01T09:00:00+01:00",
         "updatedAt": "1989-01-01T09:00:00+01:00"
