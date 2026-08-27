@@ -12,7 +12,7 @@ const CREATION_ICON = '<svg viewBox="0 0 12 12" aria-hidden="true" focusable="fa
 const DATE_FORMATTER = new Intl.DateTimeFormat("it-IT", {
     year: "numeric",
     month: "short",
-    day: "numeric",
+    day: "2-digit",
     hour: "2-digit",
     minute: "2-digit",
     hourCycle: "h23",
