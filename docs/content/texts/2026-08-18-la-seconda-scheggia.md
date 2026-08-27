@@ -305,7 +305,7 @@ La piccola si avvicinò all’immagine.
 Sotto la scena comparvero i dati della missione:
 
 *Pianeta: Terra.*  
-*Stazione di osservazione: Africa orientale.*  
+*Coordinate della stazione: 11° 06′ N, 40° 36′ E.*  
 *Fase evolutiva: preumana.*  
 *Tempo stimato alla fissione nucleare: 3.204.117 anni.*  
 *Protocollo: non intervenire.*
