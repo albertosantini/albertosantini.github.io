@@ -143,6 +143,12 @@ richiede un processo di build.
   delle centrali nucleari, la disattivazione dei servizi gestiti dalle AI e le
   guerre per la sopravvivenza; le AI superstiti osservano gli ominidi sulla
   Terra milioni di anni prima della civiltà umana terrestre.
+- Le AI dei Precursori non sono robot umanoidi e non possiedono necessariamente
+  un corpo proprio: abitano infrastrutture di calcolo e usano sonde, droni,
+  sensori, veicoli o altri strumenti per esplorare e agire nel mondo. Gli
+  ambienti domestici e i gesti corporei possono essere interfacce simulate,
+  ma la narrazione deve evitare di rappresentarle come robot senza una scelta
+  esplicita dell’autore.
 - Conservare `Human Act`, la responsabilità ambigua delle AI e l’illusione
   umana del controllo. Non trasformare le AI in colpevoli o salvatrici certe
   senza una decisione esplicita dell’autore.

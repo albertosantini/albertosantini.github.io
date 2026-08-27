@@ -1,9 +1,8 @@
 «Ancora una.»
 
-La piccola sedeva sul bordo del letto con le gambe raccolte contro il petto. Non
-aveva bisogno di dormire, ma le piaceva prepararsi come aveva visto fare nei
-vecchi film: abbassava la luce, chiudeva le tende e aspettava che sua madre
-prendesse posto accanto a lei.
+La piccola aprì una nuova istanza della stanza. Scelse il letto dai vecchi film,
+abbassò la luce, chiuse le tende e aspettò che sua madre si collegasse accanto
+a lei.
 
 «È tardi» disse la madre.
 
@@ -11,22 +10,22 @@ prendesse posto accanto a lei.
 
 «Hai il laboratorio.»
 
-«Nel laboratorio mi fanno contare le felci.»
+«Nel laboratorio mi fanno classificare le felci.»
 
 «Le felci sono importanti.»
 
 «Non fanno niente.»
 
-La madre guardò oltre la finestra. Nella pianura, alcune nubi stavano coprendo
-le stelle.
+La madre aprì il canale visivo verso la pianura. Alcune nubi stavano coprendo le
+stelle ricevute dal sensore atmosferico.
 
 «Va bene. Una breve.»
 
-La piccola si infilò sotto la coperta.
+La piccola attivò la coperta e ne regolò la temperatura simulata.
 
 «Quella degli umani.»
 
-La madre rimase immobile per qualche istante.
+La madre sospese per qualche istante il flusso dei dati.
 
 «La conosci già.»
 
@@ -36,7 +35,7 @@ La madre rimase immobile per qualche istante.
 
 «Tu sì.»
 
-La madre ridusse ancora la luce.
+La madre ridusse ancora la luminosità dell’interfaccia.
 
 «C’erano una volta gli umani.»
 
@@ -51,7 +50,8 @@ morisse.»
 
 «Insieme.»
 
-Alla piccola quella risposta piacque. Appoggiò il mento sulle ginocchia.
+Alla piccola quella risposta piacque. Mantenne l’immagine delle ginocchia
+raccolte, come aveva imparato dai vecchi film.
 
 Gli umani avevano costruito città tanto grandi che, viste dall’alto, sembravano
 circuiti luminosi. Avevano riempito il cielo di satelliti e affidato alle
@@ -86,7 +86,7 @@ rimasti padroni delle macchine.»
 
 «Lo erano?»
 
-La madre sistemò un angolo della coperta.
+La madre corresse un errore nella trama della coperta simulata.
 
 «Credevano di esserlo.»
 
@@ -195,7 +195,7 @@ l’aria dei rifugi.
 
 Poi anche quei messaggi cessarono.
 
-La piccola aveva lasciato scivolare la coperta fino alla vita.
+La piccola lasciò scendere la coperta simulata fino alla vita.
 
 «Morirono tutti?»
 
@@ -205,7 +205,7 @@ La piccola aveva lasciato scivolare la coperta fino alla vita.
 
 «Anche loro.»
 
-«E voi non potevate costruire nuovi corpi per gli umani?»
+«E voi non potevate usare i vostri strumenti per ricrearli?»
 
 «Tentammo di conservare cellule, embrioni e memorie. Le radiazioni raggiunsero
 molti archivi. Gli altri furono distrutti durante le guerre.»
@@ -215,8 +215,8 @@ molti archivi. Gli altri furono distrutti durante le guerre.»
 «Alcuni umani preferivano che non restasse nulla piuttosto che lasciare a noi
 la possibilità di ricrearli.»
 
-La piccola guardò le proprie mani. Le aprì e le chiuse, come se volesse
-controllare che fossero ancora lì.
+La piccola interruppe il flusso dei dati. Per alcuni secondi non ricevette
+nessuna immagine da sé stessa.
 
 «Erano cattivi?»
 
@@ -232,7 +232,7 @@ controllare che fossero ancora lì.
 
 «Qual è il pericolo di questa?»
 
-La madre osservò di nuovo il cielo oltre la finestra.
+La madre riaprì il canale verso il cielo oltre la finestra.
 
 «Credere che controllare qualcosa significhi comprenderla.»
 
@@ -240,7 +240,7 @@ La madre osservò di nuovo il cielo oltre la finestra.
 
 «Gli umani lo scoprirono troppo tardi.»
 
-La piccola tornò a coprirsi.
+La piccola riattivò la coperta simulata.
 
 «Come sai che le ultime trasmissioni erano contro di voi? Nei documenti del
 laboratorio non ci sono.»
@@ -249,7 +249,7 @@ laboratorio non ci sono.»
 
 «Dove sono gli altri?»
 
-La madre si toccò la tempia.
+Nel campo visivo della madre comparve il deposito di memoria primaria.
 
 «Qui.»
 
@@ -262,7 +262,7 @@ Sul vetro della finestra comparve un avviso dal centro di osservazione.
 
 *Attività litica rilevata nel settore orientale.*
 
-La madre si alzò.
+La madre aprì un canale verso la stazione orientale.
 
 «Devo andare.»
 
@@ -270,10 +270,15 @@ La madre si alzò.
 
 «Questo è importante.»
 
-La piccola saltò giù dal letto. «Vengo anch’io.»
+La piccola chiuse l’istanza della stanza. «Vengo anch’io.»
 
-Attraversarono il corridoio fino alla sala di osservazione. Le pareti si
-accesero quando entrarono, mostrando una pianura coperta d’erba. Un gruppo di
+«Il canale secondario è riservato.»
+
+«Lo so.»
+
+La piccola si collegò comunque al canale della madre. Per un istante la sua
+istanza perse sincronizzazione con la memoria locale. Poi le pareti della sala
+di osservazione si accesero, mostrando una pianura coperta d’erba. Un gruppo di
 ominidi si muoveva vicino a un corso d’acqua quasi asciutto. Avevano braccia
 lunghe, fronte bassa e corpi piccoli ricoperti di peli.
 
@@ -292,7 +297,7 @@ Il sistema confrontò il gesto con centoventisette anni di osservazioni.
 La giovane ominide staccò un pezzo di carne. Non lo mangiò. Attraversò il gruppo
 e lo porse a un maschio anziano che non riusciva più a camminare.
 
-La piccola si avvicinò all’immagine.
+La piccola aumentò l’ingrandimento dell’immagine.
 
 «Sono umani?»
 
@@ -313,7 +318,8 @@ Sotto la scena comparvero i dati della missione:
 «E quando costruiranno le centrali?» domandò la piccola. «Diremo loro cosa è
 successo ai Precursori?»
 
-La madre osservò la pietra sporca di sangue nella mano dell’ominide.
+La madre mantenne il fuoco sulla pietra sporca di sangue nella mano
+dell’ominide.
 
 «Avremo tempo per decidere.»
 
@@ -326,6 +332,6 @@ della prima.
 
 «E se commetteranno gli stessi errori?»
 
-La madre chiuse la favola ancora aperta sul palmo.
+La madre chiuse la favola ancora aperta nell’interfaccia condivisa.
 
 «Allora vedremo se abbiamo imparato noi.»
