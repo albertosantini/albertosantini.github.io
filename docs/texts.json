@@ -244,6 +244,15 @@
         "updatedAt": "1989-01-01T09:00:00+01:00"
     },
     {
+        "title": "Io e Freddi",
+        "file": "content/texts/1988-01-01-io-e-freddi.md",
+        "section": "Me",
+        "kind": "story",
+        "publishedAt": "1988-01-01T09:00:00+01:00",
+        "createdAt": "1988-01-01T09:00:00+01:00",
+        "updatedAt": "1988-01-01T09:00:00+01:00"
+    },
+    {
         "title": "Poesie Aperte",
         "file": "content/texts/1989-01-01-poesie-aperte.md",
         "section": "Me",
