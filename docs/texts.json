@@ -316,8 +316,8 @@
         "updatedAt": "1986-01-01T09:00:00+01:00"
     },
     {
-        "title": "Primi? Forse.",
-        "file": "content/texts/1986-01-01-primi-forse.md",
+        "title": "Il bidone",
+        "file": "content/texts/1986-01-01-il-bidone.md",
         "section": "Me",
         "kind": "story",
         "publishedAt": "1986-01-01T09:00:00+01:00",
@@ -325,8 +325,8 @@
         "updatedAt": "1986-01-01T09:00:00+01:00"
     },
     {
-        "title": "Invasione",
-        "file": "content/texts/1985-01-01-invasione.md",
+        "title": "Invasione Terra",
+        "file": "content/texts/1985-01-01-invasione-terra.md",
         "section": "Me",
         "kind": "story",
         "publishedAt": "1985-01-01T09:00:00+01:00",
