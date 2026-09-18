@@ -332,5 +332,14 @@
         "publishedAt": "1985-01-01T09:00:00+01:00",
         "createdAt": "1985-01-01T09:00:00+01:00",
         "updatedAt": "1985-01-01T09:00:00+01:00"
+    },
+    {
+        "title": "Un brutto sogno",
+        "file": "content/texts/1984-01-01-un-brutto-sogno.md",
+        "section": "Me",
+        "kind": "story",
+        "publishedAt": "1984-01-01T09:00:00+01:00",
+        "createdAt": "1984-01-01T09:00:00+01:00",
+        "updatedAt": "1984-01-01T09:00:00+01:00"
     }
 ]
