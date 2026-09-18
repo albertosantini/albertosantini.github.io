@@ -244,6 +244,15 @@
         "updatedAt": "1989-01-01T09:00:00+01:00"
     },
     {
+        "title": "E.T. e E.B.",
+        "file": "content/texts/1988-01-01-et-e-eb.md",
+        "section": "Me",
+        "kind": "story",
+        "publishedAt": "1988-01-01T09:00:00+01:00",
+        "createdAt": "1988-01-01T09:00:00+01:00",
+        "updatedAt": "1988-01-01T09:00:00+01:00"
+    },
+    {
         "title": "Io e Freddi",
         "file": "content/texts/1988-01-01-io-e-freddi.md",
         "section": "Me",
