@@ -5,7 +5,7 @@
         <link>https://albertosantini.github.io/</link>
         <description>Testi e revisioni editoriali pubblicati da Alberto Santini.</description>
         <language>it-IT</language>
-        <lastBuildDate>Fri, 18 Sep 2026 14:50:04 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Sep 2026 15:00:00 GMT</lastBuildDate>
         <atom:link href="https://albertosantini.github.io/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
@@ -289,10 +289,10 @@
         </item>
 
         <item>
-            <title>Il treno</title>
-            <link>https://albertosantini.github.io/t/1987-01-01-il-treno/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1987-01-01-il-treno</guid>
-            <pubDate>Thu, 01 Jan 1987 08:00:00 GMT</pubDate>
+            <title>Il salto</title>
+            <link>https://albertosantini.github.io/t/1986-01-01-il-salto/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:1986-01-01-il-salto</guid>
+            <pubDate>Wed, 01 Jan 1986 08:00:00 GMT</pubDate>
             <category>Scritti da me</category>
             <description>Racconto scritto da Alberto Santini.</description>
         </item>

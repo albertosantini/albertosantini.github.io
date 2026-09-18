@@ -307,6 +307,15 @@
         "updatedAt": "1987-01-01T09:00:00+01:00"
     },
     {
+        "title": "Il salto",
+        "file": "content/texts/1986-01-01-il-salto.md",
+        "section": "Me",
+        "kind": "story",
+        "publishedAt": "1986-01-01T09:00:00+01:00",
+        "createdAt": "1986-01-01T09:00:00+01:00",
+        "updatedAt": "1986-01-01T09:00:00+01:00"
+    },
+    {
         "title": "Primi? Forse.",
         "file": "content/texts/1986-01-01-primi-forse.md",
         "section": "Me",
