@@ -5,7 +5,7 @@
         <link>https://albertosantini.github.io/</link>
         <description>Testi e revisioni editoriali pubblicati da Alberto Santini.</description>
         <language>it-IT</language>
-        <lastBuildDate>Fri, 18 Sep 2026 07:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Sep 2026 13:38:50 GMT</lastBuildDate>
         <atom:link href="https://albertosantini.github.io/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
@@ -280,15 +280,6 @@
         </item>
 
         <item>
-            <title>E.T. e E.B.</title>
-            <link>https://albertosantini.github.io/t/1988-01-01-et-e-eb/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1988-01-01-et-e-eb</guid>
-            <pubDate>Fri, 01 Jan 1988 08:00:00 GMT</pubDate>
-            <category>Scritti da me</category>
-            <description>Racconto scritto da Alberto Santini.</description>
-        </item>
-
-        <item>
             <title>Io e Freddi</title>
             <link>https://albertosantini.github.io/t/1988-01-01-io-e-freddi/</link>
             <guid isPermaLink="false">urn:albertosantini:text:1988-01-01-io-e-freddi</guid>
@@ -298,10 +289,10 @@
         </item>
 
         <item>
-            <title>Primi? Forse.</title>
-            <link>https://albertosantini.github.io/t/1986-01-01-primi-forse/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1986-01-01-primi-forse</guid>
-            <pubDate>Wed, 01 Jan 1986 08:00:00 GMT</pubDate>
+            <title>Una giornata maledetta</title>
+            <link>https://albertosantini.github.io/t/1988-01-01-una-giornata-maledetta/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:1988-01-01-una-giornata-maledetta</guid>
+            <pubDate>Fri, 01 Jan 1988 08:00:00 GMT</pubDate>
             <category>Scritti da me</category>
             <description>Racconto scritto da Alberto Santini.</description>
         </item>
