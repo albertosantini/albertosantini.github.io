@@ -280,6 +280,15 @@
         "updatedAt": "1988-01-01T09:00:00+01:00"
     },
     {
+        "title": "Un bambino sconosciuto",
+        "file": "content/texts/1987-01-01-un-bambino-sconosciuto.md",
+        "section": "Me",
+        "kind": "story",
+        "publishedAt": "1987-01-01T09:00:00+01:00",
+        "createdAt": "1987-01-01T09:00:00+01:00",
+        "updatedAt": "1987-01-01T09:00:00+01:00"
+    },
+    {
         "title": "Primi? Forse.",
         "file": "content/texts/1986-01-01-primi-forse.md",
         "section": "Me",
