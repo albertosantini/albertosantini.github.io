@@ -1,5 +1,5 @@
-Alle diciassette e quaranta, quando il sole entrava tra i palazzi e faceva
-brillare i vetri delle finestre, Nora si fermò in mezzo al marciapiede.
+Alle diciassette e quaranta, la luce del sole tagliava lo spazio tra i palazzi
+e correva sui vetri delle finestre. Nora si fermò in mezzo al marciapiede.
 
 Il battito le martellava nel polso, sotto il Cardiometro.
 
@@ -74,39 +74,129 @@ umano. Poi lo immaginò diviso in battiti singoli: uno per ogni risata
 trattenuta, uno per ogni salita fatta di corsa, uno per ogni volta in cui il
 desiderio aveva accelerato il petto.
 
-La ragazza rossa era ferma davanti a una saracinesca abbassata.
+La ragazza rossa era ferma davanti a una saracinesca abbassata. Teneva in mano
+un lettore grande quanto una moneta, collegato a un sensore sottile che portava
+ancora al polso.
 
 «Non devi seguirmi» disse.
 
 «Perché corri?»
 
-«Per sapere se è vero.»
+«Per misurare quello che il mio Cardiometro non manda più.»
 
-«Lo sai già.»
+«L’hai smontato?»
 
-La ragazza la studiò. «E tu?»
+«Ho tolto il trasmettitore. Il sensore registra ancora.»
 
-Nora non rispose. Aveva imparato che i sistemi mentivano soprattutto quando
-pretendevano di limitarsi a contare.
+La ragazza le mostrò sei registrazioni di corsa. Da una parte c’erano i battiti
+misurati dal sensore. Dall’altra, la quota comunicata all’Archivio.
 
-Nora sentì il Cardiometro vibrare. Sul display non comparve più la frequenza
-cardiaca, ma una riga di testo:
+«A riposo coincidono» disse Nora.
 
-*Comunicazione urgente: presentarsi domani all’Ufficio di Continuità.*
+«Quando corro, cambia ogni volta.»
 
-La ragazza sorrise senza allegria.
+La ragazza indicò tre righe. A centodiciannove battiti al minuto, l’Archivio ne
+aveva addebitati centosettantasei. In un’altra registrazione, a una frequenza
+quasi uguale, il sovraccarico era molto più alto. Nessun valore si ripeteva.
 
-«Vedi? Non hanno bisogno di aspettare l’ultimo battito.»
+Nora non cercò una proporzione. Allineò le registrazioni sul primo battito e
+trascrisse gli scarti in colonne. Dopo alcune righe, due sequenze diverse
+cominciarono a coincidere. Alla duecentocinquantaseiesima posizione, il disegno
+si ripeté dall’inizio.
 
-Da qualche parte, sotto la piazza, cominciò a suonare una sirena. La gente del
-mercato uscì dalle porte laterali, camminando piano. Quando vide Nora accanto
-alla ragazza, si fermò. Una dopo l’altra, tutte le teste si voltarono verso di
-loro. Non c’era rabbia in quegli sguardi, soltanto l’attenzione immobile di chi
-riconosce qualcosa che non deve più esistere.
+La ragazza seguì le colonne con un dito. «È un errore?»
 
-Sul muro, tra due manifesti strappati, affiorava una frase dipinta molti anni
-prima:
+«È una sequenza.»
+
+Nora controllò un’altra corsa, poi una terza. Il generatore dell’Archivio
+ricominciava sempre dallo stesso punto ogni duecentocinquantasei battiti. La
+variazione sembrava casuale perché i corpi la attraversavano a velocità
+diverse. Ma la stessa sequenza di sovraccarichi compariva in ogni registrazione.
+
+«Dicono che consumiamo il cuore più in fretta» disse la ragazza.
+
+«Il tuo cuore cambia ritmo. L’algoritmo no.»
+
+«Quindi non è una previsione?»
+
+«È una tassa nascosta dentro una previsione.»
+
+Nora guardò di nuovo i dati. Sua madre aveva passato gli ultimi mesi con il
+cuore a cinquantaquattro. Sotto la soglia, eppure la notifica era arrivata lo
+stesso. La proiezione non misurava la durata di una vita: misurava quanto il
+Comune era disposto a lasciarne vivere.
+
+Il lettore aveva memoria sufficiente per trasmettere il campione. Bastava
+collegarlo al terminale del mercato, ancora usato per pubblicare i prezzi dei
+banchi. Il segnale sarebbe entrato nella rete civica con il codice del
+dispositivo che lo inviava.
+
+«Se lo mandi, sapranno da dove arriva» disse Nora.
+
+«Lo so.»
+
+«Possono venirti a prendere.»
+
+«Sono già venuti a cercarmi.»
+
+Il lettore vibrò. La sequenza stava per ricominciare. Nora sapeva quale
+coefficiente sarebbe comparso sul battito successivo, prima ancora che il
+sensore lo registrasse.
+
+Nora pensò alla firma di sua madre sul modulo. Aveva creduto che quel numero
+fosse una sentenza naturale, qualcosa che perfino lei avrebbe potuto
+comprendere se avesse studiato abbastanza. Invece qualcuno aveva scelto il
+coefficiente e nascosto la scelta dietro un conteggio.
+
+«Posso togliere il codice del sensore» disse Nora. «Non quello del terminale.»
+
+«Allora sapranno che sei stata tu.»
+
+Nora appoggiò il lettore alla porta di servizio del mercato. La presa dati era
+ancora sotto il pannello, dietro una vite consumata. Aveva già aperto quella
+serratura da bambina, quando i banchi automatici si bloccavano.
+
+La ragazza le porse il cavo.
+
+Nora collegò il lettore. Il terminale chiese conferma per l’invio e mostrò il
+proprio identificativo. Una volta partito, non avrebbe potuto cancellarlo.
+
+Il suo Cardiometro vibrò.
+
+*Frequenza critica. Interrompere ogni attività.*
+
+Nora premette *Invia*.
+
+Per qualche secondo non accadde nulla. Poi il terminale del mercato proiettò
+sul muro la sequenza di duecentocinquantasei scarti, seguita dalla stessa
+sequenza di nuovo. Accanto, i dati grezzi di sei corse mostravano frequenze
+diverse e lo stesso schema d’addebito. Il battito successivo arrivò. Il
+coefficiente previsto da Nora apparve sul display.
+
+Il telefono di Nora si illuminò.
+
+*Trasmissione non autorizzata. Identità dell’operatore registrata. Presentarsi
+domani all’Ufficio di Continuità.*
+
+La ragazza rossa lesse l’avviso senza sorridere.
+
+«Adesso lo sanno.»
+
+«Sì.»
+
+«Perché hai rischiato?» chiese la ragazza rossa.
+
+Nora guardò la sequenza ripetersi sul muro. «Mia madre si è fidata del loro
+numero.»
+
+Sotto la piazza cominciò a suonare una sirena. Le persone uscirono dai passaggi
+laterali del mercato, camminando piano. Alcune lessero i due numeri. Altre
+guardarono il proprio polso, come se potesse rispondere.
+
+Nora posò una mano sul Cardiometro. Il display continuava a salire. La
+convocazione aveva già il suo nome.
 
 *Il cuore non conta il tempo. Lo attraversa.*
 
-Nora posò una mano sul Cardiometro. Il numero continuava a salire.
+Sul muro, la proiezione tremò quando il terminale venne disconnesso. I due
+conteggi rimasero impressi negli occhi di chi li aveva letti.

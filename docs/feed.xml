@@ -5,7 +5,7 @@
         <link>https://albertosantini.github.io/</link>
         <description>Testi e revisioni editoriali pubblicati da Alberto Santini.</description>
         <language>it-IT</language>
-        <lastBuildDate>Fri, 18 Sep 2026 15:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 23 Sep 2026 10:02:20 GMT</lastBuildDate>
         <atom:link href="https://albertosantini.github.io/feed.xml" rel="self" type="application/rss+xml" />
 
         <item>
@@ -66,6 +66,56 @@
             <category>Esperimenti con AI</category>
             <category>Universo di Nora</category>
             <description>Racconto della raccolta Universo di Nora, versione Mk 4.</description>
+        </item>
+
+        <item>
+            <title>Un miliardo di battiti</title>
+            <link>https://albertosantini.github.io/t/2026-08-07-un-miliardo-di-battiti/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-08-07-un-miliardo-di-battiti:mk:20</guid>
+            <pubDate>Wed, 23 Sep 2026 10:02:20 GMT</pubDate>
+            <category>Esperimenti con AI</category>
+            <category>Universo di Nora</category>
+            <description>Racconto della raccolta Universo di Nora, versione Mk 20.</description>
+        </item>
+
+        <item>
+            <title>Un miliardo di battiti</title>
+            <link>https://albertosantini.github.io/t/2026-08-07-un-miliardo-di-battiti/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-08-07-un-miliardo-di-battiti:mk:19</guid>
+            <pubDate>Wed, 23 Sep 2026 09:52:50 GMT</pubDate>
+            <category>Esperimenti con AI</category>
+            <category>Universo di Nora</category>
+            <description>Racconto della raccolta Universo di Nora, versione Mk 19.</description>
+        </item>
+
+        <item>
+            <title>Un miliardo di battiti</title>
+            <link>https://albertosantini.github.io/t/2026-08-07-un-miliardo-di-battiti/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-08-07-un-miliardo-di-battiti:mk:18</guid>
+            <pubDate>Wed, 23 Sep 2026 09:49:16 GMT</pubDate>
+            <category>Esperimenti con AI</category>
+            <category>Universo di Nora</category>
+            <description>Racconto della raccolta Universo di Nora, versione Mk 18.</description>
+        </item>
+
+        <item>
+            <title>Un miliardo di battiti</title>
+            <link>https://albertosantini.github.io/t/2026-08-07-un-miliardo-di-battiti/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-08-07-un-miliardo-di-battiti:mk:17</guid>
+            <pubDate>Wed, 23 Sep 2026 09:44:29 GMT</pubDate>
+            <category>Esperimenti con AI</category>
+            <category>Universo di Nora</category>
+            <description>Racconto della raccolta Universo di Nora, versione Mk 17.</description>
+        </item>
+
+        <item>
+            <title>Un miliardo di battiti</title>
+            <link>https://albertosantini.github.io/t/2026-08-07-un-miliardo-di-battiti/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-08-07-un-miliardo-di-battiti:mk:16</guid>
+            <pubDate>Wed, 23 Sep 2026 09:21:47 GMT</pubDate>
+            <category>Esperimenti con AI</category>
+            <category>Universo di Nora</category>
+            <description>Racconto della raccolta Universo di Nora, versione Mk 16.</description>
         </item>
 
         <item>
@@ -248,51 +298,6 @@
             <link>https://albertosantini.github.io/t/1991-01-01-dio-non-mi-vuole/</link>
             <guid isPermaLink="false">urn:albertosantini:text:1991-01-01-dio-non-mi-vuole</guid>
             <pubDate>Tue, 01 Jan 1991 08:00:00 GMT</pubDate>
-            <category>Scritti da me</category>
-            <description>Racconto scritto da Alberto Santini.</description>
-        </item>
-
-        <item>
-            <title>La porta si chiude</title>
-            <link>https://albertosantini.github.io/t/1990-01-01-la-porta-si-chiude/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1990-01-01-la-porta-si-chiude</guid>
-            <pubDate>Mon, 01 Jan 1990 08:00:00 GMT</pubDate>
-            <category>Scritti da me</category>
-            <description>Testo scritto da Alberto Santini.</description>
-        </item>
-
-        <item>
-            <title>Poesie Aperte</title>
-            <link>https://albertosantini.github.io/t/1989-01-01-poesie-aperte/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1989-01-01-poesie-aperte</guid>
-            <pubDate>Sun, 01 Jan 1989 08:00:00 GMT</pubDate>
-            <category>Scritti da me</category>
-            <description>Testo scritto da Alberto Santini.</description>
-        </item>
-
-        <item>
-            <title>Foglie al vento</title>
-            <link>https://albertosantini.github.io/t/1989-01-01-foglie-al-vento/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1989-01-01-foglie-al-vento</guid>
-            <pubDate>Sun, 01 Jan 1989 08:00:00 GMT</pubDate>
-            <category>Scritti da me</category>
-            <description>Racconto scritto da Alberto Santini.</description>
-        </item>
-
-        <item>
-            <title>Io e Freddi</title>
-            <link>https://albertosantini.github.io/t/1988-01-01-io-e-freddi/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1988-01-01-io-e-freddi</guid>
-            <pubDate>Fri, 01 Jan 1988 08:00:00 GMT</pubDate>
-            <category>Scritti da me</category>
-            <description>Racconto scritto da Alberto Santini.</description>
-        </item>
-
-        <item>
-            <title>Il salto</title>
-            <link>https://albertosantini.github.io/t/1986-01-01-il-salto/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1986-01-01-il-salto</guid>
-            <pubDate>Wed, 01 Jan 1986 08:00:00 GMT</pubDate>
             <category>Scritti da me</category>
             <description>Racconto scritto da Alberto Santini.</description>
         </item>
