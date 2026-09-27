@@ -30,6 +30,9 @@ richiede un processo di build.
 
 - Non riscrivere, correggere o modificare testi poetici, biografici o altri
   contenuti editoriali senza una richiesta esplicita dell’autore.
+- Non inserire il titolo del testo come intestazione Markdown nel corpo dei
+  file editoriali: il sito mostra già il titolo usando i metadati di
+  `docs/texts.json`.
 - Conservare in `docs/texts.json` la distinzione tra `Me` (`section: "Me"`)
   e `AI` (`section: "AI"`).
 - Lo schema di `docs/texts.json` è il seguente:
@@ -134,6 +137,9 @@ richiede un processo di build.
   approvati senza una richiesta esplicita dell’autore.
 
 ## Raccolta `Universo dei Precursori`
+
+- Nei racconti dell’`Universo dei Precursori` usare sempre la sigla `AI` e mai
+  la forma estesa `intelligenza artificiale`.
 
 - L’`Universo dei Precursori` è separato dall’`Universo di Nora`: non
   introdurre Nora, i suoi dispositivi o collegamenti fra le due raccolte senza
