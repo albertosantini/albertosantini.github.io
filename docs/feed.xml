@@ -5,8 +5,29 @@
         <link>https://albertosantini.github.io/</link>
         <description>Testi e revisioni editoriali pubblicati da Alberto Santini.</description>
         <language>it-IT</language>
-        <lastBuildDate>Sun, 27 Sep 2026 19:47:38 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 28 Sep 2026 08:22:36 GMT</lastBuildDate>
         <atom:link href="https://albertosantini.github.io/feed.xml" rel="self" type="application/rss+xml" />
+
+
+        <item>
+            <title>Prima dell’impulso</title>
+            <link>https://albertosantini.github.io/t/2026-09-27-prima-dell-impulso/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-09-27-prima-dell-impulso:mk:8</guid>
+            <pubDate>Mon, 28 Sep 2026 08:22:36 GMT</pubDate>
+            <category>Esperimenti con AI</category>
+            <category>Universo dei Precursori</category>
+            <description>Racconto della raccolta Universo dei Precursori, versione Mk 8.</description>
+        </item>
+
+        <item>
+            <title>Prima dell’impulso</title>
+            <link>https://albertosantini.github.io/t/2026-09-27-prima-dell-impulso/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-09-27-prima-dell-impulso:mk:7</guid>
+            <pubDate>Mon, 28 Sep 2026 07:57:05 GMT</pubDate>
+            <category>Esperimenti con AI</category>
+            <category>Universo dei Precursori</category>
+            <description>Racconto della raccolta Universo dei Precursori, versione Mk 7.</description>
+        </item>
 
         <item>
             <title>Prima dell’impulso</title>
@@ -281,26 +302,6 @@
             <pubDate>Sat, 15 Mar 1997 08:00:00 GMT</pubDate>
             <category>Scritti da me</category>
             <category>1996-mag – 1997-mar</category>
-            <description>Raccolta di testi scritti da Alberto Santini.</description>
-        </item>
-
-        <item>
-            <title>Giochi d’Acqua</title>
-            <link>https://albertosantini.github.io/t/1995-09-05-giochi-dacqua/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1995-09-05-giochi-dacqua</guid>
-            <pubDate>Sun, 12 May 1996 07:00:00 GMT</pubDate>
-            <category>Scritti da me</category>
-            <category>1995-set – 1996-mag</category>
-            <description>Raccolta di testi scritti da Alberto Santini.</description>
-        </item>
-
-        <item>
-            <title>Blmo</title>
-            <link>https://albertosantini.github.io/t/1993-06-12-blmo/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1993-06-12-blmo</guid>
-            <pubDate>Thu, 25 May 1995 07:00:00 GMT</pubDate>
-            <category>Scritti da me</category>
-            <category>1993-giu – 1995-mag</category>
             <description>Raccolta di testi scritti da Alberto Santini.</description>
         </item>
 
