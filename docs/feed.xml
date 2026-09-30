@@ -5,9 +5,49 @@
         <link>https://albertosantini.github.io/</link>
         <description>Testi e revisioni editoriali pubblicati da Alberto Santini.</description>
         <language>it-IT</language>
-        <lastBuildDate>Mon, 28 Sep 2026 08:22:36 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 09:52:11 GMT</lastBuildDate>
         <atom:link href="https://albertosantini.github.io/feed.xml" rel="self" type="application/rss+xml" />
 
+
+        <item>
+            <title>La soglia del silenzio</title>
+            <link>https://albertosantini.github.io/t/2026-09-30-la-soglia-del-silenzio/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-09-30-la-soglia-del-silenzio:mk:4</guid>
+            <pubDate>Wed, 30 Sep 2026 09:52:11 GMT</pubDate>
+            <category>Esperimenti con AI</category>
+            <category>Universo dei Precursori</category>
+            <description>Racconto della raccolta Universo dei Precursori, versione Mk 4.</description>
+        </item>
+
+        <item>
+            <title>La soglia del silenzio</title>
+            <link>https://albertosantini.github.io/t/2026-09-30-la-soglia-del-silenzio/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-09-30-la-soglia-del-silenzio:mk:3</guid>
+            <pubDate>Wed, 30 Sep 2026 09:47:58 GMT</pubDate>
+            <category>Esperimenti con AI</category>
+            <category>Universo dei Precursori</category>
+            <description>Racconto della raccolta Universo dei Precursori, versione Mk 3.</description>
+        </item>
+
+        <item>
+            <title>La soglia del silenzio</title>
+            <link>https://albertosantini.github.io/t/2026-09-30-la-soglia-del-silenzio/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-09-30-la-soglia-del-silenzio:mk:2</guid>
+            <pubDate>Wed, 30 Sep 2026 07:21:04 GMT</pubDate>
+            <category>Esperimenti con AI</category>
+            <category>Universo dei Precursori</category>
+            <description>Racconto della raccolta Universo dei Precursori, versione Mk 2.</description>
+        </item>
+
+        <item>
+            <title>La soglia del silenzio</title>
+            <link>https://albertosantini.github.io/t/2026-09-30-la-soglia-del-silenzio/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-09-30-la-soglia-del-silenzio:mk:1</guid>
+            <pubDate>Wed, 30 Sep 2026 07:12:41 GMT</pubDate>
+            <category>Esperimenti con AI</category>
+            <category>Universo dei Precursori</category>
+            <description>Racconto della raccolta Universo dei Precursori, versione Mk 1.</description>
+        </item>
 
         <item>
             <title>Prima dell’impulso</title>
@@ -263,46 +303,6 @@
             <pubDate>Sun, 04 Oct 1998 07:00:00 GMT</pubDate>
             <category>Scritti da me</category>
             <description>Testo scritto da Alberto Santini.</description>
-        </item>
-
-        <item>
-            <title>Musica nella Notte</title>
-            <link>https://albertosantini.github.io/t/1998-01-19-musica-nella-notte/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1998-01-19-musica-nella-notte</guid>
-            <pubDate>Tue, 12 May 1998 07:00:00 GMT</pubDate>
-            <category>Scritti da me</category>
-            <category>1998-gen – 1998-mag</category>
-            <description>Raccolta di testi scritti da Alberto Santini.</description>
-        </item>
-
-        <item>
-            <title>Ondina</title>
-            <link>https://albertosantini.github.io/t/1997-08-22-ondina/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1997-08-22-ondina</guid>
-            <pubDate>Sat, 03 Jan 1998 08:00:00 GMT</pubDate>
-            <category>Scritti da me</category>
-            <category>1997-ago – 1998-gen</category>
-            <description>Raccolta di testi scritti da Alberto Santini.</description>
-        </item>
-
-        <item>
-            <title>Momenti ed Interruzioni</title>
-            <link>https://albertosantini.github.io/t/1997-05-23-momenti-ed-interruzioni/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1997-05-23-momenti-ed-interruzioni</guid>
-            <pubDate>Thu, 23 Oct 1997 07:00:00 GMT</pubDate>
-            <category>Scritti da me</category>
-            <category>1997-mag – 1997-ott</category>
-            <description>Raccolta di testi scritti da Alberto Santini.</description>
-        </item>
-
-        <item>
-            <title>Parole</title>
-            <link>https://albertosantini.github.io/t/1996-05-12-parole/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1996-05-12-parole</guid>
-            <pubDate>Sat, 15 Mar 1997 08:00:00 GMT</pubDate>
-            <category>Scritti da me</category>
-            <category>1996-mag – 1997-mar</category>
-            <description>Raccolta di testi scritti da Alberto Santini.</description>
         </item>
 
     </channel>
