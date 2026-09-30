@@ -5,14 +5,13 @@
         <link>https://albertosantini.github.io/</link>
         <description>Testi e revisioni editoriali pubblicati da Alberto Santini.</description>
         <language>it-IT</language>
-        <lastBuildDate>Wed, 30 Sep 2026 09:52:11 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Sep 2026 10:55:23 GMT</lastBuildDate>
         <atom:link href="https://albertosantini.github.io/feed.xml" rel="self" type="application/rss+xml" />
-
 
         <item>
             <title>La soglia del silenzio</title>
             <link>https://albertosantini.github.io/t/2026-09-30-la-soglia-del-silenzio/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-09-30-la-soglia-del-silenzio:mk:4</guid>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-09-30-la-soglia-del-silenzio</guid>
             <pubDate>Wed, 30 Sep 2026 09:52:11 GMT</pubDate>
             <category>Esperimenti con AI</category>
             <category>Universo dei Precursori</category>
@@ -20,39 +19,9 @@
         </item>
 
         <item>
-            <title>La soglia del silenzio</title>
-            <link>https://albertosantini.github.io/t/2026-09-30-la-soglia-del-silenzio/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-09-30-la-soglia-del-silenzio:mk:3</guid>
-            <pubDate>Wed, 30 Sep 2026 09:47:58 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo dei Precursori</category>
-            <description>Racconto della raccolta Universo dei Precursori, versione Mk 3.</description>
-        </item>
-
-        <item>
-            <title>La soglia del silenzio</title>
-            <link>https://albertosantini.github.io/t/2026-09-30-la-soglia-del-silenzio/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-09-30-la-soglia-del-silenzio:mk:2</guid>
-            <pubDate>Wed, 30 Sep 2026 07:21:04 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo dei Precursori</category>
-            <description>Racconto della raccolta Universo dei Precursori, versione Mk 2.</description>
-        </item>
-
-        <item>
-            <title>La soglia del silenzio</title>
-            <link>https://albertosantini.github.io/t/2026-09-30-la-soglia-del-silenzio/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-09-30-la-soglia-del-silenzio:mk:1</guid>
-            <pubDate>Wed, 30 Sep 2026 07:12:41 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo dei Precursori</category>
-            <description>Racconto della raccolta Universo dei Precursori, versione Mk 1.</description>
-        </item>
-
-        <item>
             <title>Prima dell’impulso</title>
             <link>https://albertosantini.github.io/t/2026-09-27-prima-dell-impulso/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-09-27-prima-dell-impulso:mk:8</guid>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-09-27-prima-dell-impulso</guid>
             <pubDate>Mon, 28 Sep 2026 08:22:36 GMT</pubDate>
             <category>Esperimenti con AI</category>
             <category>Universo dei Precursori</category>
@@ -60,79 +29,9 @@
         </item>
 
         <item>
-            <title>Prima dell’impulso</title>
-            <link>https://albertosantini.github.io/t/2026-09-27-prima-dell-impulso/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-09-27-prima-dell-impulso:mk:7</guid>
-            <pubDate>Mon, 28 Sep 2026 07:57:05 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo dei Precursori</category>
-            <description>Racconto della raccolta Universo dei Precursori, versione Mk 7.</description>
-        </item>
-
-        <item>
-            <title>Prima dell’impulso</title>
-            <link>https://albertosantini.github.io/t/2026-09-27-prima-dell-impulso/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-09-27-prima-dell-impulso:mk:6</guid>
-            <pubDate>Sun, 27 Sep 2026 19:47:38 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo dei Precursori</category>
-            <description>Racconto della raccolta Universo dei Precursori, versione Mk 6.</description>
-        </item>
-
-        <item>
-            <title>Prima dell’impulso</title>
-            <link>https://albertosantini.github.io/t/2026-09-27-prima-dell-impulso/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-09-27-prima-dell-impulso:mk:5</guid>
-            <pubDate>Sun, 27 Sep 2026 19:45:03 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo dei Precursori</category>
-            <description>Racconto della raccolta Universo dei Precursori, versione Mk 5.</description>
-        </item>
-
-        <item>
-            <title>Prima dell’impulso</title>
-            <link>https://albertosantini.github.io/t/2026-09-27-prima-dell-impulso/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-09-27-prima-dell-impulso:mk:4</guid>
-            <pubDate>Sun, 27 Sep 2026 19:41:52 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo dei Precursori</category>
-            <description>Racconto della raccolta Universo dei Precursori, versione Mk 4.</description>
-        </item>
-
-        <item>
-            <title>Prima dell’impulso</title>
-            <link>https://albertosantini.github.io/t/2026-09-27-prima-dell-impulso/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-09-27-prima-dell-impulso:mk:3</guid>
-            <pubDate>Sun, 27 Sep 2026 19:40:19 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo dei Precursori</category>
-            <description>Racconto della raccolta Universo dei Precursori, versione Mk 3.</description>
-        </item>
-
-        <item>
-            <title>Prima dell’impulso</title>
-            <link>https://albertosantini.github.io/t/2026-09-27-prima-dell-impulso/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-09-27-prima-dell-impulso:mk:2</guid>
-            <pubDate>Sun, 27 Sep 2026 19:26:33 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo dei Precursori</category>
-            <description>Racconto della raccolta Universo dei Precursori, versione Mk 2.</description>
-        </item>
-
-        <item>
-            <title>Prima dell’impulso</title>
-            <link>https://albertosantini.github.io/t/2026-09-27-prima-dell-impulso/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-09-27-prima-dell-impulso:mk:1</guid>
-            <pubDate>Sun, 27 Sep 2026 19:15:50 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo dei Precursori</category>
-            <description>Racconto della raccolta Universo dei Precursori, versione Mk 1.</description>
-        </item>
-
-        <item>
             <title>Un miliardo di battiti</title>
             <link>https://albertosantini.github.io/t/2026-08-07-un-miliardo-di-battiti/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-08-07-un-miliardo-di-battiti:mk:20</guid>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-08-07-un-miliardo-di-battiti</guid>
             <pubDate>Wed, 23 Sep 2026 10:02:20 GMT</pubDate>
             <category>Esperimenti con AI</category>
             <category>Universo di Nora</category>
@@ -140,49 +39,9 @@
         </item>
 
         <item>
-            <title>Un miliardo di battiti</title>
-            <link>https://albertosantini.github.io/t/2026-08-07-un-miliardo-di-battiti/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-08-07-un-miliardo-di-battiti:mk:19</guid>
-            <pubDate>Wed, 23 Sep 2026 09:52:50 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo di Nora</category>
-            <description>Racconto della raccolta Universo di Nora, versione Mk 19.</description>
-        </item>
-
-        <item>
-            <title>Un miliardo di battiti</title>
-            <link>https://albertosantini.github.io/t/2026-08-07-un-miliardo-di-battiti/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-08-07-un-miliardo-di-battiti:mk:18</guid>
-            <pubDate>Wed, 23 Sep 2026 09:49:16 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo di Nora</category>
-            <description>Racconto della raccolta Universo di Nora, versione Mk 18.</description>
-        </item>
-
-        <item>
-            <title>Un miliardo di battiti</title>
-            <link>https://albertosantini.github.io/t/2026-08-07-un-miliardo-di-battiti/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-08-07-un-miliardo-di-battiti:mk:17</guid>
-            <pubDate>Wed, 23 Sep 2026 09:44:29 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo di Nora</category>
-            <description>Racconto della raccolta Universo di Nora, versione Mk 17.</description>
-        </item>
-
-        <item>
-            <title>Un miliardo di battiti</title>
-            <link>https://albertosantini.github.io/t/2026-08-07-un-miliardo-di-battiti/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-08-07-un-miliardo-di-battiti:mk:16</guid>
-            <pubDate>Wed, 23 Sep 2026 09:21:47 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo di Nora</category>
-            <description>Racconto della raccolta Universo di Nora, versione Mk 16.</description>
-        </item>
-
-        <item>
             <title>La seconda scheggia</title>
             <link>https://albertosantini.github.io/t/2026-08-18-la-seconda-scheggia/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-08-18-la-seconda-scheggia:mk:5</guid>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-08-18-la-seconda-scheggia</guid>
             <pubDate>Thu, 27 Aug 2026 16:58:06 GMT</pubDate>
             <category>Esperimenti con AI</category>
             <category>Universo dei Precursori</category>
@@ -190,39 +49,9 @@
         </item>
 
         <item>
-            <title>La seconda scheggia</title>
-            <link>https://albertosantini.github.io/t/2026-08-18-la-seconda-scheggia/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-08-18-la-seconda-scheggia:mk:4</guid>
-            <pubDate>Thu, 27 Aug 2026 13:48:30 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo dei Precursori</category>
-            <description>Racconto della raccolta Universo dei Precursori, versione Mk 4.</description>
-        </item>
-
-        <item>
-            <title>La seconda scheggia</title>
-            <link>https://albertosantini.github.io/t/2026-08-18-la-seconda-scheggia/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-08-18-la-seconda-scheggia:mk:3</guid>
-            <pubDate>Thu, 27 Aug 2026 13:36:21 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo dei Precursori</category>
-            <description>Racconto della raccolta Universo dei Precursori, versione Mk 3.</description>
-        </item>
-
-        <item>
-            <title>La seconda scheggia</title>
-            <link>https://albertosantini.github.io/t/2026-08-18-la-seconda-scheggia/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-08-18-la-seconda-scheggia:mk:2</guid>
-            <pubDate>Tue, 18 Aug 2026 19:14:02 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo dei Precursori</category>
-            <description>Racconto della raccolta Universo dei Precursori, versione Mk 2.</description>
-        </item>
-
-        <item>
             <title>Il rumore del mondo</title>
             <link>https://albertosantini.github.io/t/2026-08-08-il-rumore-del-mondo/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-08-08-il-rumore-del-mondo:mk:4</guid>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-08-08-il-rumore-del-mondo</guid>
             <pubDate>Mon, 10 Aug 2026 07:56:37 GMT</pubDate>
             <category>Esperimenti con AI</category>
             <category>Universo di Nora</category>
@@ -232,21 +61,11 @@
         <item>
             <title>La lunghezza dei giorni</title>
             <link>https://albertosantini.github.io/t/2026-08-08-la-lunghezza-dei-giorni/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-08-08-la-lunghezza-dei-giorni:mk:7</guid>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-08-08-la-lunghezza-dei-giorni</guid>
             <pubDate>Mon, 10 Aug 2026 07:56:37 GMT</pubDate>
             <category>Esperimenti con AI</category>
             <category>Universo di Nora</category>
             <description>Racconto della raccolta Universo di Nora, versione Mk 7.</description>
-        </item>
-
-        <item>
-            <title>Un miliardo di battiti</title>
-            <link>https://albertosantini.github.io/t/2026-08-07-un-miliardo-di-battiti/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:2026-08-07-un-miliardo-di-battiti:mk:15</guid>
-            <pubDate>Mon, 10 Aug 2026 07:56:37 GMT</pubDate>
-            <category>Esperimenti con AI</category>
-            <category>Universo di Nora</category>
-            <description>Racconto della raccolta Universo di Nora, versione Mk 15.</description>
         </item>
 
         <item>

@@ -191,16 +191,19 @@ richiede un processo di build.
   `file` come criterio secondario. L’indice e la paginazione usano entrambi
   questo ordine; `updatedAt` e `publishedAt` non partecipano all’ordinamento.
 - `docs/feed.xml` è il feed RSS statico del sito: mantenerlo manualmente, senza
-  introdurre generatori o processi di build. Aggiungere un elemento per ogni
-  nuova pubblicazione. Per un testo `Solo AI`, aggiungere un nuovo elemento per
-  ogni versione salvata, comprese quelle che correggono soltanto refusi,
-  applicando sempre la regola di incremento di `Mk` descritta sotto e verificando
-  il risultato con la checklist tecnica obbligatoria.
+  introdurre generatori o processi di build. Mantenere un solo elemento per
+  ciascun testo pubblicato. Per un testo `Solo AI`, ogni versione salvata
+  destinata alla pubblicazione aggiorna l’elemento esistente: il feed mostra
+  soltanto la versione corrente, anche quando più revisioni vengono salvate
+  nella stessa sessione. `Mk` continua a contare tutte le versioni salvate,
+  comprese quelle che correggono soltanto refusi; non creare elementi RSS
+  separati per le versioni precedenti.
 - Nei nuovi elementi del feed usare `publishedAt` come data di pubblicazione.
   Per un nuovo testo umano destinato al feed, aggiungere questo metadato senza
   cambiare la data di creazione nel nome file. Per le revisioni dei testi AI,
-  includere `Mk` nel `guid`, così ogni versione pubblicata resta identificabile.
-  Applicare il limite dei 30 aggiornamenti e le regole per GUID, ordine e URL
+  aggiornare `pubDate` e descrizione dell’elemento esistente, mostrando il `Mk`
+  corrente; mantenere un `guid` stabile derivato dal file, senza includervi
+  `Mk`. Applicare il limite di 30 elementi e le regole per GUID, ordine e URL
   indicate nella checklist tecnica obbligatoria.
 - Per i testi umani storici, `createdAt` deriva dalla data ISO nel nome file;
   se una pagina raccoglie più testi, `publishedAt` e `updatedAt` usano la data
@@ -230,15 +233,16 @@ richiede un processo di build.
   la pagina homepage e non una pubblicazione indicizzata.
 - Per ogni modifica salvata a un testo `Solo AI`, refusi compresi, incrementare
   `mark` di uno in `texts.json`: `Mk` è il numero progressivo di tutte le
-  versioni salvate, anche prima della pubblicazione. Ogni versione salvata
-  destinata alla pubblicazione deve essere registrata anche nel feed RSS.
-  Salvare `publishedAt`, `updatedAt`
+  versioni salvate, anche prima della pubblicazione. Se la versione è destinata
+  alla pubblicazione, aggiornare l’unico elemento RSS del testo con il nuovo
+  `Mk`, `publishedAt`, descrizione e GUID stabile derivato dal file. Più versioni
+  salvate nella stessa sessione lasciano comunque una sola voce, aggiornata
+  all’ultima versione. Salvare `publishedAt`, `updatedAt`
   e `createdAt` come data e ora ISO 8601 con fuso orario. Ogni volta che si
   aggiorna `Mk`, aggiornare contestualmente `publishedAt` e `updatedAt` con la
-  data e l’ora della nuova versione, aggiungere al feed il relativo elemento con
-  il nuovo `Mk` e conservare gli elementi delle versioni precedenti finché non
-  escono dal limite dei 30 aggiornamenti. Mostrarlo nell’intestazione con ore e
-  minuti. Non modificare `createdAt`.
+  data e l’ora della nuova versione. Non aggiungere voci per le versioni
+  precedenti. Mostrarlo nell’intestazione con ore e minuti. Non modificare
+  `createdAt`.
 - Nei testi identificati da `kind: "story"` in `docs/texts.json`, sia AI sia non
   AI, limitare a 80 caratteri le righe dei normali paragrafi Markdown, andando a
   capo soltanto tra due parole. La sola redistribuzione dei ritorni a capo
@@ -293,23 +297,19 @@ il rispetto prima della consegna.
 - Ogni file indicato da una pubblicazione deve esistere sotto
   `docs/content/texts/`; non devono restare Markdown pubblicati non presenti in
   `texts.json`, né entry che puntano a file mancanti.
-- Per ogni pubblicazione umana presente nella finestra dei 30 aggiornamenti
-  deve esistere un solo elemento corrispondente in `docs/feed.xml`. Per ogni
-  testo AI devono essere presenti gli elementi RSS delle versioni pubblicate
-  ancora comprese nella stessa finestra, inclusa la versione corrente indicata
-  da `mark`. Titolo, route, categoria e `pubDate` devono corrispondere
-  all’indice; le pubblicazioni escluse perché più vecchie possono non comparire
-  nel feed.
-- Ogni GUID RSS deve essere unico. I testi umani devono mantenere un GUID
-  stabile derivato dal file; i testi AI devono usare un GUID distinto per ogni
-  versione, derivato da file e `mark`. Non riutilizzare un GUID per due
-  versioni diverse e non cambiare il GUID stabile di un testo umano.
+- Per ogni testo rappresentato nella finestra dei 30 elementi deve esistere un
+  solo elemento in `docs/feed.xml`, sia per i testi umani sia per quelli AI.
+  Ogni testo AI deve mostrare la versione corrente indicata da `mark`. Titolo,
+  route, categoria, versione e `pubDate` devono corrispondere all’indice; le
+  pubblicazioni escluse perché più vecchie possono non comparire nel feed.
+- Ogni GUID RSS deve essere unico e stabile per testo, derivato dal file. Le
+  revisioni AI aggiornano lo stesso GUID e non creano GUID distinti per `Mk`.
+  Non cambiare il GUID stabile di un testo umano.
 - Per ogni testo AI, il `mark` corrente deve essere la versione progressiva
   salvata più recente per quel file e, se destinata alla pubblicazione, deve
-  comparire nel relativo GUID RSS. Le versioni
-  precedenti già pubblicate devono essere conservate nel feed finché rientrano
-  nel limite dei 30 aggiornamenti. Non incrementare `mark` per una sola
-  redistribuzione tecnica delle righe di una storia.
+  comparire nella descrizione dell’unico elemento RSS del testo. Non conservare
+  nel feed elementi separati per le versioni precedenti. Non incrementare
+  `mark` per una sola redistribuzione tecnica delle righe di una storia.
 - Tutti i valori `createdAt`, `publishedAt` e `updatedAt` devono essere date
   ISO 8601 complete con secondi e offset esplicito, nel formato
   `YYYY-MM-DDTHH:mm:ss+HH:MM`. Verificare che le date siano reali, che
