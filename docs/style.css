@@ -27,12 +27,9 @@
     --link: #4f453d;
     --link-hover: #285c54;
     --focus: #6f6758;
-    --shadow-soft: rgba(22, 23, 24, 0.08);
-    --shadow-drop: rgba(22, 23, 24, 0.11);
-    --paper-dot: rgba(64, 60, 54, 0.052);
-    --paper-fiber: rgba(78, 74, 66, 0.03);
-    --paper-thread: rgba(128, 123, 112, 0.025);
-    --paper-sheen: rgba(255, 255, 255, 0.78);
+    --shadow-soft: rgba(22, 23, 24, 0.055);
+    --paper-dot: rgba(64, 60, 54, 0.025);
+    --paper-sheen: rgba(255, 255, 255, 0.45);
     --space-xs: 8px;
     --space-tight: 3px;
     --space-compact: 6px;
@@ -134,18 +131,12 @@ a {
     border: 1px solid var(--paper-edge);
     background:
         radial-gradient(circle at 12% 18%, var(--paper-dot) 0 0.55px, transparent 0.75px),
-        radial-gradient(circle at 68% 38%, var(--paper-dot) 0 0.48px, transparent 0.7px),
-        radial-gradient(circle at 42% 76%, rgba(54, 51, 47, 0.036) 0 0.42px, transparent 0.66px),
-        radial-gradient(ellipse at 24% 18%, var(--paper-fiber), transparent 34%),
-        radial-gradient(ellipse at 78% 72%, var(--paper-thread), transparent 38%),
-        radial-gradient(ellipse at 46% 58%, rgba(96, 91, 82, 0.022), transparent 42%),
-        linear-gradient(180deg, var(--paper-sheen), rgba(255, 255, 255, 0.16) 340px, transparent 620px),
+        linear-gradient(180deg, var(--paper-sheen), transparent 480px),
         var(--paper);
-    background-size: 29px 31px, 43px 47px, 61px 67px, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+    background-size: 29px 31px, 100% 100%, 100% 100%;
     box-shadow:
         0 1px 0 rgba(255, 255, 255, 0.82) inset,
-        0 18px 42px var(--shadow-soft),
-        0 34px 78px var(--shadow-drop);
+        0 12px 32px var(--shadow-soft);
 }
 
 .reader:focus {
@@ -238,29 +229,8 @@ a {
     gap: var(--space-md);
     align-items: baseline;
     margin-bottom: var(--space-lg);
-    padding-bottom: var(--space-sm);
+    padding-bottom: var(--space-md);
     border-bottom: 1px solid var(--line);
-}
-
-.page-header-publication {
-    padding-bottom: 0.35em;
-}
-
-@media (min-width: 681px) {
-    .page-header-publication > div {
-        display: grid;
-        grid-template-columns: max-content minmax(0, 1fr);
-        column-gap: 1.15em;
-        align-items: baseline;
-    }
-
-    .page-header-publication > div > h1 {
-        grid-column: 1 / -1;
-    }
-
-    .page-header-publication .page-updated {
-        margin-top: 0.08em;
-    }
 }
 
 .page-home-link {
@@ -288,23 +258,27 @@ a {
     line-height: 1.35;
 }
 
+.content.is-story .page-header h1 {
+    font-size: clamp(1.45rem, 2.4vw, 1.65rem);
+}
+
 .content h1:focus {
     outline: none;
 }
 
 .page-collection {
     display: block;
-    margin: 0.08em 0 0;
+    margin: 0.55em 0 0;
     color: var(--quiet);
     font-size: 0.75rem;
-    line-height: 1.25;
+    line-height: 1.45;
 }
 
-.page-updated {
+.content .page-updated {
     display: flex;
-    flex-wrap: nowrap;
-    gap: 0.2em 1.15em;
-    margin: 0.55em 0 0;
+    flex-wrap: wrap;
+    gap: 0.35em 1.15em;
+    margin: 0.7em 0 0;
     color: var(--quiet);
     font-size: 0.75rem;
     line-height: 1.4;
@@ -443,12 +417,12 @@ a {
         border-left: 0;
     }
 
-    .home-index-list {
+    .content.is-home .home-index-list {
         gap: var(--space-compact);
     }
 }
 
-.home-index-list {
+.content .home-index-list {
     display: grid;
     gap: var(--space-tight);
     padding: 0;
@@ -484,6 +458,7 @@ a {
 
 .home-index-year {
     color: var(--muted);
+    font-size: 0.82rem;
     line-height: 1.25;
     text-align: right;
     transition: color var(--transition-duration) ease;
@@ -493,7 +468,7 @@ a {
     height: 0.8em;
     align-self: start;
     margin-top: 0.55em;
-    background-image: radial-gradient(circle, rgba(105, 103, 98, 0.34) 0 0.75px, transparent 0.85px);
+    background-image: radial-gradient(circle, rgba(105, 103, 98, 0.2) 0 0.6px, transparent 0.8px);
     background-position: right center;
     background-repeat: repeat-x;
     background-size: 14px 0.8em;
@@ -509,7 +484,7 @@ a {
 
 .home-index-title-text {
     display: block;
-    white-space: nowrap;
+    white-space: normal;
 }
 
 .home-index-subtitle {
@@ -704,9 +679,9 @@ a {
         grid-row: 2;
     }
 
-    .page-updated {
+    .content .page-updated {
         flex-direction: column;
-        gap: 0.12em;
+        gap: 0.35em;
     }
 
     .page-home-link {
