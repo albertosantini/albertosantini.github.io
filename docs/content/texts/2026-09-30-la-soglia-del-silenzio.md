@@ -181,4 +181,4 @@ Nel pacchetto di telemetria rimasto leggibile, l’ultima riga non indicava se
 l’AI fosse ancora attiva, né se la nave avrebbe autorizzato un secondo
 tentativo:
 
-`CONTINUITÀ: IN ATTESA`
+`CONTINUITÀ: NON VERIFICATA`
