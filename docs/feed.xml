@@ -5,8 +5,18 @@
         <link>https://albertosantini.github.io/</link>
         <description>Testi e revisioni editoriali pubblicati da Alberto Santini.</description>
         <language>it-IT</language>
-        <lastBuildDate>Sun, 04 Oct 2026 09:39:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 Oct 2026 10:09:03 GMT</lastBuildDate>
         <atom:link href="https://albertosantini.github.io/feed.xml" rel="self" type="application/rss+xml" />
+
+        <item>
+            <title>La prima voce</title>
+            <link>https://albertosantini.github.io/t/2026-10-16-la-prima-voce/</link>
+            <guid isPermaLink="false">urn:albertosantini:text:2026-10-16-la-prima-voce</guid>
+            <pubDate>Fri, 16 Oct 2026 10:09:03 GMT</pubDate>
+            <category>Esperimenti con AI</category>
+            <category>Universo dei Precursori</category>
+            <description>Racconto della raccolta Universo dei Precursori, versione Mk 6.</description>
+        </item>
 
         <item>
             <title>La soglia del silenzio</title>
@@ -282,15 +292,6 @@
             <title>Io e Freddi</title>
             <link>https://albertosantini.github.io/t/1988-01-01-io-e-freddi/</link>
             <guid isPermaLink="false">urn:albertosantini:text:1988-01-01-io-e-freddi</guid>
-            <pubDate>Fri, 01 Jan 1988 08:00:00 GMT</pubDate>
-            <category>Scritti da me</category>
-            <description>Testo scritto da Alberto Santini.</description>
-        </item>
-
-        <item>
-            <title>Una giornata maledetta</title>
-            <link>https://albertosantini.github.io/t/1988-01-01-una-giornata-maledetta/</link>
-            <guid isPermaLink="false">urn:albertosantini:text:1988-01-01-una-giornata-maledetta</guid>
             <pubDate>Fri, 01 Jan 1988 08:00:00 GMT</pubDate>
             <category>Scritti da me</category>
             <description>Testo scritto da Alberto Santini.</description>
