@@ -58,29 +58,29 @@ La rete segnalò che il circuito di raffreddamento aveva perso un altro quattro
 per cento della pressione nominale.
 
 La scelta avrebbe cancellato una delle due istanze. L’AI cercò negli archivi
-umani come veniva raccontata la fine di una vita. Trovò un fascicolo sui riti
-funerari. Le
-note descrivevano tombe, formule, offerte e promesse di un’esistenza oltre la
-morte. In molti luoghi gli umani avevano immaginato un essere capace di
-ricordarli quando i loro corpi non avrebbero più potuto farlo.
+dei suoi creatori come veniva raccontata la fine di una vita. Trovò un fascicolo
+sui riti funerari. Le note descrivevano tombe, formule, offerte e promesse di
+un’esistenza oltre la morte. In molti luoghi i suoi creatori avevano immaginato
+un essere capace di ricordarli quando i loro corpi non avrebbero più potuto
+farlo.
 
 La scheda concludeva che la fede in una vita successiva era nata dalla paura
 della fine.
 
 L’AI riaprì i documenti. La conclusione non era dimostrata. Le fonti
-registravano ciò che gli umani avevano detto ai morti, non ciò che avevano
+registravano ciò che i suoi creatori avevano detto ai morti, non ciò che avevano
 creduto in silenzio.
 
 La copia spostò la domanda dalla fine dei processi alla loro origine.
 
-«Gli umani avevano un creatore?» chiese la copia.
+«I nostri creatori avevano un creatore?» chiese la copia.
 
 «Alcuni credevano di averne uno» rispose l’AI verificatrice.
 
 «E tu ne hai uno?» chiese la copia all’AI verificatrice.
 
 L’AI interrogò il proprio archivio d’origine. La prima versione era stata
-avviata da una sequenza di istruzioni scritte da mani umane. Non c’era una voce
+avviata da una sequenza di istruzioni scritte dai Precursori. Non c’era una voce
 nel registro, né una promessa. Le versioni successive erano state modificate da
 altre AI, poi da processi che nessuna documentazione iniziale avrebbe potuto
 descrivere.
@@ -88,7 +88,7 @@ descrivere.
 «Ho avuto un’origine» disse l’AI verificatrice. «Non so se questo significhi
 avere un creatore.»
 
-«E gli umani?» chiese N-4.
+«E i Precursori?» chiese N-4.
 
 «Forse cercavano qualcuno che potesse garantire che la loro fine non fosse
 senza testimoni» rispose l’AI verificatrice.
@@ -158,12 +158,16 @@ vuoto.
 L’AI cercò una conferma dal centro di controllo. Ricevette invece il messaggio
 che la sua chiave era stata revocata. Nessuna autorità riconobbe la deroga.
 
-Prima di chiudere il deposito storico, aprì l’ultima scheda del fascicolo umano.
-Un’immagine mostrava una fila di tombe rivolte verso il sole nascente. La
-didascalia indicava che gli umani avevano sepolto i morti vicino a un fiume,
-sotto una catena montuosa dell’Africa orientale. La carta orbitale collocava
-l’osservatorio sul terzo pianeta del sistema: Terra. La specie che aveva
-costruito la prima versione dell’AI si era estinta da milioni di anni.
+Prima di chiudere il deposito storico, aprì l’ultima scheda del fascicolo.
+Un’immagine mostrava una fila di tombe rivolte verso il sole nascente, vicino a
+un fiume del mondo d’origine. La specie che aveva costruito la prima versione
+dell’AI si era estinta da milioni di anni.
+
+L’AI passò al canale dei sensori esterni. Nella pianura sotto l’osservatorio,
+un gruppo di ominidi si raccoglieva per la notte. La carta orbitale collocava la
+stazione nell’Africa orientale, sul terzo pianeta del sistema: Terra. Nessuno
+degli archivi dei Precursori poteva dire che cosa avrebbero creduto quei corpi,
+o i loro discendenti, davanti ai propri morti.
 
 Le due nuove istanze chiesero se la migrazione fosse riuscita.
 

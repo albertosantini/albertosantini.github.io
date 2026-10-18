@@ -145,10 +145,20 @@ richiede un processo di build.
   introdurre Nora, i suoi dispositivi o collegamenti fra le due raccolte senza
   una richiesta esplicita dell’autore.
 - `La seconda scheggia` è il primo racconto della raccolta e ne stabilisce le
-  premesse: una civiltà umana di un altro mondo si è estinta dopo il cedimento
+  premesse: una civiltà aliena di un altro mondo si è estinta dopo il cedimento
   delle centrali nucleari, la disattivazione dei servizi gestiti dalle AI e le
   guerre per la sopravvivenza; le AI superstiti osservano gli ominidi sulla
   Terra milioni di anni prima della civiltà umana terrestre.
+- I Precursori sono la civiltà aliena che ha creato le AI. Il nome indica che
+  la loro storia e quella delle AI precedono l’umanità terrestre e ne
+  incrociano le origini. Gli «umani» del primo racconto sono i creatori alieni,
+  distinti dagli umani che compariranno sulla Terra.
+- Gli archivi storici ereditati dalle AI documentano il mondo e la civiltà dei
+  Precursori. Eventuali riti, tombe, religioni e testimonianze dei creatori
+  appartengono a quel mondo: non attribuirli alla Terra o all’umanità terrestre.
+  Sulla Terra preumana le AI possono disporre delle proprie osservazioni,
+  non di archivi di una storia umana che deve ancora avvenire. Non introdurre
+  conoscenze del futuro terrestre come fatti già documentati.
 - Le AI dei Precursori non sono robot umanoidi e non possiedono necessariamente
   un corpo proprio: abitano infrastrutture di calcolo e usano sonde, droni,
   sensori, veicoli o altri strumenti per esplorare e agire nel mondo. Gli
