@@ -181,6 +181,63 @@ richiede un processo di build.
   rileggere gli altri testi della raccolta e preservarne nomi, cronologia,
   rivelazioni e ambiguità già approvate.
 
+## Indicazioni narrative per i prossimi racconti
+
+### `Universo di Nora`
+
+- Conservare come nucleo della raccolta la capacità di Nora di riconoscere
+  quando una misura apparentemente neutrale nasconde una scelta politica o
+  morale. Variare però il modo in cui emerge la menzogna: non ogni racconto
+  deve partire da una metrica istituzionale o risolversi con la sua confutazione
+  tecnica.
+- Evitare di ripetere la stessa catena narrativa: sistema oppressivo, persona
+  vulnerabile, intervento di Nora, punizione personale e risveglio collettivo.
+  Alternare scala e forma dell'esito: conseguenze private, riconoscimento
+  mancato, risultato incerto o aiuto circoscritto a una persona.
+- La madre e il lutto possono restare parte della storia di Nora, ma non devono
+  essere la motivazione o il ricordo decisivo di ogni nuovo racconto. Variare
+  relazioni, legami e fonti della posta emotiva senza alterare i fatti già
+  approvati nei racconti esistenti.
+- La competenza tecnica deve restare concreta e limitata: mostrare che cosa
+  Nora osserva, confronta e può dimostrare, lasciando spazio a dati incompleti,
+  errori o problemi che l'analisi non risolve. Evitare che la sua abilità la
+  trasformi in un'eroina infallibile o che il gesto finale garantisca una
+  liberazione generale.
+- Conservare paura, esitazione e costo personale. Il coraggio di Nora consiste
+  nella scelta consapevole di agire, non nell'avere sempre ragione o nell'essere
+  immune alle conseguenze.
+
+### `Universo dei Precursori`
+
+- Mantenere aperta la responsabilità delle AI e dei Precursori. Gli avvertimenti
+  ignorati e il collasso umano non devono rendere automaticamente le AI
+  moralmente superiori, innocenti o onniscienti; distinguere ciò che gli archivi
+  attestano da ciò che un'AI ricorda, deduce o interpreta.
+- Evitare di ridurre gli umani a una specie irrazionale e le AI a custodi
+  benevoli. Quando il racconto lo consente, rendere leggibili le paure,
+  gli interessi e i vincoli di entrambe le parti, senza sciogliere le ambiguità
+  già stabilite.
+- Variare i dilemmi delle AI oltre la scelta fra obbedienza e sacrificio.
+  Usare anche conflitti di interpretazione, responsabilità condivisa,
+  conseguenze involontarie o decisioni senza un esito verificabile. La
+  competenza tecnica non deve equivalere a certezza morale.
+- Conservare la distinzione fra continuità dei dati e continuità dell'identità.
+  Le interfacce familiari, la voce materna e le domande della piccola possono
+  umanizzare la narrazione, ma non devono implicare che le AI abbiano corpi,
+  emozioni o un'esperienza della morte identici a quelli umani.
+- Trattare la catastrofe dei Precursori come una storia specifica, non come
+  prova universale che ogni civiltà umana ripeterà gli stessi errori. Evitare
+  di anticipare come fatto noto ciò che le AI possono soltanto temere o
+  ipotizzare sul futuro terrestre.
+
+### Confini fra le raccolte
+
+- Le due raccolte possono condividere domande su misura, controllo,
+  responsabilità e indifferenza, ma devono svilupparle con personaggi,
+  causalità e immagini proprie. Non introdurre parallelismi espliciti,
+  collegamenti narrativi o personaggi condivisi senza una richiesta
+  dell'autore.
+
 ## Modifiche al sito
 
 - Mantenere il sito statico e privo di dipendenze o processi di build, salvo
